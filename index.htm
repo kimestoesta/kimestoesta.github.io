@@ -4,7 +4,7 @@
     
     
 <head>
-    
+<link href="bootstrap.css" rel="stylesheet">    
 <style>
     
      body {
@@ -15,16 +15,16 @@
         *{margin:0}
 
         a:link {color: orange;}
-        a:active {color: yellow;}
+        a:active {color: blue;}
         a:visited {color: green;}
-        a:hover {color: violet; opacity:.8; }
+        a:hover {color: midnightblue; opacity:.8; }
 
     .topmenu {
         background: #133E4E;
         position: fixed;
         float: left;
-        width: 250px;
-        height: 200%;
+        width: 290px;
+        height: 100%;
         padding: 20px;
         z-index: 100;
         text-align: center;
@@ -40,11 +40,12 @@
         overflow: auto;
         padding: 0px;
         height: 100%;
-        width: 755px;
+        width: 70%;
+        min-width: 750px;
         } 
     .boxheader{
         background: #fff;
-        height: 225px;
+        height: 425px;
         width: 750px;
         padding-top: 100px;
         text-align: center;
@@ -65,7 +66,12 @@
         letter-spacing: 3px;
         overflow: hidden;
         }
-    
+    .modal-dialog{
+        width: 80%;
+        }
+    .modal-content{
+        border-radius: 0;
+        }
 
 
 <title>Kim Estoesta</title>
@@ -74,17 +80,35 @@
 </head>        
 
 <body>
-
+ 
+    
     <div class="topmenu">
         <img src="NameMenu.png" width= "250px">   
     </div> 
     
     <div class="boxcontent">  
         <div class="boxheader">
-            <img src="portfolio.png" width="450px">
+           
+            
         </div> 
             <div class="boxpreview">
-                <img src="hilothumb.png">   
+                <!-- Modal -->
+                <div class="modal fade" id="hilo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 15px; padding-top: 8px"><span aria-hidden="true">&times;</span></button><br>
+                        <div class="modal-body">
+                        <img src="hiloall.jpg" width="100%">
+                      </div>
+                      <div class="modal-footer">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Modal -->
+                <a data-toggle="modal" data-target="#hilo">
+                    <img src="hilothumb.png">
+                </a>
             </div> 
         
             <div class="boxpreview">
@@ -121,7 +145,7 @@
             </div> 
         
             <div class="boxpreview">
-                <img src="tabletthumb2.png">    
+                <img src="howlsthumb.png">    
             </div> 
         
          <div class="boxpreview">
@@ -132,14 +156,15 @@
             </div> 
         
             <div class="boxpreview">
-                   
+                <img src="catchthumb.png">   
             </div> 
         
          <div class="boxpreview">
                 <img src="strengththumb.png">
             </div> 
     </div>  
-    
-    
+<script src="jquery-1.11.2.js"></script>
+<script src="bootstrap.js"></script>
+
 </body>
 </html>
