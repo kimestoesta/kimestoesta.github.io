@@ -17,7 +17,7 @@
         a:link {color: orange;}
         a:active {color: blue;}
         a:visited {color: green;}
-        a:hover {color: midnightblue; opacity:.8; }
+        a:hover { }
 
     .topmenu {
         background: #133E4E;
@@ -66,11 +66,39 @@
         letter-spacing: 3px;
         overflow: hidden;
         }
+     .boxpreview:hover {
+        background: #CFDC27;
+        height: 250px;
+        width: 250px;
+        margin: 0px;
+        padding: 0px;
+        border-bottom-color: #CFDC27;
+        border-bottom-style: solid;
+        border-bottom-width: 10px;
+        transform: all 1s;
+        float: left;
+        text-align: center;
+        font-family: Futura;
+        color: white;
+        letter-spacing: 3px;
+        overflow: hidden;   
+        }
+    .description {
+        background: rgba(186, 215, 25, .5);
+        height: 250px;
+        width: 250px;  
+        opacity: 0;
+        }  
+    .boxpreview:hover .description{
+        opacity: 1;
+        }
     .modal-dialog{
         width: 80%;
+        opacity: 1
         }
     .modal-content{
         border-radius: 0;
+        opacity: 1
         }
 
 
@@ -160,7 +188,8 @@
             </div> 
         
          <div class="boxpreview">
-                <img src="strengththumb.png">
+             <div class="description"> dsf</div>    
+             <img src="strengththumb.png">
             </div> 
     </div>  
 <script src="jquery-1.11.2.js"></script>
