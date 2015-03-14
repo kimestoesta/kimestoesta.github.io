@@ -14,11 +14,11 @@
 
         *{margin:0}
 
-        a:link {color: orange;}
-        a:active {color: blue;}
-        a:visited {color: green;}
-        a:hover { }
-
+        a:link {color: white; font-weight: 100; text-transform: uppercase;}
+        a:active {color: #133E4E; font-weight: 100; text-transform: uppercase;}
+        a:visited {color: white; font-weight: 100; text-transform: uppercase;}
+        a:hover {color: #CFDC27;text-decoration: none; font-weight: 50; text-transform: uppercase; }
+    
     .topmenu {
         background: #133E4E;
         position: fixed;
@@ -26,11 +26,45 @@
         width: 290px;
         height: 100%;
         padding: 20px;
-        z-index: 100;
-        text-align: center;
-        font-family: Futura;
+        z-index: 500;
+        text-align: left;
+        font-family: Avenir;
         color: white;
+        font-size: 17px;
         letter-spacing: 3px;
+        box-shadow: 3px 0px 10px rgba(0, 0, 0, .7);
+        }
+    .menuopt {
+        margin-top: 0px;
+        padding-left: 15px;
+        padding-top: 12px;
+        width: 270px;
+        height: 50px;
+        }
+    .menuopt:hover {
+        background: rgba(0, 0, 0, 0);
+        margin-top: 0px;
+        padding-left: 25px;
+        padding-top: 12px;
+        width: 270px;
+        height: 50px;
+        color: #CFDC27;
+        border-right-color: #CFDC27;
+        border-right-width: 5px;
+        border-right-style: solid;
+        transition: all 1s;
+        }
+    .menuopt:hover a{
+        color: #CFDC27;
+        }
+
+    p {
+        text-align: center;
+        font-family: Avenir;
+        color: rgba(18, 62, 78, .8);
+        letter-spacing: 3px;
+        font-size: 14px;
+        line-height: 150%;
         }
     .boxcontent {
         background: transparent;
@@ -41,7 +75,7 @@
         padding: 0px;
         height: 100%;
         width: 70%;
-        min-width: 750px;
+        min-width: 760px;
         } 
     .boxheader{
         background: #fff;
@@ -53,52 +87,102 @@
         color: white;
         letter-spacing: 3px;
         }
+    .boxtitle {
+        background: white;
+        height: 250px;
+        width: 250px;
+        margin: 0px;
+        padding-top: 90px;
+        float: left;
+        text-align: center;
+        font-family: Bebas;
+        font-size: 35px;
+        color: #133E4E;
+        letter-spacing: 4px;
+        overflow: hidden;
+        }
     .boxpreview {
-        background: #CFDC27;
+        background: rgba(176, 225, 232, .8);
         height: 250px;
         width: 250px;
         margin: 0px;
         padding: 0px;
         float: left;
         text-align: center;
-        font-family: Futura;
-        color: white;
-        letter-spacing: 3px;
+        font-family: Bebas;
+        font-size: 35px;
+        color: #133E4E;
+        letter-spacing: 4px;
         overflow: hidden;
         }
      .boxpreview:hover {
-        background: #CFDC27;
+        background: rgba(176, 225, 232, .8);
         height: 250px;
         width: 250px;
         margin: 0px;
         padding: 0px;
-        border-bottom-color: #CFDC27;
-        border-bottom-style: solid;
-        border-bottom-width: 10px;
+        cursor: pointer;
         transform: all 1s;
         float: left;
         text-align: center;
-        font-family: Futura;
-        color: white;
-        letter-spacing: 3px;
+        font-family: bebas;
+        font-size: 35px;
+        color: #133E4E;
+        letter-spacing: 4px;
         overflow: hidden;   
         }
     .description {
-        background: rgba(186, 215, 25, .5);
+        background: rgba(176, 225, 232, .8);
         height: 250px;
-        width: 250px;  
+        width: 250px;
+        padding-top: 95px;
+        text-align: center;
+        font-family: bebas;
+        color: #133E4E;
+        font-size: 22px;
+        letter-spacing: 3px;
+        font-weight: 700;
+        float: left;
+        position: absolute;
+        z-index: 200;
         opacity: 0;
+        -webkit-transition: all .3s;
+       -o-transition:    all .3s;  
+        transition:    all .3s;   
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, .6);
         }  
     .boxpreview:hover .description{
         opacity: 1;
         }
+    .description2 {
+        background: rgba(18, 62, 78, .8);
+        height: 250px;
+        width: 250px;
+        padding: 10px;
+        padding-top: 100px;
+        text-align: center;
+        font-family: bebas;
+        color: #CFDC27;
+        font-size: 22px;
+        letter-spacing: 3px;
+        float: left;
+        position: absolute;
+        z-index: 200;
+        opacity: 0;
+        -webkit-transition: all .3s;
+       -o-transition:    all .3s;  
+        transition:    all .3s;   
+        }  
+    .boxpreview:hover .description2{
+        opacity: 1;
+        }
     .modal-dialog{
         width: 80%;
-        opacity: 1
+        opacity: 1;
         }
     .modal-content{
         border-radius: 0;
-        opacity: 1
+        opacity: 1;
         }
 
 
@@ -111,86 +195,69 @@
  
     
     <div class="topmenu">
-        <img src="NameMenu.png" width= "250px">   
+        <img src="NameMenu.png" width= "250px"><br><br>
+        <div class="menuopt"><a href="http://en.wikipedia.org/wiki/Common_frog">Portfolio</a></div>
+        <div class="menuopt"><a href="http://en.wikipedia.org/wiki/Common_frog">About</a></div>
+        <div class="menuopt"><a href="http://en.wikipedia.org/wiki/Common_frog">Resume</a></div>
+        <div class="menuopt"><a href="http://en.wikipedia.org/wiki/Common_frog">Contact</a></div>
     </div> 
     
-    <div class="boxcontent">  
-        <div class="boxheader">
-           
-            
-        </div> 
+    <div class="boxcontent"> 
+            <div class="boxtitle">
+            Portfolio    
+            </div>
             <div class="boxpreview">
-                <!-- Modal -->
-                <div class="modal fade" id="hilo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                     <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 15px; padding-top: 8px"><span aria-hidden="true">&times;</span></button><br>
-                        <div class="modal-body">
-                        <img src="hiloall.jpg" width="100%">
-                      </div>
-                      <div class="modal-footer">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Modal -->
-                <a data-toggle="modal" data-target="#hilo">
-                    <img src="hilothumb.png">
-                </a>
+                <div class="description">Hilo Hawaiian Products<p>branding, packaging,  identity</p></div> 
+                <img src="hilothumb.png">
             </div> 
         
             <div class="boxpreview">
+                <div class="description">Haulbox StartUp<p>branding, mobile app, web</p> </div>
                 <img src="haulboxthum.png">  
             </div> 
         
          <div class="boxpreview">
+                <div class="description">Midnight Cookies Menu<p>identity, menu design</p></div> 
                 <img src="midnightthumb.png">        
             </div> 
         <div class="boxpreview"> 
+                <div class="description">Epic<p>E-publication, illustration</p></div> 
                 <img src="epicthumb3.png">
             </div> 
         
             <div class="boxpreview">
+                <div class="description">Goode Bars<p>branding, identity, packaging</p></div> 
                 <img src="goodethumb2.png">  
             </div> 
         
          <div class="boxpreview">
+                <div class="description">The Faces of Luck<p>branding, </p></div> 
                 <img src="Cardsthumb.png">    
             </div> 
         <div class="boxpreview">
+                <div class="description">LDR Postcards</div> 
                 <img src="LDRthumb2.png">    
             </div> 
         
             <div class="boxpreview">
+                <div class="description">CME App</div> 
                 <img src="cmethumb.png">    
             </div> 
         
          <div class="boxpreview">
+                <div class="description">Paper Art Projects</div> 
                 <img src="paperthumb.png">
             </div> 
            <div class="boxpreview">
+               <div class="description">Tumblr Theme</div> 
                 <img src="emergentthumb.png">    
             </div> 
         
-            <div class="boxpreview">
-                <img src="howlsthumb.png">    
-            </div> 
-        
          <div class="boxpreview">
+                <div class="description">Tablet Illustrations</div> 
                 <img src="lizthumb.png">
             </div> 
-           <div class="boxpreview">
-                <img src="tabletthumb2.png">    
-            </div> 
-        
-            <div class="boxpreview">
-                <img src="catchthumb.png">   
-            </div> 
-        
-         <div class="boxpreview">
-             <div class="description"> dsf</div>    
-             <img src="strengththumb.png">
-            </div> 
+           
     </div>  
 <script src="jquery-1.11.2.js"></script>
 <script src="bootstrap.js"></script>
