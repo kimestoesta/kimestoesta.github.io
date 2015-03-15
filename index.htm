@@ -26,7 +26,7 @@
         width: 290px;
         height: 100%;
         padding: 20px;
-        z-index: 500;
+        z-index: 100;
         text-align: left;
         font-family: Avenir;
         color: white;
@@ -40,6 +40,7 @@
         padding-top: 12px;
         width: 270px;
         height: 50px;
+        transition: all 1s;
         }
     .menuopt:hover {
         background: rgba(0, 0, 0, 0);
@@ -97,7 +98,7 @@
         text-align: center;
         font-family: Bebas;
         font-size: 35px;
-        color: #133E4E;
+        color: #CFDC27;
         letter-spacing: 4px;
         overflow: hidden;
         }
@@ -114,6 +115,9 @@
         color: #133E4E;
         letter-spacing: 4px;
         overflow: hidden;
+        -webkit-transition: all 1s;
+       -o-transition:    all 1s;  
+        transition:    all 1s;   
         }
      .boxpreview:hover {
         background: rgba(176, 225, 232, .8);
@@ -135,6 +139,7 @@
         background: rgba(176, 225, 232, .8);
         height: 250px;
         width: 250px;
+        padding: 10px;
         padding-top: 95px;
         text-align: center;
         font-family: bebas;
@@ -146,10 +151,10 @@
         position: absolute;
         z-index: 200;
         opacity: 0;
-        -webkit-transition: all .3s;
-       -o-transition:    all .3s;  
-        transition:    all .3s;   
-        box-shadow: 0px 5px 10px rgba(0, 0, 0, .6);
+        -webkit-transition: all .5s;
+       -o-transition:    all .5s;  
+        transition:    all .5s;   
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, .6);
         }  
     .boxpreview:hover .description{
         opacity: 1;
@@ -197,31 +202,54 @@
     <div class="topmenu">
         <img src="NameMenu.png" width= "250px"><br><br>
         <div class="menuopt"><a href="http://en.wikipedia.org/wiki/Common_frog">Portfolio</a></div>
-        <div class="menuopt"><a href="http://en.wikipedia.org/wiki/Common_frog">About</a></div>
-        <div class="menuopt"><a href="http://en.wikipedia.org/wiki/Common_frog">Resume</a></div>
-        <div class="menuopt"><a href="http://en.wikipedia.org/wiki/Common_frog">Contact</a></div>
+        <div class="menuopt"><a href=" ">About</a></div>
+        <div class="menuopt"><a href="Estoesta.KimResume.pdf">R&Eacute;sum&Eacute;</a></div>
+        <div class="menuopt"><a href=" ">Contact</a></div>
     </div> 
     
     <div class="boxcontent"> 
             <div class="boxtitle">
             Portfolio    
             </div>
-            <div class="boxpreview">
-                <div class="description">Hilo Hawaiian Products<p>branding, packaging,  identity</p></div> 
-                <img src="hilothumb.png">
-            </div> 
-        
-            <div class="boxpreview">
-                <div class="description">Haulbox StartUp<p>branding, mobile app, web</p> </div>
-                <img src="haulboxthum.png">  
-            </div> 
+            <a data-toggle="modal" data-target="#hiloModal">
+                <div class="boxpreview">
+                    <div class="description">
+                        Hilo Hawaiian Products<p>branding, packaging,  identity</p>
+                    </div> 
+                    <img src="hilothumb.png">
+                </div>
+            </a>
+            <!-- Large modal -->
+            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="hiloModal">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  hilo modal
+                </div>
+              </div>
+            </div>
+            <!-- end modal --> 
+            <a data-toggle="modal" data-target="#haulboxModal">
+                <div class="boxpreview">
+                    <div class="description">Haulbox StartUp<p>branding, mobile app, web</p>                    </div>
+                    <img src="haulboxthum.png">  
+                </div>
+            </a>
+            <!-- Large modal -->
+            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="haulboxModal">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  hb modal
+                </div>
+              </div>
+            </div>
+            <!-- end modal --> 
         
          <div class="boxpreview">
                 <div class="description">Midnight Cookies Menu<p>identity, menu design</p></div> 
                 <img src="midnightthumb.png">        
             </div> 
         <div class="boxpreview"> 
-                <div class="description">Epic<p>E-publication, illustration</p></div> 
+                <div class="description">Epic<p>E-Book, illustration</p></div> 
                 <img src="epicthumb3.png">
             </div> 
         
@@ -231,25 +259,25 @@
             </div> 
         
          <div class="boxpreview">
-                <div class="description">The Faces of Luck<p>branding, </p></div> 
+                <div class="description">The Faces of Luck<p>visual branding, illustration</p></div> 
                 <img src="Cardsthumb.png">    
             </div> 
         <div class="boxpreview">
-                <div class="description">LDR Postcards</div> 
+                <div class="description">LDR Postcards<p>visual branding, illustration</p></div> 
                 <img src="LDRthumb2.png">    
             </div> 
         
             <div class="boxpreview">
-                <div class="description">CME App</div> 
+                <div class="description">CME App<p>mobile app</p></div> 
                 <img src="cmethumb.png">    
             </div> 
         
          <div class="boxpreview">
-                <div class="description">Paper Art Projects</div> 
+                <div class="description">Paper Art</div> 
                 <img src="paperthumb.png">
             </div> 
            <div class="boxpreview">
-               <div class="description">Tumblr Theme</div> 
+               <div class="description">Web Coding</div> 
                 <img src="emergentthumb.png">    
             </div> 
         
