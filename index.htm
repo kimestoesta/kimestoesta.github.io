@@ -4,7 +4,8 @@
     
     
 <head>
-<link href="bootstrap.css" rel="stylesheet">    
+<link href="css/bootstrap.css" rel="stylesheet">    
+<link href="css/kenburns.css" rel="stylesheet">    
 <style>
     
      body {
@@ -15,9 +16,9 @@
         *{margin:0}
 
         a:link {color: white; font-weight: 100; text-transform: uppercase;}
-        a:active {color: #133E4E; font-weight: 100; text-transform: uppercase;}
+        a:active {color: #133E4E; font-weight: 100; }
         a:visited {color: white; font-weight: 100; text-transform: uppercase;}
-        a:hover {color: #CFDC27;text-decoration: none; font-weight: 50; text-transform: uppercase; }
+        a:hover {color: #CFDC27;text-decoration: none; font-weight: 50; }
     
     .topmenu {
         background: #133E4E;
@@ -66,6 +67,7 @@
         letter-spacing: 3px;
         font-size: 14px;
         line-height: 150%;
+        font-weight: 600;
         }
     .boxcontent {
         background: transparent;
@@ -103,6 +105,7 @@
         overflow: hidden;
         }
     .boxpreview {
+        position:relative;
         background: rgba(176, 225, 232, .8);
         height: 250px;
         width: 250px;
@@ -146,7 +149,6 @@
         color: #133E4E;
         font-size: 22px;
         letter-spacing: 3px;
-        font-weight: 700;
         float: left;
         position: absolute;
         z-index: 200;
@@ -200,7 +202,7 @@
  
     
     <div class="topmenu">
-        <img src="NameMenu.png" width= "250px"><br><br>
+        <img src="images/NameMenu.png" width= "250px"><br><br>
         <div class="menuopt"><a href="http://en.wikipedia.org/wiki/Common_frog">Portfolio</a></div>
         <div class="menuopt"><a href=" ">About</a></div>
         <div class="menuopt"><a href="Estoesta.KimResume.pdf">R&Eacute;sum&Eacute;</a></div>
@@ -212,11 +214,10 @@
             Portfolio    
             </div>
             <a data-toggle="modal" data-target="#hiloModal">
-                <div class="boxpreview">
+                <div class="boxpreview" id="hiloslides">
                     <div class="description">
                         Hilo Hawaiian Products<p>branding, packaging,  identity</p>
                     </div> 
-                    <img src="hilothumb.png">
                 </div>
             </a>
             <!-- Large modal -->
@@ -231,7 +232,7 @@
             <a data-toggle="modal" data-target="#haulboxModal">
                 <div class="boxpreview">
                     <div class="description">Haulbox StartUp<p>branding, mobile app, web</p>                    </div>
-                    <img src="haulboxthum.png">  
+                    <img src="images/haulboxthum.png">  
                 </div>
             </a>
             <!-- Large modal -->
@@ -245,50 +246,60 @@
             <!-- end modal --> 
         
          <div class="boxpreview">
-                <div class="description">Midnight Cookies Menu<p>identity, menu design</p></div> 
-                <img src="midnightthumb.png">        
+                <div class="description">Midnight Cookies Menu<p>identity, menu design</p>               </div> 
+                <img src="images/midnightthumb.png">        
             </div> 
         <div class="boxpreview"> 
                 <div class="description">Epic<p>E-Book, illustration</p></div> 
-                <img src="epicthumb3.png">
+                <img src="images/epicthumb3.png">
             </div> 
         
             <div class="boxpreview">
                 <div class="description">Goode Bars<p>branding, identity, packaging</p></div> 
-                <img src="goodethumb2.png">  
+                <img src="images/goodethumb2.png">  
             </div> 
         
          <div class="boxpreview">
                 <div class="description">The Faces of Luck<p>visual branding, illustration</p></div> 
-                <img src="Cardsthumb.png">    
+                <img src="images/Cardsthumb.png">    
             </div> 
         <div class="boxpreview">
                 <div class="description">LDR Postcards<p>visual branding, illustration</p></div> 
-                <img src="LDRthumb2.png">    
+                <img src="images/LDRthumb2.png">    
             </div> 
         
             <div class="boxpreview">
                 <div class="description">CME App<p>mobile app</p></div> 
-                <img src="cmethumb.png">    
+                <img src="images/cmethumb.png">    
             </div> 
         
          <div class="boxpreview">
                 <div class="description">Paper Art</div> 
-                <img src="paperthumb.png">
+                <img src="images/paperthumb.png">
             </div> 
            <div class="boxpreview">
                <div class="description">Web Coding</div> 
-                <img src="emergentthumb.png">    
+                <img src="images/emergentthumb.png">    
             </div> 
         
          <div class="boxpreview">
                 <div class="description">Tablet Illustrations</div> 
-                <img src="lizthumb.png">
+                <img src="images/lizthumb.png">
             </div> 
            
     </div>  
-<script src="jquery-1.11.2.js"></script>
-<script src="bootstrap.js"></script>
+<script src="js/jquery-1.11.2.js"></script>
+<script src="js/bootstrap.js"></script>
+<!--<script src="js/kenburns.js"></script>-->
+<script>
+//    $("#hiloslides").Kenburns({
+//        images:["images/hilothumb.png","images/hilothumb.png"],
+//        scale:.9,
+//        duration:8000,
+//        fadeSpeed:1200,
+//        ease3d:'cubic-bezier(0.445, 0.050, 0.550, 0.950)',
+//    })
+</script>
 
 </body>
 </html>
