@@ -5,7 +5,7 @@
     
 <head>
 <link href="css/bootstrap.css" rel="stylesheet">    
-<link href="css/kenburns.css" rel="stylesheet">    
+<!--<link href="css/kenburns.css" rel="stylesheet">    -->
 <style>
     
      body {
@@ -15,9 +15,9 @@
 
         *{margin:0}
 
-        a:link {color: white; font-weight: 100; text-transform: uppercase;}
+        a:link {color: #CFDC27; font-weight: 100;}
         a:active {color: #133E4E; font-weight: 100; }
-        a:visited {color: white; font-weight: 100; text-transform: uppercase;}
+        a:visited {color: #CFDC27; font-weight: 100; ;}
         a:hover {color: #CFDC27;text-decoration: none; font-weight: 50; }
     
     .topmenu {
@@ -56,15 +56,31 @@
         border-right-style: solid;
         transition: all 1s;
         }
+    .menuopt a{
+        color: white; font-weight: 100; text-transform: uppercase;
+        }
     .menuopt:hover a{
         color: #CFDC27;
         }
-
-    p {
-        text-align: center;
+    h1 {
+        font-family: avenir next;
+        font-size: 18px;
+        font-weight: 400;
+        color: #133E4E;
+        letter-spacing: auto;
+        }
+    h5 {
         font-family: Avenir;
-        color: rgba(18, 62, 78, .8);
-        letter-spacing: 3px;
+        color: grey;
+        letter-spacing: 1px;
+        font-size: 11px;
+        line-height: 120%;
+        font-weight: 100;
+        }
+    p {
+        font-family: Avenir;
+        color: rgba(18, 62, 78, 1);
+        letter-spacing: 2px;
         font-size: 14px;
         line-height: 150%;
         font-weight: 600;
@@ -91,21 +107,24 @@
         letter-spacing: 3px;
         }
     .boxtitle {
-        background: white;
-        height: 250px;
-        width: 250px;
+        background: #fff; 
+        height: 150px;
+        width: 750px;
         margin: 0px;
-        padding-top: 90px;
+        padding-top: 40px;
+        border-bottom-color: #CFDC27;
+        border-bottom-style: solid;
+        border-bottom-width: 20px;
         float: left;
         text-align: center;
-        font-family: Bebas;
-        font-size: 35px;
+        font-family: Avenir;
+        text-transform: uppercase;
+        font-size: 45px;
         color: #CFDC27;
         letter-spacing: 4px;
         overflow: hidden;
         }
     .boxpreview {
-        position:relative;
         background: rgba(176, 225, 232, .8);
         height: 250px;
         width: 250px;
@@ -121,6 +140,7 @@
         -webkit-transition: all 1s;
        -o-transition:    all 1s;  
         transition:    all 1s;   
+        
         }
      .boxpreview:hover {
         background: rgba(176, 225, 232, .8);
@@ -136,7 +156,7 @@
         font-size: 35px;
         color: #133E4E;
         letter-spacing: 4px;
-        overflow: hidden;   
+        overflow: hidden;
         }
     .description {
         background: rgba(176, 225, 232, .8);
@@ -189,104 +209,509 @@
         }
     .modal-content{
         border-radius: 0;
-        opacity: 1;
+        padding: 15px;
+        font-family: Avenir;
+        color: rgba(18, 62, 78, .8);
+        letter-spacing: 1px;
+        font-size: 12px;
+        line-height: 125%;
+        font-weight: 500;
         }
-
+    .modaltext {
+        background: white; 
+        height: 100%;
+        width: 200px;
+        margin: 0px;
+        padding: 15px;
+        position: fixed;
+        font-family: Avenir;
+        color: rgba(18, 62, 78, 1);
+        letter-spacing: 1px;
+        font-size: 12px;
+        line-height: 125%;
+        font-weight: 100;
+        letter-spacing: .5px;
+        overflow: hidden;
+        }
+    .carousel-control.right {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, 0) 100%)
+    }
+    .carousel-control.left {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, 0) 100%)
+    }
+</style>
 
 <title>Kim Estoesta</title>
 
-</style>
+
 </head>        
 
 <body>
  
     
     <div class="topmenu">
-        <img src="images/NameMenu.png" width= "250px"><br><br>
-        <div class="menuopt"><a href="http://en.wikipedia.org/wiki/Common_frog">Portfolio</a></div>
+        <img src="images/NameMenu.png" width= "250px"><br><br><br>
+        <div class="menuopt"><a href="">Portfolio</a></div>
         <div class="menuopt"><a href=" ">About</a></div>
         <div class="menuopt"><a href="Estoesta.KimResume.pdf">R&Eacute;sum&Eacute;</a></div>
         <div class="menuopt"><a href=" ">Contact</a></div>
     </div> 
-    
     <div class="boxcontent"> 
-            <div class="boxtitle">
-            Portfolio    
+        <div class="boxtitle"> Portfolio </div>
+
+        
+<!-- ====== HILO ====== -->
+        <a data-toggle="modal" data-target="#hiloModal">
+            <div class="boxpreview">
+                <div class="description">
+                    Hilo Hawaiian Products<p>branding, packaging,  identity</p>
+                </div> 
+                <img src="images/hilothumb.png">  
             </div>
-            <a data-toggle="modal" data-target="#hiloModal">
-                <div class="boxpreview" id="hiloslides">
-                    <div class="description">
-                        Hilo Hawaiian Products<p>branding, packaging,  identity</p>
-                    </div> 
-                </div>
-            </a>
-            <!-- Large modal -->
-            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="hiloModal">
-              <div class="modal-dialog modal-lg">
+        </a>
+        <!-- Large modal -->
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="hiloModal">
+            <div class="modal-dialog modal-lg">
                 <div class="modal-content">
-                  hilo modal
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <h1>Hilo<br>Hawaiian Products</h1>
+                                <h5>Hilo is a fictional family owned company based in Hilo Island Hawaii that make products using fresh resources grown from the rich soils of the Mauna Loa Volcano. Their products include an ohelo berry herbal tea, macadamia nut cooking oil, and kukui nut candle. The pheonix represented in their packaging illustrates their beliefs in natural cycle of destruction and creation. Hawaiian beliefs and philosophies are srongly tied with their observations of nature. In destruction there is always hope for new life in the same way that their products are born from the ashes of a volcano. </h5>
+                            </div>
+                            <div class="col-xs-9">
+                                <div id="hiloCarousel" class="carousel slide" data-ride="carousel">
+                                  <!-- Indicators -->
+                                  <ol class="carousel-indicators">
+                                    <li data-target="#hiloCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#hiloCarousel" data-slide-to="1"></li>
+                                    <li data-target="#hiloCarousel" data-slide-to="2"></li>
+                                    <li data-target="#hiloCarousel" data-slide-to="3"></li>
+                                  </ol>
+
+                                  <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="images/hiloall2.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="images/hilobox3.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="images/hilocandle3.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="images/hilooil.png">
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <!-- Controls -->
+                                  <a class="left carousel-control" href="#hiloCarousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                  </a>
+                                  <a class="right carousel-control" href="#hiloCarousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                  </a>
+                                </div>
+                            </div>
+                        </div>
                 </div>
-              </div>
             </div>
-            <!-- end modal --> 
+        </div>
+        <!-- end modal --> 
+        
+
+<!-- ====== HAULBOX ====== -->
             <a data-toggle="modal" data-target="#haulboxModal">
                 <div class="boxpreview">
-                    <div class="description">Haulbox StartUp<p>branding, mobile app, web</p>                    </div>
+                    <div class="description">Haulbox StartUp<p>branding, mobile app, web</p>                 </div>
                     <img src="images/haulboxthum.png">  
                 </div>
             </a>
-            <!-- Large modal -->
-            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="haulboxModal">
+            
+           <!-- Large modal -->
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="haulboxModal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <h1>Haulbox StartUp Branding</h1>
+                                <h5>Haulbox is a growing StartUp Company that originated in Gainesville, FL Starting from scratch as their Graphic Designer I created their entire visual branding from their logo to their promotional item to their web and mobile app graphics.<br>
+                                    website: <a href="https://www.haulbox.com/">Haulbox.com</a><br>
+                                    App: <a href="https://itunes.apple.com/us/app/haulbox/id947930432?mt=8">Haulbox App</a></h5>
+                            </div>
+                            <div class="col-xs-9">
+                                <div id="haulboxCarousel" class="carousel slide" data-ride="carousel">
+                                  <!-- Indicators -->
+                                  <ol class="carousel-indicators">
+                                    <li data-target="#haulboxCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#haulboxCarousel" data-slide-to="1"></li>
+                                    <li data-target="#haulboxCarousel" data-slide-to="2"></li>
+                                    <li data-target="#haulboxCarousel" data-slide-to="3"></li>
+                                  </ol>
+
+                                  <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="images/haulboxapp.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="images/haulboxdemo.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="images/haulboxweb.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="images/haulboxicons.png">
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <!-- Controls -->
+                                  <a class="left carousel-control" href="#haulboxCarousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                  </a>
+                                  <a class="right carousel-control" href="#haulboxCarousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                  </a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal --> 
+        
+<!-- ====== MIDNIGHT COOKIES ====== -->        
+        <a data-toggle="modal" data-target="#midnightModal">
+         <div class="boxpreview">
+                <div class="description">Midnight Cookies Menu<p>identity, menu design</p>               </div> 
+                <img src="images/midnightthumb.png">        
+            </div> </a>
+           <!-- Large modal -->
+            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="midnightModal">
               <div class="modal-dialog modal-lg">
                 <div class="modal-content">
-                  hb modal
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <h1>Midnight<br>Cookies Menu</h1>
+                             <h5>Midnight Cookies is a local restaurant that serves an assortment of different flavor cookies throughout the night. Taking inspiration from the nursery rhyme of "Hey Diddle, Diddle" this menu reflects the restaurant's theme of a comforting midnight snack through its layout and logo redesign. The logo in the front also doubles as a business card with contact information and their website URL.</h5>
+                            </div>
+                            <div class="col-xs-9">
+                                <div id="midnightCarousel" class="carousel slide" data-ride="carousel">
+                                  <!-- Indicators -->
+                                  <ol class="carousel-indicators">
+                                    <li data-target="#midnightCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#midnightCarousel" data-slide-to="1"></li>
+                                    <li data-target="#midnightCarousel" data-slide-to="2"></li>
+                                    <li data-target="#midnightCarousel" data-slide-to="3"></li>
+                                  </ol>
+
+                                  <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="images/midnightall.jpg">
+                                        </div>
+                                        <div class="item">
+                                            <img src="images/mclogo.jpg">
+                                        </div>
+                                        <div class="item">
+                                            <img src="images/midnightcookiesdetail.jpg">
+                                        </div>
+                                          <div class="item">
+                                            <img src="images/midnightspread.jpg">
+                                        </div>
+                                    </div>
+
+                                  <!-- Controls -->
+                                  <a class="left carousel-control" href="#midnightCarousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                  </a>
+                                  <a class="right carousel-control" href="#midnightCarousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                  </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
               </div>
             </div>
             <!-- end modal --> 
-        
-         <div class="boxpreview">
-                <div class="description">Midnight Cookies Menu<p>identity, menu design</p>               </div> 
-                <img src="images/midnightthumb.png">        
-            </div> 
+
+<!-- ====== EPIC EBOOK ====== --> 
+        <a data-toggle="modal" data-target="#epicModal">
         <div class="boxpreview"> 
                 <div class="description">Epic<p>E-Book, illustration</p></div> 
                 <img src="images/epicthumb3.png">
-            </div> 
-        
+            </div>
+        </a>
+         <!-- Large modal -->
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="epicModal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <h1>Epic E-Book</h1>
+                                <h5>sdfjalsd.</h5>
+                            </div>
+                            <div class="col-xs-9">
+                                <div id="epicCarousel" class="carousel slide" data-ride="carousel">
+                                  <!-- Indicators -->
+                                  <ol class="carousel-indicators">
+                                    <li data-target="#epicCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#epicCarousel" data-slide-to="1"></li>
+                                    <li data-target="#epicCarousel" data-slide-to="2"></li>
+                                  </ol>
+
+                                  <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="images/epicpad.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="images/epiccharacter.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="images/epicrip.png">
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <!-- Controls -->
+                                  <a class="left carousel-control" href="#epicCarousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                  </a>
+                                  <a class="right carousel-control" href="#epicCarousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                  </a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal --> 
+
+<!-- ====== GOODE BARS ====== -->         
+            <a data-toggle="modal" data-target="#goodeModal">
             <div class="boxpreview">
                 <div class="description">Goode Bars<p>branding, identity, packaging</p></div> 
                 <img src="images/goodethumb2.png">  
-            </div> 
+            </div>
+        </a>
+                 <!-- Large modal -->
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="goodeModal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <h1>Goode Chocolate Bars</h1>
+                                <h5>The Goode Chocolate Company was a fictional chocolate company celebrating 100 years of bussiness. To honor their anniversary this packaging design pays tribute to some of the company’s best years, the roaring 20s. The company sells three flavors dark, milk, and white chocolate each distinguished by a different colored foil revealed through the New York City skyline where the company originated.</h5>
+                            </div>
+                            <div class="col-xs-9">
+                                <div id="goodeCarousel" class="carousel slide" data-ride="carousel">
+                                  <!-- Indicators -->
+                                  <ol class="carousel-indicators">
+                                    <li data-target="#goodeCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#goodeCarousel" data-slide-to="1"></li>
+                                    <li data-target="#goodeCarousel" data-slide-to="2"></li>
+                                  </ol>
+
+                                  <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="images/goodechoclate.jpg">
+                                        </div>
+                                        <div class="item">
+                                            <img src="images/goodeabove2.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="images/goodedetail2.png">
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <!-- Controls -->
+                                  <a class="left carousel-control" href="#goodeCarousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                  </a>
+                                  <a class="right carousel-control" href="#goodeCarousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                  </a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal --> 
         
-         <div class="boxpreview">
+<!-- ====== CARDS LUCK ====== --> 
+        <a data-toggle="modal" data-target="#cardsModal"> 
+        <div class="boxpreview">
                 <div class="description">The Faces of Luck<p>visual branding, illustration</p></div> 
                 <img src="images/Cardsthumb.png">    
             </div> 
+            <!-- Large modal -->
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="cardsModal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <h1>Faces of Luck</h1>
+                                <h5>LDR Postcards were designed with the abbreviated text of Long Distance Relationship in mind. Today we keep up long distance relationships through modern technology. But these postcards combine the new text language of today with the sentiment of hand- written letters and mailed postcards. Each postcard has a motivational quote inspired by the Pixelated EP ablum of Jeremy Passion as well as the image showing two faintly lit windows symbolizing a couple still awake skyping, calling, or texting each other no matter how many miles separate them.</h5>
+                            </div>
+                            <div class="col-xs-9">
+                                <div id="cardsCarousel" class="carousel slide" data-ride="carousel">
+                                  <!-- Indicators -->
+                                  <ol class="carousel-indicators">
+                                    <li data-target="#cardsCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#cardsCarousel" data-slide-to="1"></li>
+                                    <li data-target="#cardsCarousel" data-slide-to="2"></li>
+                                  </ol>
+
+                                  <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="images/cardsflat.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="images/cardsking.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="images/cardsqueen.png">
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <!-- Controls -->
+                                  <a class="left carousel-control" href="#cardsCarousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                  </a>
+                                  <a class="right carousel-control" href="#cardsCarousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                  </a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal --> 
+
+<!-- ====== LDR POSTCARDS====== -->   
+        <a data-toggle="modal" data-target="#ldrModal">
         <div class="boxpreview">
                 <div class="description">LDR Postcards<p>visual branding, illustration</p></div> 
                 <img src="images/LDRthumb2.png">    
             </div> 
-        
+                         <!-- Large modal -->
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="ldrModal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <h1>LDR Postcards</h1>
+                                <h5>LDR Postcards were designed with the abbreviated text of Long Distance Relationship in mind. Today we keep up long distance relationships through modern technology. But these postcards combine the new text language of today with the sentiment of hand- written letters and mailed postcards. Each postcard has a motivational quote inspired by the Pixelated EP ablum of Jeremy Passion as well as the image showing two faintly lit windows symbolizing a couple still awake skyping, calling, or texting each other no matter how many miles separate them.</h5>
+                            </div>
+                            <div class="col-xs-9">
+                                <div id="ldrCarousel" class="carousel slide" data-ride="carousel">
+                                  <!-- Indicators -->
+                                  <ol class="carousel-indicators">
+                                    <li data-target="#ldrCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#ldrCarousel" data-slide-to="1"></li>
+                                    <li data-target="#ldrCarousel" data-slide-to="2"></li>
+                                  </ol>
+
+                                  <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="images/ldrall.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="images/ldrhold.png">
+                                        </div>
+                                        <div class="item">
+                                            <img src="images/ldrlaid.png">
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <!-- Controls -->
+                                  <a class="left carousel-control" href="#ldrCarousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                  </a>
+                                  <a class="right carousel-control" href="#ldrCarousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                  </a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal --> 
+            
+<!-- ====== CME ====== --> 
+            <a data-toggle="modal" data-target="#cmeModal">
             <div class="boxpreview">
                 <div class="description">CME App<p>mobile app</p></div> 
                 <img src="images/cmethumb.png">    
             </div> 
-        
-         <div class="boxpreview">
+            </a>
+            
+<!-- ====== Paper Art ====== --> 
+         <a data-toggle="modal" data-target="#paperModal">
+            <div class="boxpreview">
                 <div class="description">Paper Art</div> 
                 <img src="images/paperthumb.png">
             </div> 
+            </a>
+            
+<!-- ====== Web ====== -->    
+            <a data-toggle="modal" data-target="#webModal">
            <div class="boxpreview">
                <div class="description">Web Coding</div> 
                 <img src="images/emergentthumb.png">    
             </div> 
-        
-         <div class="boxpreview">
+            </a>
+            
+<!-- ====== Tablet Illustrations ====== --> 
+         <a data-toggle="modal" data-target="#tabletModal">
+            <div class="boxpreview">
                 <div class="description">Tablet Illustrations</div> 
                 <img src="images/lizthumb.png">
             </div> 
-           
+            </a>   
     </div>  
 <script src="js/jquery-1.11.2.js"></script>
 <script src="js/bootstrap.js"></script>
