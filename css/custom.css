@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: Avenir;
-    src: "Avenir.ttc" format("opentype");
+    src: url("Avenir.ttc") format("truetype");
 }
 
 body {
