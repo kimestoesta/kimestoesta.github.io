@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: Avenir;
+    font-family: "Avenir";
     src: url("Avenir.ttc") format("truetype");
 }
 
@@ -52,7 +52,7 @@ a:hover {
     padding: 20px;
     z-index: 100;
     text-align: left;
-    font-family: Avenir;
+    font-family: "Avenir";
     color: white;
     font-size: 14px;
     letter-spacing: 3px;
@@ -93,7 +93,7 @@ a:hover {
 }
 
 h1 {
-    font-family: Avenir;
+    font-family: "Avenir";
     font-size: 18px;
     font-weight: 400;
     color: #133E4E;
@@ -101,7 +101,7 @@ h1 {
 }
 
 h2 {
-    font-family: Avenir;
+    font-family: "Avenir";
     font-size: 14px;
     font-weight: 100;
     color: #133545;
@@ -110,7 +110,7 @@ h2 {
 }
 
 h5 {
-    font-family: Avenir;
+    font-family: "Avenir";
     color: grey;
     letter-spacing: 1px;
     font-size: 11px;
@@ -119,7 +119,7 @@ h5 {
 }
 
 p {
-    font-family: Avenir;
+    font-family: "Avenir";
     color: rgba(18, 62, 78, 1);
     letter-spacing: 2px;
     font-size: 14px;
@@ -246,7 +246,7 @@ p {
 .modal-content {
     border-radius: 0;
     padding: 15px;
-    font-family: Avenir;
+    font-family: "Avenir";
     color: rgba(18, 62, 78, .8);
     letter-spacing: 1px;
     font-size: 12px;
@@ -261,7 +261,7 @@ p {
     margin: 0px;
     padding: 15px;
     position: fixed;
-    font-family: Avenir;
+    font-family: "Avenir";
     color: rgba(18, 62, 78, 1);
     letter-spacing: 1px;
     font-size: 12px;
