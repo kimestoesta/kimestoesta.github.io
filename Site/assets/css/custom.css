@@ -1,0 +1,10 @@
+#menu{
+    z-index: 99999;
+    position: fixed;
+    cursor: pointer;
+    top: 0;
+}
+#menu>img{
+    background: #111a45;
+    padding: 15px;
+}
