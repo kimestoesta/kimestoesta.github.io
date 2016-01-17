@@ -1,10 +1,79 @@
-#menu{
-    z-index: 99999;
-    position: fixed;
-    cursor: pointer;
-    top: 0;
+
+
+@media only screen and (min-width: 992px) {
+  .sidebar:hover {
+    width: 250px;
+  }
+
+  .sidebar:hover .navmenu-item{
+    visibility: visible;
+    opacity: 1;
+    left: 50px;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+  }
+
+  .sidebar {
+    width: 80px;
+    transition: 
+      width 400ms ease-in-out, 
+      opacity 400ms ease-in-out;
+  }
+
+  .container-fluid.wrapper {
+    padding: 0px;
+    left: 80px;
+    margin-right: 80px;
+  }
 }
-#menu>img{
-    background: #111a45;
-    padding: 15px;
+
+.sidebar .navmenu-item {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 10px;
+  left: 70px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+.sidebar li:nth-child(1) .navmenu-item {
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+.sidebar li:nth-child(2) .navmenu-item {
+  -webkit-transition: all 200ms ease-in-out 50ms;
+  -moz-transition: all 200ms ease-in-out 50ms;
+  -o-transition: all 200ms ease-in-out 50ms;
+  -ms-transition: all 200ms ease-in-out 50ms;
+  transition: all 200ms ease-in-out 50ms;
+}
+.sidebar li:nth-child(3) .navmenu-item {
+  -webkit-transition: all 200ms ease-in-out 100ms;
+  -moz-transition: all 200ms ease-in-out 100ms;
+  -o-transition: all 200ms ease-in-out 100ms;
+  -ms-transition: all 200ms ease-in-out 100ms;
+  transition: all 200ms ease-in-out 100ms;
+}
+.sidebar li:nth-child(4) .navmenu-item {
+  -webkit-transition: all 200ms ease-in-out 150ms;
+  -moz-transition: all 200ms ease-in-out 150ms;
+  -o-transition: all 200ms ease-in-out 150ms;
+  -ms-transition: all 200ms ease-in-out 150ms;
+  transition: all 200ms ease-in-out 150ms;
+}
+.sidebar li:nth-child(5) .navmenu-item {
+  -webkit-transition: all 200ms ease-in-out 200ms;
+  -moz-transition: all 200ms ease-in-out 200ms;
+  -o-transition: all 200ms ease-in-out 200ms;
+  -ms-transition: all 200ms ease-in-out 200ms;
+  transition: all 200ms ease-in-out 200ms;
 }
