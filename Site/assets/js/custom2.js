@@ -4,6 +4,7 @@
     $("#portfolio-page").hide()
     $("#details-page").hide();
     $("#about-page").hide();
+    $("#blog-page").hide();
   };
 
   var loadDetailsImages = function(project) {
@@ -12,9 +13,11 @@
     }
   };
 
-  var resizeDetailsImages = function() {
-    $('#details-images').height($(window).height());
-  }
+  var resizeDetailsImages = function() { $('#details-images').height($(window).height()) };
+  var hideAllAndShow = function(page) { 
+    hideAll();
+    $(page).show(400);
+  };
 
   var filterLocation = 0;
 
@@ -26,26 +29,18 @@
     resizeDetailsImages();
   });
 
-  $("#portfolio-page-link").click(function() {
-    hideAll();
-    $("#portfolio-page").show(400);
-  });
-
-  $("#about-page-link").click(function() {
-    hideAll();
-    $("#about-page").show(400);
-  });
+  $("#portfolio-page-link").click( function(){ hideAllAndShow("#portfolio-page") } );
+  $("#about-page-link").click( function(){ hideAllAndShow("#about-page") } );
+  $("#blog-page-link").click( function(){ hideAllAndShow("#blog-page") } );
 
   $("#details-return").click(function() {
     hideAll();
 
     var hero = $("section#hero").remove();
-
     $("#portfolio-page").show(400, function() {
       hero.insertBefore($("section#portfolio"));
       $(window).scrollTop(filterLocation);
     });
-
   });
 
   $("#works-grid").on("click", ".work-link", function(event) {
@@ -62,19 +57,6 @@
      resizeDetailsImages();
      filterLocation = $("#hero").height();
   });
-
-  $( window ).scroll(function() {
-    // if (!alreadyHidden && $(window).scrollTop() > 0) {
-    //   $(".sidebar").offcanvas('hide');
-    //   alreadyHidden = true;
-    // }
-
-    // if ($(window).scrollTop() == 0) {
-    //   $(".sidebar").offcanvas('show');
-    //   alreadyHidden = false;
-    // }
-  });
-
 
 
 })(jQuery);

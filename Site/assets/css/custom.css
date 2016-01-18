@@ -1,4 +1,25 @@
+/* 
+=======================================================
+ 
+                       SIDEBAR
+
+=======================================================
+*/
+
+
+/* small screen triple bar button */
+.navbar-custom .navbar-toggle {
+  margin: 18px 20px 5px 5px;
+}
+
+@media only screen and (max-width: 991px) {
+  .sidebar h2 {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 992px) {
+  /* sidebar hover effects */
   .sidebar:hover {
     width: 250px;
   }
@@ -16,18 +37,20 @@
 
   .sidebar {
     width: 80px;
-    transition: 
-      width 400ms ease-in-out, 
-      opacity 400ms ease-in-out;
+    -webkit-transition: width 400ms ease-in-out, opacity 400ms ease-in-out;
+    -moz-transition: width 400ms ease-in-out, opacity 400ms ease-in-out;
+    -o-transition: width 400ms ease-in-out, opacity 400ms ease-in-out;
+    -ms-transition: width 400ms ease-in-out, opacity 400ms ease-in-out;
+    transition: width 400ms ease-in-out, opacity 400ms ease-in-out;
   }
 
   .container-fluid.wrapper {
-    padding: 0px;
     left: 80px;
     margin-right: 80px;
   }
 }
 
+/* sidebar buttons */
 .sidebar .navmenu-item {
   font-size: 14px;
   text-transform: uppercase;
@@ -38,7 +61,6 @@
   opacity: 0;
   visibility: hidden;
 }
-
 
 .sidebar li:nth-child(1) .navmenu-item {
   -webkit-transition: all 200ms ease-in-out;
@@ -75,6 +97,30 @@
   -ms-transition: all 200ms ease-in-out 200ms;
   transition: all 200ms ease-in-out 200ms;
 }
+
+.container-fluid.wrapper {
+  padding: 0px;
+}
+
+/* name on sidebar */
+.sidebar h2 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ffe697;
+  font-size: 13px;
+  position: absolute;
+  bottom: 250px;
+  left: -184px;
+  width: 450px;
+  margin: 0;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
 
 #details-images {
   overflow-y: auto;
