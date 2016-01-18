@@ -32,6 +32,11 @@
     $("#portfolio-page").show(400);
   });
 
+  $("#about-page-link").click(function() {
+    hideAll();
+    $("#about-page").show(400);
+  });
+
   $("#details-return").click(function() {
     hideAll();
 
