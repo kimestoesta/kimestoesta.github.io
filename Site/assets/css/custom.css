@@ -1,5 +1,3 @@
-
-
 @media only screen and (min-width: 992px) {
   .sidebar:hover {
     width: 250px;
@@ -76,4 +74,8 @@
   -o-transition: all 200ms ease-in-out 200ms;
   -ms-transition: all 200ms ease-in-out 200ms;
   transition: all 200ms ease-in-out 200ms;
+}
+
+#details-images {
+  overflow-y: auto;
 }
