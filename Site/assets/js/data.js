@@ -2,7 +2,7 @@ var projects = [
   { 
     title: "Hilo Hawaiian Products", 
     tags: ["branding", "packaging", "identity"],
-    thumbnail: "images/hiloall.png",
+    thumbnail: "images/hiloall.jpg",
     images: ["images/hilobox.png", "images/hilobox2.png", "images/hilobox3.png", "images/hilocandle.png", "images/hilocandle3.png", "images/hilooil.png"],
     description: "Hilo is a fictional family owned company based in Hilo Island Hawaii that make products using fresh resources grown from the rich soils of the Mauna Loa Volcano. Their products include an ohelo berry herbal tea, macadamia nut cooking oil, and kukui nut candle. The pheonix represented in their packaging illustrates their beliefs in natural cycle of destruction and creation. Hawaiian beliefs and philosophies are srongly tied with their observations of nature. In destruction there is always hope for new life in the same way that their products are born from the ashes of a volcano."
   },
