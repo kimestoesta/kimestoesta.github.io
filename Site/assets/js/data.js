@@ -109,12 +109,12 @@ $(function($) {
 });
 
 
-function preload(projects) {
-  for (var i = 0; i < projects.length; i++) {
-    for (var j = 0; j < projects[i].images.length; j++) {
-      projects[i].images[j] = $('<img />').attr('src',projects[i].images[j]);
-    }
-  }
-}
+// function preload(projects) {
+//   for (var i = 0; i < projects.length; i++) {
+//     for (var j = 0; j < projects[i].images.length; j++) {
+//       projects[i].images[j] = $('<img />').attr('src',projects[i].images[j]);
+//     }
+//   }
+// }
 
-preload(projects);
+// preload(projects);
