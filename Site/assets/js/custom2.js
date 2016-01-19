@@ -9,7 +9,7 @@
 
   var loadDetailsImages = function(project) {
     for (var i = 0; i < project.images.length; i++) {
-      $("#details-images").append("<img src='" + project.images[i] + "'>")
+      $("#details-images").append( project.images[i] )
     }
   };
 
@@ -48,10 +48,11 @@
     hideAll();
     var project = projects[this.id];
     $("#details-description").html(project.description);
+    $("#details-title").html(project.title);
+    $("#details-tags").html(project.tags.join(", "));
     $("#details-images").empty();
-    $("#details-page").show(400, function() {
-      loadDetailsImages(project);
-    });
+    loadDetailsImages(project);
+    $("#details-page").show(400);
   })
 
   $(window).resize(function() {

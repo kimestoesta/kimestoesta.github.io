@@ -1655,21 +1655,26 @@ blockquote cite{
 	z-index:3;
 }
 
-@media (max-width: 1200px){
 
+@media (max-width: 1199px){
+	.work-item{
+		width:33.3%;
+	}
+}
+
+@media (max-width: 991px){
 	.work-item{
 		width:50%;
 	}
-
 }
 
 @media (max-width: 767px){
-
-	.work-item, .works-grid-3 .work-item{
+	.work-item{
 		width:100%;
 	}
-
 }
+	
+
 /*!------------------------------------------------------------------
 [Portfolio Single]
 */
