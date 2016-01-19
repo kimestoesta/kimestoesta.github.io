@@ -29,19 +29,20 @@
     resizeDetailsImages();
   });
 
-  $("#portfolio-page-link").click( function(){ hideAllAndShow("#portfolio-page") } );
-  $("#about-page-link").click( function(){ hideAllAndShow("#about-page") } );
-  $("#blog-page-link").click( function(){ hideAllAndShow("#blog-page") } );
-
-  $("#details-return").click(function() {
+  var goToPortfolio = function() {
     hideAll();
-
     var hero = $("section#hero").remove();
     $("#portfolio-page").show(400, function() {
       hero.insertBefore($("section#portfolio"));
       $(window).scrollTop(filterLocation);
     });
-  });
+  };
+
+  $("#portfolio-page-link").click( function(){ goToPortfolio() } );
+  $("#details-return").click(function() { goToPortfolio() });
+  $("#about-page-link").click( function(){ hideAllAndShow("#about-page") } );
+  $("#blog-page-link").click( function(){ hideAllAndShow("#blog-page") } );
+  
 
   $("#works-grid").on("click", ".work-link", function(event) {
     hideAll();
