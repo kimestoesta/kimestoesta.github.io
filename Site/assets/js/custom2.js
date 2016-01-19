@@ -9,7 +9,7 @@
 
   var loadDetailsImages = function(project) {
     for (var i = 0; i < project.images.length; i++) {
-      $("#details-images").append("<img src='" + project.images[i] + "'>")
+      $("#details-images").append(project.images[i])
     }
   };
 
