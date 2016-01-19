@@ -31,9 +31,9 @@
 
   var goToPortfolio = function() {
     hideAll();
-    var hero = $("section#hero").remove();
+    var hero = $("section#hero").hide();
     $("#portfolio-page").show(400, function() {
-      hero.insertBefore($("section#portfolio"));
+      hero.show();
       $(window).scrollTop(filterLocation);
     });
   };
