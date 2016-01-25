@@ -9,7 +9,7 @@ var projects = [
   { 
     title: "Haulbox Startup", 
     tags: ["branding", "mobile app", "web"],
-    thumbnail: "images/haulboxthum.png",
+    thumbnail: "images/hiloall.png",
     images: [],
     description: "Stuff"
   },

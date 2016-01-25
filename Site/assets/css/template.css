@@ -32,7 +32,7 @@ iframe{
 .sidebar{
 	position:fixed;
 	width:250px;
-	background-color:#111;
+	background-color:#fac60e;
 	height:100%;
 	top:0;
 	left:0;
@@ -376,11 +376,11 @@ blockquote cite{
 }
 
 .btn-dark, .btn-dark:focus{
-	background:rgba(17, 17, 17, 1);
+	background:#ed1c24;
 	color:#fff;
 }
 .btn-dark:hover{
-	background:rgba(17, 17, 17, 0.8);
+	background:#fac60e;
 	color:#fff;
 }
 
@@ -833,7 +833,7 @@ blockquote cite{
 }
 
 .gallery .gallery-caption{
-	background-color:rgba(255, 255, 255, .96);
+	background-color:#42c0ae;
 	position:absolute;
 	bottom:30px;
 	left:30px;
