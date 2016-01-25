@@ -1,5 +1,5 @@
 var projects = [
-  { 
+  {
     title: "Hilo Hawaiian Products", 
     tags: ["branding", "packaging", "identity"],
     thumbnail: "images/hiloall.jpg",
@@ -9,8 +9,8 @@ var projects = [
   { 
     title: "Haulbox Startup", 
     tags: ["branding", "mobile app", "web"],
-    thumbnail: "images/hiloall.png",
-    images: [],
+    thumbnail: "images/EyeSpyLogin.gif",
+    images: ["images/EyeSpyLogin.gif"],
     description: "Stuff"
   },
   { 
