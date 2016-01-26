@@ -124,4 +124,6 @@
 
 #details-images {
   overflow-y: auto;
+    padding: 15px;
+    background: #ffe697;
 }

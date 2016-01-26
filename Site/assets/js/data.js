@@ -7,11 +7,11 @@ var projects = [
     description: "Hilo is a fictional family owned company based in Hilo Island Hawaii that make products using fresh resources grown from the rich soils of the Mauna Loa Volcano. Their products include an ohelo berry herbal tea, macadamia nut cooking oil, and kukui nut candle. The pheonix represented in their packaging illustrates their beliefs in natural cycle of destruction and creation. Hawaiian beliefs and philosophies are srongly tied with their observations of nature. In destruction there is always hope for new life in the same way that their products are born from the ashes of a volcano."
   },
   { 
-    title: "Haulbox Startup", 
+    title: "EyeSpy.", 
     tags: ["branding", "mobile app", "web"],
     thumbnail: "images/EyeSpyLogin.gif",
-    images: ["images/EyeSpyLogin.gif"],
-    description: "Stuff"
+    images: ["images/EyeSpyMenu.jpg", "images/EyeSpy_vessel.gif", "images/EyeSpy_Welcome.jpg",],
+    description: "EyeSpy is a project I did with Paige Carl for the Harn Museum of Art. The project challenge was to design an app for the Harn Museum that focused on the Asian collection emphasizing both mobility and sensor technology. Our solution led to the creation of an app, EyeSpy, which we prototyped with a focus on the Asian collection of the Harn but could also be expanded for future collections. <br><br> EyeSpy is designed to be the Harn Museum’s interactive mystery adventure game app. Users have only 60 minutes to physically explore the museum exhibit to search for clues and figure out riddles to solve the mystery. During the project I had a large focus on the story, concepting, User Interface design, and illustration. Paige and I worked together to create the information architecture and user experience of the game and split screen production design. <br><br> Please feel free to play with the prototype provided for you on the right."
   },
   { 
     title: "Midnight Cookies Menu", 
