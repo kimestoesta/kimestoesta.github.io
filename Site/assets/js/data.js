@@ -23,7 +23,7 @@ var projects = [
   { 
     title: "Epic", 
     tags: ["E-Book", "illustration"],
-    thumbnail: "images/epicthumb.png",
+    thumbnail: "images/RelientK_DigitalAd.gif",
     images: [],
     description: "Stuff"
   },
@@ -43,7 +43,7 @@ var projects = [
   },
   { 
     title: "Epic", 
-    tags: [],
+    tags: ["E-Book", "illustration"],
     thumbnail: "images/epicthumb.png",
     images: [],
     description: "Stuff"
