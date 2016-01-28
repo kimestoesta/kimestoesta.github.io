@@ -28,13 +28,14 @@
     visibility: visible;
     opacity: 1;
     left: 95px;
-    padding-top: 18px;
+    padding-top: 0px;
     -webkit-transition: all 50ms ease-in-out;
     -moz-transition: all 50ms ease-in-out;
     -o-transition: all 50ms ease-in-out;
     -ms-transition: all 50ms ease-in-out;
     transition: all 50ms ease-in-out;
   }
+
 
   .sidebar {
     width: 80px;
@@ -54,12 +55,12 @@
 
 /* sidebar buttons */
 .sidebar .navmenu-item {
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
   position: absolute;
-  top: 10px;
-  left: 70px;
+  top: 35px;
+  left: 0px;
   opacity: 0;
   visibility: hidden;
 }
@@ -132,6 +133,7 @@
 
 #details-images img{
     padding-bottom: 15px;
+    width: 100%;
 }
 
 #details-left {

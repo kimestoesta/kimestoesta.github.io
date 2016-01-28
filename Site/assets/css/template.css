@@ -38,7 +38,7 @@ iframe{
 	height:100%;
 	top:0;
 	left:0;
-	padding:40px 0 0px 1px;
+	padding:15px 0 0px 1px;
 	z-index:999;
 	background-repeat:no-repeat;
 	background-position:center center;
@@ -942,9 +942,9 @@ blockquote cite{
 	padding-top:0;
 	padding-bottom:0;
 	letter-spacing:5px;
-	font-weight:400;
+	font-weight:600;
 	font-size:23px;
-	color:blue;
+	color:red;
 }
 
 .navbar-custom li > a, .navbar-custom .dropdown-menu li > a{
@@ -998,7 +998,7 @@ blockquote cite{
 
 	.navbar-custom .navbar-header{
 		float:none;
-		margin:0 0 60px;
+		margin:0 0 10px;
 	}
 
 	.navbar-custom .navbar-nav{
