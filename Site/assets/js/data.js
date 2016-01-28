@@ -16,7 +16,7 @@ var projects = [
   { 
     title: "Midnight Cookies Menu", 
     tags: ["identity", "menu design"],
-    thumbnail: "images/midnightall.jpg",
+    thumbnail: "images/cards-characters.jpg",
     images: [],
     description: "Stuff"
   },
@@ -34,41 +34,14 @@ var projects = [
     images: [],
     description: "Stuff"
   },
-  { 
-    title: "Midnight Cookies Menu", 
+   { 
+    title: "Cards", 
     tags: [],
-    thumbnail: "images/midnightall.jpg",
+    thumbnail: "",
     images: [],
     description: "Stuff"
   },
-  { 
-    title: "Epic", 
-    tags: ["E-Book", "illustration"],
-    thumbnail: "images/epicthumb.png",
-    images: [],
-    description: "Stuff"
-  },
-  { 
-    title: "Haulbox Startup", 
-    tags: [],
-    thumbnail: "images/haulboxthum.png",
-    images: [],
-    description: "Stuff"
-  },
-  { 
-    title: "Midnight Cookies Menu", 
-    tags: [],
-    thumbnail: "images/midnightall.jpg",
-    images: [],
-    description: "Stuff"
-  },
-  { 
-    title: "Epic", 
-    tags: [],
-    thumbnail: "images/epicthumb.png",
-    images: [],
-    description: "Stuff"
-  }
+  
 ];
 
 
