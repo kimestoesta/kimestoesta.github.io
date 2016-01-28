@@ -27,12 +27,13 @@
   .sidebar:hover .navmenu-item{
     visibility: visible;
     opacity: 1;
-    left: 60px;
-    -webkit-transition: all 200ms ease-in-out;
-    -moz-transition: all 200ms ease-in-out;
-    -o-transition: all 200ms ease-in-out;
-    -ms-transition: all 200ms ease-in-out;
-    transition: all 200ms ease-in-out;
+    left: 95px;
+    padding-top: 18px;
+    -webkit-transition: all 50ms ease-in-out;
+    -moz-transition: all 50ms ease-in-out;
+    -o-transition: all 50ms ease-in-out;
+    -ms-transition: all 50ms ease-in-out;
+    transition: all 50ms ease-in-out;
   }
 
   .sidebar {
@@ -49,6 +50,7 @@
     margin-right: 80px;
   }
 }
+
 
 /* sidebar buttons */
 .sidebar .navmenu-item {
@@ -123,9 +125,13 @@
 
 
 #details-images {
-  overflow-y: auto;
-    padding: 15px;
+    overflow-y: auto;
     background: #fff;
+    padding: 15px;
+}
+
+#details-images img{
+    padding-bottom: 15px;
 }
 
 #details-left {
@@ -133,4 +139,18 @@
     height: 100vh;
     border-right: 10px solid #42c0ae;
     background: #fff;
+}
+
+.backbtn-details {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.backbtn-details img {
+    padding-right: 10px;
+    height: 30px;
+}
+
+#details-title {
+    padding-top: 40px;
 }

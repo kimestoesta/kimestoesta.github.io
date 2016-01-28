@@ -12,9 +12,9 @@ Primary use: Portfolio
 
 body{
 	background:#fff;
-	font-family:'Open Sans', sans-serif;
-	line-height:1.8;
-	font-size:12px;
+	font-family:'futura', sans-serif;
+	line-height:1.4;
+	font-size:14px;
 	color:#133e4e;
 	-ms-overflow-style:scrollbar;
 	overflow-x:hidden;
@@ -25,19 +25,20 @@ img{
 	height:auto;
 }
 
+
 iframe{
 	border:0;
 }
 
 .sidebar{
 	position:fixed;
-	width:250px;
+	width:240px;
 	background-color:#fff;
     border-right: 10px solid #fac60e;
 	height:100%;
 	top:0;
 	left:0;
-	padding:10px 0 0px 8px;
+	padding:40px 0 0px 1px;
 	z-index:999;
 	background-repeat:no-repeat;
 	background-position:center center;
@@ -105,7 +106,7 @@ iframe{
 */
 
 a{
-	color:#111;
+	color:#ed1c24;
 	-webkit-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
 	-moz-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
 	-o-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
@@ -115,24 +116,25 @@ a{
 a:hover, a:focus{
 	text-decoration:none;
 	outline:none;
-	color:rgba(17, 17, 17, 0.8);
+	color:#fac60e;
 }
 
 h1, h2, h3, h4, h5, h6{
-	font-family:'Roboto Condensed', sans-serif;
+	font-family:'DIN', sans-serif;
 	text-transform:uppercase;
-	letter-spacing:2px;
-	font-weight:400;
-	color:#111;
+	letter-spacing:4px;
+	font-weight:500;
+	color:#42c0ae;
 	margin:0 0 20px;
 }
 
 h1{
 	font-size:20px;
+    font-weight: 700;
 }
 
 h2{
-	font-size:18px;
+	font-size:30px;
 }
 
 h4{
@@ -164,7 +166,7 @@ pre{
 
 blockquote{
 	border:0;
-	font-family:Georgia, sans-serif;
+	font-family:futura, sans-serif;
 	text-align:center;
 	font-style:italic;
 	font-size:28px;
@@ -198,13 +200,13 @@ blockquote cite{
 }
 
 .font-alt{
-	font-family:'Roboto Condensed', sans-serif;
+	font-family:'DIN', sans-serif;
 	text-transform:uppercase;
 	letter-spacing:2px;
 }
 
 .font-serif{
-	font-family:Georgia, sans-serif;
+	font-family: sans-serif;
 	font-style:italic;
 }
 
@@ -214,7 +216,7 @@ blockquote cite{
 }
 
 .text-light h1, .text-light h2, .text-light h3, .text-light h4, .text-light h5, .text-light h6{
-	color:#fff !important;
+	color:#000 !important;
 }
 
 .text-light a{
@@ -222,10 +224,10 @@ blockquote cite{
 }
 
 .text-light a:hover{
-	color:#fff;
+	color:blue;
 }
 
-/*!------------------------------------------------------------------
+/*!--------------------b----------------------------------------------
 [Preloader]
 */
 
@@ -360,11 +362,11 @@ blockquote cite{
 */
 
 .btn{
-	font-family:'Roboto Condensed', sans-serif;
+	font-family:'DIN', sans-serif;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	font-weight:400;
-	font-size:11px;
+	font-weight:500;
+	font-size:12px;
 	padding:9px 28px;
 	-webkit-border-radius:0;
 	-moz-border-radius:0;
@@ -942,13 +944,13 @@ blockquote cite{
 	letter-spacing:5px;
 	font-weight:400;
 	font-size:23px;
-	color:#fff;
+	color:blue;
 }
 
 .navbar-custom li > a, .navbar-custom .dropdown-menu li > a{
 	text-transform:uppercase;
 	letter-spacing:2px;
-	font-size:18px;
+	font-size:12px;
 	color:#ed1c24;
 }
 
@@ -972,7 +974,7 @@ blockquote cite{
 }
 
 .navbar-custom .navbar-toggle .icon-bar{
-	background:#fff;
+	background:blue;
 }
 
 .navbar-custom .navbar-toggle{
@@ -1107,8 +1109,8 @@ blockquote cite{
 }
 
 .module-hero h1{
-	letter-spacing:20px;
-	font-weight:300;
+	letter-spacing:10px;
+	font-weight:500;
 	font-size:54px;
 }
 
@@ -1119,13 +1121,13 @@ blockquote cite{
 }
 
 .module-hero h3{
-	letter-spacing:12px;
+	letter-spacing:8px;
 	font-size:32px;
 }
 
 .module-hero h4{
 	letter-spacing:10px;
-	font-size:18px;
+	font-size:19px;
 }
 
 .module-hero h5{
@@ -1135,7 +1137,8 @@ blockquote cite{
 
 .module-hero h6{
 	letter-spacing:6px;
-	font-size:12px;
+	font-size:14px;
+    font-family: Futura;
 }
 
 @media (max-width: 767px){
@@ -1222,7 +1225,7 @@ blockquote cite{
 }
 
 .module-subtitle{
-	font-family:Georgia, serif;
+	font-family:futura, serif;
 	text-align:center;
 	font-style:italic;
 	line-height:1.8;
@@ -1725,7 +1728,8 @@ blockquote cite{
 	left:50%;
 	width:40px;
 	height:40px;
-	background:#f5f5f5;
+	background:#fff;
+    border: 1px solid #ed1c24;
 	text-align:center;
 	line-height:40px;
 	margin-left:-20px;
@@ -1733,6 +1737,7 @@ blockquote cite{
 
 .to-top-link:hover{
 	background:#42c0ae;
+    border: none;
 	color:#fff;
 }
 /*!------------------------------------------------------------------
