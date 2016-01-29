@@ -27,7 +27,7 @@
   .sidebar:hover .navmenu-item{
     visibility: visible;
     opacity: 1;
-    left: 95px;
+    left: 80px;
     padding-top: 0px;
     -webkit-transition: all 50ms ease-in-out;
     -moz-transition: all 50ms ease-in-out;
@@ -59,7 +59,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   position: absolute;
-  top: 35px;
+  top: 16px;
   left: 0px;
   opacity: 0;
   visibility: hidden;
@@ -110,11 +110,11 @@
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: red;
+  color: #ed1c24;
   font-size: 13px;
   position: absolute;
   bottom: 250px;
-  left: -184px;
+  left: -189px;
   width: 450px;
   margin: 0;
   -webkit-transform: rotate(-90deg);
@@ -124,6 +124,9 @@
   transform: rotate(-90deg);
 }
 
+.sidebar:hover h2{
+    color: #fac60e;
+}
 
 #details-images {
     overflow-y: auto;

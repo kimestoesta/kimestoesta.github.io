@@ -947,6 +947,14 @@ blockquote cite{
 	color:red;
 }
 
+.navbar-custom .navbar-brand img{
+    display: none;
+}
+
+.sidebar:hover .navbar-custom .navbar-brand img{
+    display: inline;
+}
+
 .navbar-custom li > a, .navbar-custom .dropdown-menu li > a{
 	text-transform:uppercase;
 	letter-spacing:2px;
@@ -1010,8 +1018,14 @@ blockquote cite{
 	}
 
 	.navbar-custom li > a, .navbar-custom .dropdown-menu li > a{
-		padding-top:12px;
-		padding-bottom:12px;
+		height: 55px;
+        padding-top:2px;
+		padding-bottom:2px;
+        margin-bottom: 3px;
+	}
+    
+    .navbar-custom li > a img{
+		max-height: 45px;
 	}
 
 	.navbar-custom li.dropdown > a:after{
