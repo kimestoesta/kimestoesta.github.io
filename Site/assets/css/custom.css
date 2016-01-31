@@ -36,9 +36,9 @@
     background-color: #fac60e;
   }
 
-    #custom-collapse{
-        overflow: hidden;
-    }
+  #custom-collapse{
+      overflow: hidden;
+  }
     
   ul.nav a {
     color: #fff;
@@ -90,6 +90,8 @@
     left: 80px;
     margin-right: 80px;
   }
+
+
 }
 
 
@@ -179,16 +181,11 @@
     width: 100%;
 }
 
-#details-page .row {
-    overflow: hidden;
-}
-
 #details-left {
-    padding: 20px;
-    height: 100vh;
-    border-right: 10px solid #42c0ae;
-    background: #fff;
-    overflow: auto;
+  padding: 20px;
+  height: 100vh;
+  border-right: 10px solid #42c0ae;
+  background: #fff;
 }
 
 .backbtn-details {
@@ -205,6 +202,15 @@
     padding-top: 40px;
 }
 
+@media only screen and (min-width: 992px) {
+  #details-page .row {
+    overflow: hidden;
+  }
+
+  #details-left {
+    overflow: auto;
+  }
+}
 
 body, html {
     padding: 0 !important;
