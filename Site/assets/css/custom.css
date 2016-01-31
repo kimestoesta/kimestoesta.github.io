@@ -171,7 +171,6 @@
 }
 
 #details-images {
-    overflow-y: auto;
     background: #fff;
     padding: 15px;
 }
@@ -208,6 +207,10 @@
   }
 
   #details-left {
+    overflow: auto;
+  }
+
+  #details-images {
     overflow: auto;
   }
 }
