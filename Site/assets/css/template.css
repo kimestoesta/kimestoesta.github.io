@@ -12,7 +12,7 @@ Primary use: Portfolio
 
 body{
 	background:#fff;
-	font-family:'futura', sans-serif;
+	font-family:'Futura', sans-serif;
 	line-height:1.4;
 	font-size:14px;
 	color:#133e4e;
@@ -167,7 +167,7 @@ pre{
 
 blockquote{
 	border:0;
-	font-family:futura, sans-serif;
+	font-family: 'Futura', sans-serif;
 	text-align:center;
 	font-style:italic;
 	font-size:28px;
@@ -1166,7 +1166,7 @@ blockquote cite{
 .module-hero h6{
 	letter-spacing:6px;
 	font-size:14px;
-    font-family: Futura;
+    font-family: 'Futura';
 }
 
 @media (max-width: 767px){
@@ -1253,7 +1253,7 @@ blockquote cite{
 }
 
 .module-subtitle{
-	font-family:futura, serif;
+	font-family: 'Futura', serif;
 	text-align:center;
 	font-style:italic;
 	line-height:1.8;
