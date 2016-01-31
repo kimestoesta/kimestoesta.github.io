@@ -16,6 +16,23 @@
   .sidebar h2 {
     display: none;
   }
+
+  .navbar-custom .navbar-brand  {
+    display: none;
+  }
+
+  .sidebar {
+    background-color: yellow;
+  }
+
+  ul.nav a img {
+    display: none;
+  }
+
+  .sidebar span.navmenu-item {
+    visibility: visible;
+    opacity: 1;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -58,7 +75,6 @@
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  position: absolute;
   top: 16px;
   left: 0px;
   opacity: 0;

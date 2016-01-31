@@ -13,14 +13,18 @@
     }
   };
 
+
   var resizeDetailsImages = function(height) { 
       $('#details-images').height(height);
       $('#details-left').height(height);
       $('#details-page .row').height(height);
   };
-  var hideAllAndShow = function(page) { 
+
+  var hideAllAndShow = function(page, callback) { 
     hideAll();
-    $(page).show(400);
+    $(page).show(400, function() {
+      callback();
+    });
   };
 
   var filterLocation = 0;
@@ -45,7 +49,19 @@
   $("#portfolio-page-link").click( function(){ goToPortfolio() } );
   $("#details-return").click(function() { goToPortfolio() });
   $("#about-page-link").click( function(){ hideAllAndShow("#about-page") } );
-  $("#blog-page-link").click( function(){ hideAllAndShow("#blog-page") } );
+  $("#blog-page-link").click( function(){ 
+    hideAllAndShow("#blog-page", function() {
+      var sbgrid = $('#sketchbook-grid');
+
+      sbgrid.imagesLoaded(function() {
+        sbgrid.isotope({
+          layoutMode: 'masonry',
+          itemSelector: '.work-item',
+          transitionDuration: '0.3s',
+        });
+      });
+    });
+  } );
   
 
   $("#works-grid").on("click", ".work-link", function(event) {
