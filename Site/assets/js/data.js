@@ -24,7 +24,7 @@ var projects = [
     title: "Relient K Band Tour", 
     tags: ["identity", "illustration"],
     thumbnail: "images/RelientK_DigitalAd.gif",
-    images: ["images/relientk-set.jpg","images/relientk-poster.jpg","images/relientk-book.jpg","images/relientK_case.jpg","images/relientk-album.jpg","images/relientk-cd.jpg","images/relientk_mocks.jpg",],
+    images: ["images/relientk-set.jpg","images/relientk-poster.jpg","images/relientk-book.jpg","images/RelientK_case.jpg","images/relientk-album.jpg","images/relientk-cd.jpg","images/relientk_mocks.jpg",],
     description: "Stuff"
   },
   { 
