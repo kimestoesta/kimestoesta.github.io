@@ -13,7 +13,11 @@
     }
   };
 
-  var resizeDetailsImages = function() { $('#details-images').height($(window).height()) };
+  var resizeDetailsImages = function(height) { 
+      $('#details-images').height(height);
+      $('#details-left').height(height);
+      $('#details-page .row').height(height);
+  };
   var hideAllAndShow = function(page) { 
     hideAll();
     $(page).show(400);
@@ -56,7 +60,7 @@
   })
 
   $(window).resize(function() {
-     resizeDetailsImages();
+     resizeDetailsImages($(window).height());
      filterLocation = $("#hero").height();
   });
 

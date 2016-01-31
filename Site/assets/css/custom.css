@@ -139,12 +139,16 @@
     width: 100%;
 }
 
+#details-page .row {
+    overflow: hidden;
+}
+
 #details-left {
     padding: 20px;
     height: 100vh;
     border-right: 10px solid #42c0ae;
     background: #fff;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .backbtn-details {
@@ -159,4 +163,11 @@
 
 #details-title {
     padding-top: 40px;
+}
+
+
+body, html {
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 100%;
 }
