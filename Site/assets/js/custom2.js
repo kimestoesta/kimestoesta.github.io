@@ -34,7 +34,9 @@
     $("#portfolio-page").show(0, function() {
       filterLocation = $("#hero").height();
     });
-    resizeDetailsImages();
+
+    if ($(window).width() >= 992)
+      resizeDetailsImages();
   });
 
   var goToPortfolio = function() {
@@ -76,8 +78,9 @@
   })
 
   $(window).resize(function() {
-     resizeDetailsImages($(window).height());
-     filterLocation = $("#hero").height();
+    if ($(window).width() >= 992)
+      resizeDetailsImages($(window).height());
+    filterLocation = $("#hero").height();
   });
 
 
