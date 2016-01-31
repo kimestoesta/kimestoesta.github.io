@@ -2,8 +2,8 @@ var projects = [
   {
     title: "That One Spot", 
     tags: ["branding", "packaging", "identity"],
-    thumbnail: "images/TOS-fold.jpg",
-    images: ["images/tos-menus.jpg", "images/tos-mat.jpg", "images/tos-cards.jpg"],
+    thumbnail: "images/TOS_fold.jpg",
+    images: ["images/tos_menus.jpg", "images/tos_mat.jpg", "images/TOS_Cards.jpg"],
     description: ""
   },
   { 
