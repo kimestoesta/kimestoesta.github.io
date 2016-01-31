@@ -9,7 +9,8 @@
 
 /* small screen triple bar button */
 .navbar-custom .navbar-toggle {
-  margin: 5px 20px 5px 5px;
+  margin: 15px 15px 15px 5px;
+  border: none;
 }
 
 @media only screen and (max-width: 991px) {
@@ -22,9 +23,22 @@
   }
 
   .sidebar {
-    background-color: yellow;
+    background-color: #fac60e;
   }
 
+    #custom-collapse{
+        overflow: hidden;
+    }
+    
+  ul.nav a {
+    color: #fff;
+    border-top: 1px solid #fff; 
+  }
+
+   ul.nav a:hover {
+    color: #fff; 
+  }
+    
   ul.nav a img {
     display: none;
   }
