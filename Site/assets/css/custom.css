@@ -29,13 +29,12 @@
     opacity: 1;
     left: 80px;
     padding-top: 0px;
-    -webkit-transition: all 50ms ease-in-out;
-    -moz-transition: all 50ms ease-in-out;
-    -o-transition: all 50ms ease-in-out;
-    -ms-transition: all 50ms ease-in-out;
-    transition: all 50ms ease-in-out;
+    -webkit-transition: all 70ms ease-in-out;
+    -moz-transition: all 70ms ease-in-out;
+    -o-transition: all 70ms ease-in-out;
+    -ms-transition: all 70ms ease-in-out;
+    transition: all 70ms ease-in-out;
   }
-
 
   .sidebar {
     width: 80px;
@@ -54,6 +53,7 @@
 
 
 /* sidebar buttons */
+
 .sidebar .navmenu-item {
   font-size: 12px;
   text-transform: uppercase;
@@ -66,39 +66,39 @@
 }
 
 .sidebar li:nth-child(1) .navmenu-item {
-  -webkit-transition: all 200ms ease-in-out;
-  -moz-transition: all 200ms ease-in-out;
-  -o-transition: all 200ms ease-in-out;
-  -ms-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
-}
-.sidebar li:nth-child(2) .navmenu-item {
-  -webkit-transition: all 200ms ease-in-out 50ms;
-  -moz-transition: all 200ms ease-in-out 50ms;
-  -o-transition: all 200ms ease-in-out 50ms;
-  -ms-transition: all 200ms ease-in-out 50ms;
-  transition: all 200ms ease-in-out 50ms;
-}
-.sidebar li:nth-child(3) .navmenu-item {
   -webkit-transition: all 200ms ease-in-out 100ms;
   -moz-transition: all 200ms ease-in-out 100ms;
   -o-transition: all 200ms ease-in-out 100ms;
   -ms-transition: all 200ms ease-in-out 100ms;
   transition: all 200ms ease-in-out 100ms;
 }
-.sidebar li:nth-child(4) .navmenu-item {
+.sidebar li:nth-child(2) .navmenu-item {
   -webkit-transition: all 200ms ease-in-out 150ms;
   -moz-transition: all 200ms ease-in-out 150ms;
   -o-transition: all 200ms ease-in-out 150ms;
   -ms-transition: all 200ms ease-in-out 150ms;
   transition: all 200ms ease-in-out 150ms;
 }
-.sidebar li:nth-child(5) .navmenu-item {
+.sidebar li:nth-child(3) .navmenu-item {
   -webkit-transition: all 200ms ease-in-out 200ms;
   -moz-transition: all 200ms ease-in-out 200ms;
   -o-transition: all 200ms ease-in-out 200ms;
   -ms-transition: all 200ms ease-in-out 200ms;
   transition: all 200ms ease-in-out 200ms;
+}
+.sidebar li:nth-child(4) .navmenu-item {
+  -webkit-transition: all 200ms ease-in-out 250ms;
+  -moz-transition: all 200ms ease-in-out 250ms;
+  -o-transition: all 200ms ease-in-out 250ms;
+  -ms-transition: all 200ms ease-in-out 250ms;
+  transition: all 200ms ease-in-out 250ms;
+}
+.sidebar li:nth-child(5) .navmenu-item {
+  -webkit-transition: all 200ms ease-in-out 300ms;
+  -moz-transition: all 200ms ease-in-out 300ms;
+  -o-transition: all 200ms ease-in-out 300ms;
+  -ms-transition: all 200ms ease-in-out 300ms;
+  transition: all 200ms ease-in-out 300ms;
 }
 
 .container-fluid.wrapper {
@@ -144,6 +144,7 @@
     height: 100vh;
     border-right: 10px solid #42c0ae;
     background: #fff;
+    overflow: hidden;
 }
 
 .backbtn-details {
