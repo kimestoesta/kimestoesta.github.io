@@ -34,6 +34,7 @@
 
   .sidebar {
     background-color: #fac60e;
+    position: fixed;  
   }
 
   #custom-collapse{
