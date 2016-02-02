@@ -44,6 +44,11 @@
     var hero = $("section#hero").hide();
     $("#portfolio-page").show(400, function() {
       hero.show();
+      $('#works-grid').isotope({
+          layoutMode: 'masonry',
+          itemSelector: '.work-item',
+          transitionDuration: '0.3s',
+        });
       $(window).scrollTop(filterLocation);
     });
   };
