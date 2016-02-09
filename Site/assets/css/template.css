@@ -368,7 +368,7 @@ blockquote cite{
 	letter-spacing:2px;
 	font-weight:500;
 	font-size:12px;
-	padding:9px 28px;
+	padding:14px 28px 6px 28px;
 	-webkit-border-radius:0;
 	-moz-border-radius:0;
 	-o-border-radius:0;
@@ -1541,7 +1541,7 @@ blockquote cite{
 	font-weight:700;
 	font-size:11px;
 	color:#111;
-	padding:5px 15px;
+	padding:14px 15px 7px 15px;
 }
 
 .filters li > a.current{
