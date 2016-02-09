@@ -1,11 +1,27 @@
 @font-face {
-    font-family: "DIN";
-    src: url("../fonts/DINMedium.ttf") format("truetype");
+    font-family: 'DIN';
+    src: url('../fonts/dinmedium-webfont.eot');
+    src: url('../fonts/dinmedium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dinmedium-webfont.woff2') format('woff2'),
+         url('../fonts/dinmedium-webfont.woff') format('woff'),
+         url('../fonts/dinmedium-webfont.ttf') format('truetype'),
+         url('../fonts/dinmedium-webfont.svg#dinmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
+
 @font-face {
-    font-family: "Futura";
-    src: url("../fonts/Futura.ttf") format("truetype");
+    font-family: 'Future';
+    src: url('../fonts/futura-webfont.eot');
+    src: url('../fonts/futura-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futura-webfont.woff2') format('woff2'),
+         url('../fonts/futura-webfont.woff') format('woff'),
+         url('../fonts/futura-webfont.ttf') format('truetype'),
+         url('../fonts/futura-webfont.svg#futuraregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* 
