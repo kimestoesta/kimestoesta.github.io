@@ -264,9 +264,14 @@ body, html {
 */
 
 #about-page {
-  padding: 15px;
+  padding: 15px 0px 0px 0px;
+    align-content: center;
 }
 
-.mypic{
-    
+#mypic {
+    padding: 15px 80px;
+}
+
+#about-me {
+    padding-top: 150px;
 }
