@@ -1,11 +1,11 @@
 @font-face {
     font-family: "DIN";
-    src: url("DIN.ttf") format("truetype");
+    src: url("../fonts/DIN.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Futura";
-    src: url("Futura.ttf") format("truetype");
+    src: url("../fonts/Futura.ttf") format("truetype");
 }
 
 /* 
