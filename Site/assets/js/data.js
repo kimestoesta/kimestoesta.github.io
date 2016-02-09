@@ -4,7 +4,7 @@ var projects = [
     tags: ["branding", "packaging", "identity"],
     thumbnail: "images/TOS_fold.jpg",
     images: ["images/tos_menus.jpg", "images/tos_mat.jpg", "images/TOS_Cards.jpg"],
-    description: ""
+    description: "That One Spot is a family owned burger restaurant located in Ocoee, FL. They are known for their well crafted and customizable burgers with a variety of meat options but also provide a variety of salads and sides. While their ingredients are fresh and local they aim to be a fast casual spot for everyone to grab a bite. Keeping their brand in mind I was hired to rebrand the restaurant to more closely reflect their voice today and as they look to grow."
   },
   { 
     title: "EyeSpy.", 
@@ -25,14 +25,14 @@ var projects = [
     tags: ["identity", "illustration"],
     thumbnail: "images/RelientK_DigitalAd.gif",
     images: ["images/relientk-set.jpg","images/relientk-poster.jpg","images/RelientK_case.jpg","images/relientk-album.jpg","images/relientk-cd.jpg","images/RelientK_mocks.jpg",],
-    description: "Stuff"
+    description: "Relient K - Only Fools Know Everything was a retrospective tour campaign for a student project. For this retrospective tour I wanted to capture the essence of growing up and making mistakes but having fun doing it. The idea is that because you were a fool you messed up and it has made you who you are today. <br><br> This project was selected to be displayed at Ligature25."
   },
   { 
     title: "Haulbox Startup", 
     tags: ["branding", "mobile app", "web"],
     thumbnail: "images/haulboxthum.png",
     images:["images/haulboxweb.png", "images/haulboxdemo.png","images/haulboxicons.png","images/haulboxapp.png"],
-    description: "Haulbox is a StartUp Company that originated in Gainesville, FL Starting from scratch as their Graphic Designer I created their entire visual branding from their logo to their promotional items to their web and mobile app graphics."
+    description: "Haulbox is a StartUp Company that originated in Gainesville, FL. As their graphic designer I collaborated with the founders to ideate and create their entire visual branding system. From designing the logo to creating the icons for the user interface of the app and site I wanted to reflect the character of the company and its founders."
   },
   { 
     title: "The Faces of Luck", 
