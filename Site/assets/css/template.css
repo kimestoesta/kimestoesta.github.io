@@ -1166,7 +1166,7 @@ blockquote cite{
 .module-hero h6{
 	letter-spacing:6px;
 	font-size:14px;
-    font-family: 'Futura';
+    font-family: 'Futura', sans-serif;
 }
 
 @media (max-width: 767px){
@@ -1253,7 +1253,7 @@ blockquote cite{
 }
 
 .module-subtitle{
-	font-family: 'Futura', serif;
+	font-family: 'Futura', san-serif;
 	text-align:center;
 	font-style:italic;
 	line-height:1.8;
@@ -1541,7 +1541,7 @@ blockquote cite{
 	font-weight:700;
 	font-size:11px;
 	color:#111;
-	padding:14px 15px 7px 15px;
+	padding:8px 15px 7px 15px;
 }
 
 .filters li > a.current{
