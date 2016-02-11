@@ -246,7 +246,7 @@ body, html {
 */
 
 #blog-page .hero {
-  height: 500px;
+  height: 300px;
 }
 
 
@@ -269,6 +269,15 @@ body, html {
   .modal-dialog { 
     width: 80%;
   }
+}
+
+.modal-backdrop {
+  background-color: #fff;
+}
+
+.modal-content {
+    border-radius: 0;
+    padding: 15px;
 }
 
 /* 
