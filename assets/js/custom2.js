@@ -88,8 +88,9 @@
           });
         });
 
-        id = url.slice(12)
-        $("#modal" + id).modal('show');
+        projectName = url.slice(12)
+
+        $("#modal_" + projectName).modal('show');
       });
     } else {
       hideAll();
