@@ -289,14 +289,22 @@ body, html {
 */
 
 #about-page {
-  padding: 15px 0px 0px 0px;
-    align-content: center;
+  padding-top: 15px;
+  align-content: center;
 }
 
-#mypic {
-    padding: 15px 80px;
+#mypic img{
+  display:block;
+  margin:auto;
+  padding-top: 15px;
 }
 
 #about-me {
+  padding-top: 50px;
+}
+
+@media only screen and (min-width: 992px) {
+  #about-me {
     padding-top: 150px;
+  }
 }

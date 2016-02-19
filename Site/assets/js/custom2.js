@@ -23,7 +23,8 @@
   var hideAllAndShow = function(page, callback) { 
     hideAll();
     $(page).show(400, function() {
-      callback();
+      if (callback) 
+        callback();
     });
   };
 
