@@ -91,7 +91,11 @@
         id = url.slice(12)
         $("#modal" + id).modal('show');
       });
-      
+    } else {
+      hideAll();
+      $("#portfolio-page").show(0, function() {
+        filterLocation = $("#hero").height();
+      });
     }
 
     if ($(window).width() >= 992)
