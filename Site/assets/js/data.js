@@ -60,7 +60,7 @@ var portfolio_link = function(project, index) {
                     '<h3 class="work-title font-alt">' + project.title + '</h3>' +
                     '<span class="work-category font-serif"><a href="#">' + project.tags.join(", ") + '</a></span>' +
                   '</div>' +
-                  '<a href="#" class="work-link" id="' + index + '"></a>' +
+                  '<a href="#/project/' + index + '" class="work-link" id="' + index + '"></a>' +
                 '</div>' +
               '</article>'
 }

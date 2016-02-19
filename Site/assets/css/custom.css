@@ -269,6 +269,11 @@ body, html {
   .modal-dialog { 
     width: 80%;
   }
+
+  .modal-body {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
 }
 
 .modal-backdrop {
@@ -276,9 +281,16 @@ body, html {
 }
 
 .modal-content {
-    border-radius: 0;
-    padding: 15px;
+  border-radius: 0;
+  padding: 15px;
 }
+
+.modal-header {
+  border-bottom: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 
 /* 
 =======================================================
