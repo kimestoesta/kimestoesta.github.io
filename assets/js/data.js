@@ -18,7 +18,7 @@ var projects = [
     tags: ["print", "digital"],
     thumbnail: "images/findfit-thumbnail.jpg",
     images: ["images/findfit-multiple.jpg","images/findfit-double.jpg", "images/findfit-booklet.gif", "images/findfit-social.jpg", "images/findfit-table.jpg", "images/findfit-sides.jpg", "images/findfit-tvs.jpg",],
-    description: "stuff."
+    description: "The marketing team for Recreation Sports at the University of Florida is comprised of designers, videographers, photographers, and media specialists. Working in-house we service many different departments within RecSports like clients making sure to boost visibility and spread awareness of several campaigns or events. This project was "
   },
   { 
     title: "Relient K Band Tour", 
@@ -55,12 +55,19 @@ var projects = [
     images: ["images/jelly-all.jpg", "images/jelly-cards.jpg", "images/jelly-poster.gif", "images/jelly-flavordetails.jpg", "images/jelly-flavorbag.jpg"],
     description: "."
   }, 
-{ 
+  { 
     title: "Goode Chocolate Bars", 
     tags: ["packaging", "branding"],
     thumbnail: "images/goode-above.jpg",
     images: ["images/goodechocolate.jpg","images/goode-above.jpg"],
     description: "The Goode Chocolate Company was a fictional chocolate company for a student project celebrating 100 years of bussiness. To honor their anniversary this packaging design pays tribute to some of the company’s best years, the roaring 20s. The company sells three flavors dark, milk, and white chocolate each distinguished by a different colored foil revealed through the New York City skyline where the company originated."
+  },
+  { 
+    title: "Emergent Adventure", 
+    tags: ["digital", "coding"],
+    thumbnail: "images/webfull.png",
+    images: ["images/webfull.png","images/webboxes.png", "images/webpoint.png"],
+    description: "."
   },
   
 ];
