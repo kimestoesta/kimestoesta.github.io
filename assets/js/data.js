@@ -17,8 +17,9 @@ var projects = [
     title: "RecSports Small Group Training", 
     tags: ["print", "digital"],
     thumbnail: "images/findfit-thumbnail.jpg",
-    images: ["images/findfit-multiple.jpg","images/findfit-double.jpg", "images/findfit-booklet.gif", "images/findfit-social.jpg", "images/findfit-table.jpg", "images/findfit-sides.jpg", "images/findfit-tvs.jpg",],
-    description: "The marketing team for Recreation Sports at the University of Florida is comprised of designers, videographers, photographers, and media specialists. Working in-house we service many different departments within RecSports like clients making sure to boost visibility and spread awareness of several campaigns or events. This project was "
+    clips: ['<iframe src="https://player.vimeo.com/video/155912657" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'],
+    images: ["images/findfit-multiple.jpg","images/findfit-double.jpg", "images/findfit-booklet.gif", "images/findfit-social.jpg", "images/findfit-table.jpg", "images/findfit-sides.jpg", "$", "images/findfit-tvs.jpg",],
+    description: 'The marketing team for Recreation Sports at the University of Florida is comprised of designers, videographers, photographers, and media specialists. Working in-house we service many different departments within RecSports like clients making sure to boost visibility and spread awareness of several campaigns or events.'
   },
   { 
     title: "Relient K Band Tour", 
@@ -111,9 +112,15 @@ $(function($) {
 
 
 function preload(projects) {
+  clipIndex = 0;
   for (var i = 0; i < projects.length; i++) {
     for (var j = 0; j < projects[i].images.length; j++) {
-      projects[i].images[j] = $('<img />').attr('src',projects[i].images[j]);
+      if (projects[i].images[j] != "$")
+        projects[i].images[j] = $('<img />').attr('src',projects[i].images[j]);
+      else {
+        projects[i].images[j] = projects[i].clips[clipIndex];
+        clipIndex += 1;
+      }
     }
   }
 }
