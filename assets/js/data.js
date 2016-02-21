@@ -17,14 +17,9 @@ var projects = [
     title: "RecSports Small Group Training", 
     tags: ["print", "digital", "campaign"],
     thumbnail: "images/findfit-thumbnail.jpg",
-<<<<<<< Updated upstream
     clips: ['<iframe src="https://player.vimeo.com/video/155912657" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'],
     images: ["images/findfit-multiple.jpg","images/findfit-double.jpg", "images/findfit-booklet.gif", "images/findfit-social.jpg", "images/findfit-table.jpg", "images/findfit-sides.jpg", "$", "images/findfit-tvs.jpg",],
     description: 'The marketing team for Recreation Sports at the University of Florida is comprised of designers, videographers, photographers, and media specialists. Working in-house we service many different departments within RecSports like clients making sure to boost visibility and spread awareness of several campaigns or events.'
-=======
-    images: ["images/findfit-multiple.jpg","images/findfit-double.jpg", "images/findfit-booklet.gif", "images/findfit-social.jpg", "images/findfit-table.jpg", "images/findfit-sides.jpg", "images/findfit-tvs.jpg",],
-    description: "The marketing team for Recreational Sports at the University of Florida is comprised of designers, videographers, photographers, and media specialists. I work in-house where we service many different departments within RecSports like clients making sure to boost visibility and spread awareness of several campaigns or events. This was a 4 page booklet I designed for Small Group Training. It includes the different formats offered for that semester as well as the rates and calendar of all the classes being offered. For the campagn we printed and distributed the 4 pager at all our facilities and ran the campaign through our website and social media channels. I also animated the campaign for our digital outlets that play throughout the day on severals screens throughout the fitness facilites."
->>>>>>> Stashed changes
   },
   { 
     title: "Relient K Band Tour", 

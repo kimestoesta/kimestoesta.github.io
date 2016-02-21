@@ -1,13 +1,4 @@
 var sb_projects = [
-  {
-    title: "That One Spot", 
-    tags: ["branding", "packaging", "identity"],
-    thumbnail: "images/TOS_fold.jpg",
-    images: ["images/tos_menus.jpg", "images/tos_mat.jpg", "images/TOS_Cards.jpg"],
-    url: "card",
-    description: "",
-    
-  },
   { 
     title: "EyeSpy.", 
     tags: ["identity", "mobile app", "web"],
