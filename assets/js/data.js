@@ -25,7 +25,7 @@ var projects = [
     title: "Relient K Band Tour", 
     tags: ["branding", "illustration"],
     thumbnail: "images/relientk-digitalad.gif",
-    images: ["images/relientk-all.jpg", "images/relientk-posters.jpg", "images/relientk-trio.jpg", "images/relientk-CD.jpg", "images/relientk-book.jpg", "images/relientk-bookdetails.jpg", "images/relientk-pass.jpg", "images/relientk-lyricbook.jpg", "images/relientk-all2.jpg",],
+    images: ["images/relientk-all.jpg", "images/relientk-posters.jpg", "images/relientk-trio.jpg", "images/relientk-cd.jpg", "images/relientk-book.jpg", "images/relientk-bookdetails.jpg", "images/relientk-pass.jpg", "images/relientk-lyricbook.jpg", "images/relientk-all2.jpg",],
     description: "Relient K - Only Fools Know Everything was a retrospective tour campaign I created for a student project. For this retrospective tour I wanted to capture the essence of growing up and making mistakes but having fun doing it which is how the band has characterized themselves through their music over the years. The idea is that because you were a fool you messed up and it has made you who you are today. <br><br>The tour is accomanied by a book release in which the band writes on their journey and process of writing their songs as well as a special edition CD release that includes a lyric booklet of all the songs on the album. Fans and new listeners will notice that each song is accompanied by illstrations relating to lyrics within the songs. These illustrations comprise the identity of the tour itself shown through posters, VIP passes, book and album art. "
   },
   { 
