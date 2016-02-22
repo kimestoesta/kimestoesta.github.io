@@ -25,7 +25,7 @@ var projects = [
     title: "Relient K Band Tour", 
     tags: ["branding", "illustration"],
     thumbnail: "images/relientk-digitalad.gif",
-    images: ["images/relientk-all.jpg", "images/relientk-posters.jpg", "images/relientk-trio.jpg", "images/relientk_cd.jpg", "images/relientk-book.jpg", "images/relientk-bookdetails.jpg", "images/relientk-pass.jpg", "images/relientk-lyricbook.jpg", "images/relientk-all2.jpg",],
+    images: ["images/relientk-all.jpg", "images/relientk-posters.jpg", "images/relientk-trio.jpg", "images/relientk-cd.jpg", "images/relientk-book.jpg", "images/relientk-bookdetails.jpg", "images/relientk-pass.jpg", "images/relientk-lyricbook.jpg", "images/relientk-all2.jpg",],
     description: "Relient K - Only Fools Know Everything was a retrospective tour campaign I created for a student project. For this retrospective tour I wanted to capture the essence of growing up and making mistakes but having fun doing it which is how the band has characterized themselves through their music over the years. The idea is that because you were a fool you messed up and it has made you who you are today. <br><br>The tour is accomanied by a book release in which the band writes on their journey and process of writing their songs as well as a special edition CD release that includes a lyric booklet of all the songs on the album. Fans and new listeners will notice that each song is accompanied by illstrations relating to lyrics within the songs. These illustrations comprise the identity of the tour itself shown through posters, VIP passes, book and album art. "
   },
   { 
@@ -45,7 +45,7 @@ var projects = [
   { 
     title: "The Faces of Luck", 
     tags: ["digital", "print", "illustration"],
-    thumbnail: "images/cards_characters.jpg",
+    thumbnail: "images/cards-characters.jpg",
     images: ["images/cardsflat.png",],
     description: "Faces of Luck was created for a student project. The illustration depicts an exploded view of playing cards but also holds meaning in the depictions of the King and Queen. Cards can associated with gambling and the images work to subtly show the cycles of gambling, you win some and you lose some. Gambling is a non-discriminatory activity and can effect both male and female. The illustration portrays this serious topic in a lighthearted style and allows people to entertain the thought of lows and highs in gambling. This project will later be expanded into a card deck."
   }, 
