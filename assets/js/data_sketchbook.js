@@ -5,8 +5,28 @@ var sb_projects = [
     images: ["images/card-sketch.jpg","images/card-draft1.jpg","images/card-draft2.jpg","images/card-draft3.jpg","images/card-draft4.jpg","images/card-final.gif",],
     url: "card",
     description: "I wanted to make a special takeaway item to leave or send people to remind them of me and my work. I wanted it to show a side of me that was a little harder to express on a portfolio or website. I really like paper art and physically making work so I decided to desgn a pop up card. I've never done this type of paper art work so it was a big learning curving trying to figure out how to make this card. First I started with some sketches of what I wanted it to look like then did some problem solving using cut outs and troubleshooting.$$$$ At this point I started to create the general boxes I needed to fold and cut on illustrator. The computer screen faintly shows the file I was working on in illustrator.$ Here I figured out the right pop up mechanism and I could finally put in the dtails of the images I wanted to have popout.$ Did some scaling and now it's all set and ready to send!" 
+  },
+  { 
+    title: "Wander Often, Wonder Always", 
+    thumbnail: "images/wander-thumb.jpg",
+    images: ["images/wander-full.gif","images/wander-rocks.jpg","images/wander-wolf.jpg","images/wander-monster.jpg","images/wander-cover.jpg",],
+    url: "wander",
+    description: "$$$$$" 
+  },
+  { 
+    title: "Find my Way to You", 
+    thumbnail: "images/sail-thumb.jpg",
+    images: ["images/sail-inside.jpg","images/sail-top.jpg","images/sail-angle.jpg","images/sail-cover.jpg",],
+    url: "sail",
+    description: "$$$$" 
+  },
+  { 
+    title: "UFGD Class of 2016", 
+    thumbnail: "images/class-poster.jpg",
+    images: ["images/sail-inside.jpg","images/sail-top.jpg","images/sail-angle.jpg","images/sail-cover.jpg",],
+    url: "class",
+    description: "$$$$" 
   }
-  
 ];
 
 
