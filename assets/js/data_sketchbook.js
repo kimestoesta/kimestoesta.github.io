@@ -26,7 +26,7 @@ var sb_link = function(project, index) {
 
 var insert_images = function(images, description) {
   for (var i = 0; i < images.length; i++) {
-    description = description.replace("$", "<img src='" + images[i] + "' class='img-rounded img-responsive'><br>")
+    description = description.replace("$", "</p><img src='" + images[i] + "' class='img-rounded img-responsive'><p>")
   }
   return description;
 }
@@ -40,7 +40,9 @@ var sb_modal = function(project, index) {
                   '<h2 class="modal-title" id="modalLabel' + index + '">' + project.title + '</h2>' +
                 '</div>' +
                 '<div class="modal-body">' +
-                  insert_images(project.images, project.description) +
+                  '<p>' +
+                    insert_images(project.images, project.description) +
+                  '</p>' +
                 '</div>' +
               '</div>' +
             '</div>' +
