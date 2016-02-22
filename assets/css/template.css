@@ -1599,6 +1599,7 @@ blockquote cite{
 	-moz-transform:translateY(00%);
 	-o-transform:translateY(00%);
 	transform:translateY(00%);
+	opacity: 0.9;
 }
 
 .work-item img{
