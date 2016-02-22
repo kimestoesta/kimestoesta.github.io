@@ -230,6 +230,9 @@ body, html {
     padding-left: 75px;
     padding-right: 75px;
   }
+  .modal-body img{
+    margin: auto;
+  }
 }
 
 .modal-backdrop {

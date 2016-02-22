@@ -29,36 +29,36 @@ var projects = [
     description: "Relient K - Only Fools Know Everything was a retrospective tour campaign I created for a student project. For this retrospective tour I wanted to capture the essence of growing up and making mistakes but having fun doing it which is how the band has characterized themselves through their music over the years. The idea is that because you were a fool you messed up and it has made you who you are today. <br><br>The tour is accomanied by a book release in which the band writes on their journey and process of writing their songs as well as a special edition CD release that includes a lyric booklet of all the songs on the album. Fans and new listeners will notice that each song is accompanied by illstrations relating to lyrics within the songs. These illustrations comprise the identity of the tour itself shown through posters, VIP passes, book and album art. "
   },
   { 
+    title: "The Kailune Chronicles", 
+    tags: ["concept", "storytelling", "illustration"],
+    thumbnail: "images/imaginations-poster.jpg",
+    images:["images/imaginations-logo.jpg", "images/imaginations-1.jpg", "images/imaginations-2.jpg","images/imaginations-3.jpg","images/imaginations-4.jpg", "images/imaginations-5.jpg","images/imaginations-6.jpg", "images/imaginations-map.jpg", "images/imaginations-process.jpg",],
+    description: "The Kailune Chronicles is a project designed for the Disney Imaginations Competition. Wanting to enter the competition I recruited 3 other students - Elizabeth Rhodes, Brandon Kocher, and Shari Brown. Together as a team we imagined and concepted The Kailune Chronicles as the solution to the Imaginations Competition project challenge. The 2015 challenge was to create a form of traveling entertainment that could be set up and broken down within a day. Not everyone has the means to visit Disney World ot Disneyland so this traveling entertanment was meant to make a tour of the United States stopping in several cities for 2-3 days.<br><br>This was the final presentation we submitted. Together we collaborated and came up with the story during a series of meetings. In production we split up our duties to create the final presentation. My contributions to the project were creating the logo, the official park map, helping with concept and UX of the app, concept art of the domes and airships, research of airship technology, Maya 3-D model of the airships, and the storyboard art sequence of the final show. Over all I worked as the team leader and art director making calendars and controlling task management of the group."
+  },
+  { 
     title: "Haulbox Startup", 
-    tags: ["branding", "mobile app", "web"],
+    tags: ["branding", "digital", "mobile app", "web"],
     thumbnail: "images/haulboxthum.png",
     images:["images/haulboxicons.png", "images/haulboxweb.png", "images/haulboxdemo.png","images/haulboxapp.png"],
     description: "Haulbox is a StartUp Company that originated in Gainesville, FL. As their lead graphic designer I collaborated with the founders to ideate and create their entire visual branding system from the ground up. From designing the logo to creating the icons for the user interface of the app and site I wanted to reflect the company's convenient, friendly, and easy service. During this experience I worked with entrepenuers and programmers directly in an open studio layout at the startup incubator Starterspace. I was later promoted to work with other startups within Starterspace as a creative director and designer."
   },
   { 
-    title: "The Kailune Chronicles", 
-    tags: ["concept", "storytelling", "illustration"],
-    thumbnail: "images/imaginations-logo.jpg",
-    images:["images/imaginations-1.jpg", "images/imaginations-2.jpg","images/imaginations-3.jpg","images/imaginations-4.jpg", "images/imaginations-5.jpg","images/imaginations-6.jpg",],
-    description: "The Kailune Chronicles is a project designed for the Disney Imaginations Competition. Wanting to enter the competition I recruited 3 other students - Elizabeth Rhodes, Brandon Kocher, and Shari Brown. Together as a team we imagined and concepted The Kailune Chronicles as the solution to the Imaginations Competition project challenge. The 2015 challenge was to create a form of traveling entertainment that could be set up and broken down within a day. Not everyone has the means to visit Disney World ot Disneyland so this traveling entertanment was meant to make a tour of the United States stopping in several cities for 2-3 days.<br><br>This was the final presentation we submitted. Together we collaborated and came up with the story during a series of meetings. In production we split up our duties to create the final presentation. My contributions to the project were creating the logo, the official park map, helping with concept and UX of the app, concept art of the domes and airships, research of airship technology, Maya 3-D model of the airships, and the storyboard art sequence of the final show. Over all I worked as the team leader and art director making calendars and controlling task management of the group."
-  },
-  { 
     title: "The Faces of Luck", 
     tags: ["digital", "print", "illustration"],
-    thumbnail: "images/Cards-characters.jpg",
+    thumbnail: "images/cards-characters.jpg",
     images: ["images/cardsflat.png",],
     description: "Faces of Luck was created for a student project. The illustration depicts an exploded view of playing cards but also holds meaning in the depictions of the King and Queen. Cards can associated with gambling and the images work to subtly show the cycles of gambling, you win some and you lose some. Gambling is a non-discriminatory activity and can effect both male and female. The illustration portrays this serious topic in a lighthearted style and allows people to entertain the thought of lows and highs in gambling. This project will later be expanded into a card deck."
   }, 
   { 
     title: "Jelly Belly", 
-    tags: ["identity", "menu design"],
+    tags: ["branding", "illustration", "print"],
     thumbnail: "images/jelly-bag.jpg",
     images: ["images/jelly-all.jpg", "images/jelly-cards.jpg", "images/jelly-poster.gif", "images/jelly-flavordetails.jpg", "images/jelly-flavorbag.jpg"],
     description: "This student project is "
   }, 
   { 
     title: "Goode Chocolate Bars", 
-    tags: ["packaging", "branding"],
+    tags: ["packaging", "branding", "print"],
     thumbnail: "images/goode-above.jpg",
     images: ["images/goodechocolate.jpg","images/goode-above.jpg"],
     description: "The Goode Chocolate Company was a fictional chocolate company for a student project celebrating 100 years of bussiness. To honor their anniversary this packaging design pays tribute to some of the company’s best years, the roaring 20s. The company sells three flavors dark, milk, and white chocolate each distinguished by a different colored foil revealed through the New York City skyline where the company originated."

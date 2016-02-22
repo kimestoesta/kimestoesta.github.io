@@ -1,30 +1,23 @@
 var sb_projects = [
   { 
-    title: "EyeSpy.", 
-    tags: ["identity", "mobile app", "web"],
-    thumbnail: "images/EyeSpyLogin.gif",
-    images: ["images/EyeSpyRiddler.jpg","images/EyeSpy-Concept.jpg","images/EyeSpy-UserProfile.jpg","images/EyeSpy-elephant.jpg","images/EyeSpy-menu.jpg","images/EyeSpy-FlatPurple.jpg", "images/EyeSpy-Vessel.jpg","images/EyeSpy_Welcome.jpg","images/EyeSpy-done.jpg","images/EyeSpy-DemoView.jpg"],
-    url: "eyespy",
-    description: "$EyeSpy is a project I did with my classmate, Paige Carl, for the Harn Museum of Art. $The project challenge was to design an app for the Harn Museum that focused on the Asian collection emphasizing both mobility and sensor technology. Our solution led to the creation of an app, EyeSpy, which we prototyped with a focus on the Asian collection of the Harn but could also be expanded for future collections. <br><br> EyeSpy is designed to be the Harn Museum’s interactive mystery adventure game app. Users have only 60 minutes to physically explore the museum exhibit to search for clues and figure out riddles to solve the mystery. During the project I had a large focus on the story, concepting, User Interface design, and illustration. Paige and I worked together to create the information architecture and user experience of the game and split screen production design. <br><br> Try the prototype on <a href='http://invis.io/UX2RU5KV6'>invision</a>" 
+    title: "Personal Brand Card", 
+    thumbnail: "images/card-thumbnail.jpg",
+    images: ["images/card-sketch.jpg","images/card-draft1.jpg","images/card-draft2.jpg","images/card-draft3.jpg","images/card-draft4.jpg","images/card-final.gif",],
+    url: "card",
+    description: "I wanted to make a special takeaway item to leave or send people to remind them of me and my work. I wanted it to show a side of me that was a little harder to express on a portfolio or website. I really like paper art and physically making work so I decided to desgn a pop up card. I've never done this type of paper art work so it was a big learning curving trying to figure out how to make this card. First I started with some sketches of what I wanted it to look like then did some problem solving using cut outs and troubleshooting.$$$$$$" 
   }
   
 ];
 
 
 var sb_link = function(project, index) {
-
-  var tag_classes = project.tags;
-  for (var i = 0; i < tag_classes.length; i++) {
-    tag_classes[i] = tag_classes[i].replace(" ", "-");
-  }
-  return  '<article class="work-item ' + tag_classes.join(" ") + '">' +
+  return  '<article class="work-item">' +
             '<div class="work-wrapper">' +
               '<div class="work-thumbnail">' +
                 '<img src="' + project.thumbnail + '" alt="">' +
                   '</div>' +
                   '<div class="work-caption">' +
                     '<h3 class="work-title font-alt">' + project.title + '</h3>' +
-                    '<span class="work-category font-serif"><a href="#">' + project.tags.join(", ") + '</a></span>' +
                   '</div>' +
                   '<a href="#" class="work-link" id="' + index + '" data-toggle="modal" data-target="#modal_' + project.url + '"></a>' +
                 '</div>' +
