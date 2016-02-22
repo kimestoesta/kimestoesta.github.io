@@ -25,9 +25,11 @@ var sb_link = function(project, index) {
 };
 
 var insert_images = function(images, description) {
-  for (var i = 0; i < images.length; i++) {
+  for (var i = 0; i < images.length; i++)
     description = description.replace("$", "</p><img src='" + images[i] + "' class='img-rounded img-responsive'><p>")
-  }
+  while (description.indexOf("<p></p>") != -1)
+    description = description.replace("<p></p>", "");
+
   return description;
 }
 
