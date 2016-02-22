@@ -215,24 +215,8 @@ body, html {
 =======================================================
 */
 
-@media only screen and (max-width: 991px) {
-  .modal-content {
-    top: 60px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .modal-dialog { 
-    width: 80%;
-  }
-
-  .modal-body {
-    padding-left: 75px;
-    padding-right: 75px;
-  }
-  .modal-body img{
-    margin: auto;
-  }
+.modal-body img{
+  margin: auto;
 }
 
 .modal-backdrop {
@@ -248,7 +232,32 @@ body, html {
   border-bottom: 0;
   padding-left: 20px;
   padding-right: 20px;
+  text-align: center;
 }
+
+@media only screen and (max-width: 991px) {
+  .modal-content {
+    top: 60px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .modal-dialog { 
+    width: 80%;
+  }
+
+  .modal-body {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+  .modal-body p{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 15px;
+    text-align: center;
+  }
+}
+
 
 
 /* 
