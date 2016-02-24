@@ -4,7 +4,14 @@ var sb_projects = [
     thumbnail: "images/card-thumbnail.jpg",
     images: ["images/card-sketch.jpg","images/card-draft1.jpg","images/card-draft2.jpg","images/card-draft3.jpg","images/card-draft4.jpg","images/card-final.gif",],
     url: "card",
-    description: "I wanted to make a special takeaway item to leave or send people to remind them of me and my work. I wanted it to show a side of me that was a little harder to express on a portfolio or website. I really like paper art and physically making work so I decided to desgn a pop up card. I've never done this type of paper art work so it was a big learning curving trying to figure out how to make this card. First I started with some sketches of what I wanted it to look like then did some problem solving using cut outs and troubleshooting.$$$$ At this point I started to create the general boxes I needed to fold and cut on illustrator. The computer screen faintly shows the file I was working on in illustrator.$ Here I figured out the right pop up mechanism and I could finally put in the dtails of the images I wanted to have popout.$ Did some scaling and now it's all set and ready to send!" 
+    description: "I wanted to make a special takeaway item to leave or send people to remind them of me and my work. I wanted it to show a side of me that was a little harder to express on a portfolio or website. I really like paper art and physically making work so I decided to desgn a pop up card. I've never done this type of paper art work so it was a big learning curving trying to figure out how to make this card. First I started with some sketches of what I wanted it to look like then did some problem solving using cut outs and troubleshooting.$$$ At this point I started to create the general boxes I needed to fold and cut on illustrator. The computer screen faintly shows the file I was working on in illustrator.$ Here I figured out the right pop up mechanism and I could finally put in the dtails of the images I wanted to have popout. $ Did some scaling and now it's all set and ready to send! $" 
+  },
+  { 
+    title: "UFGD Valentine's 2016", 
+    thumbnail: "images/valentine-thumb.jpg",
+    images: ["images/valentine-card.jpg", "images/valentine-box.jpg",],
+    url: "valentines2016",
+    description: "For Valentine's Day this year we decided to do a throwback to our kindergarten days and make cards for everyone in the graphic design program. Instead of candy I wanted to make some chocolate dipped mint oreos! I've learned that almost no one can turn down an oreo. $ Don't laugh at my box it was a busy time in my life haha. Looks like it did in elementary school :P $" 
   },
   { 
     title: "Wander Often, Wonder Always", 
@@ -12,6 +19,20 @@ var sb_projects = [
     images: ["images/wander-full.gif","images/wander-rocks.jpg","images/wander-wolf.jpg","images/wander-monster.jpg","images/wander-cover.jpg",],
     url: "wander",
     description: "$$$$$" 
+  },
+  { 
+    title: "12.28.15", 
+    thumbnail: "images/sketch-collargirl.jpg",
+    images: ["images/sketch-collargirl.jpg",],
+    url: "122815",
+    description: "$" 
+  },
+  { 
+    title: "12.25.15", 
+    thumbnail: "images/sketch-girlorange.jpg",
+    images: ["images/sketch-girlorange.jpg",],
+    url: "122515",
+    description: "$" 
   },
   { 
     title: "Find my Way to You", 
@@ -23,16 +44,30 @@ var sb_projects = [
   { 
     title: "UFGD Class of 2016", 
     thumbnail: "images/class-poster.jpg",
-    images: ["images/class-cover.jpg","images/class-all.gif","images/class-angle.jpg", "images/class-pinnedposter.jpg",],
+    images: ["images/class-all.gif", "images/class-angle.jpg", "images/class-pinnedposter.jpg",  "images/class-cover.jpg",],
     url: "class",
     description: "$$$$" 
   },
   { 
     title: "Admit One", 
     thumbnail: "images/circus-ticket.gif",
-    images: ["images/circus-intro.jpg", "images/circus-series.gif","images/circus-red.jpg","images/circus-accordian.jpg",],
+    images: ["images/circus-series.gif", "images/circus-intro.jpg", "images/circus-red.jpg","images/circus-accordian.jpg",],
     url: "circus",
     description: "$$$$" 
+  },
+  { 
+    title: "Sulley Practice Sketch", 
+    thumbnail: "images/sketch-sulley.jpg",
+    images: ["images/sketch-sulley.jpg",],
+    url: "sulley",
+    description: "A practice digital painting I did for a personal 30 day drawing a day challenge in 2013. Did it before I watched Monsters University. Quality pre-quel to a beloved movie which is a hard thing to do. $" 
+  },
+  { 
+    title: "Wall-E Practice Sketch", 
+    thumbnail: "images/sketch-walle.jpg",
+    images: ["images/sketch-walle.jpg",],
+    url: "wall-e",
+    description: "One of the practice digital paintings I did for a personal 30 day drawing a day challenge in 2013. <br> Shout out to Pixar this movie was adorable. An underated film but the topics and concepts are so clever. If you haven't watched it yet do it now. $" 
   },
 ];
 
