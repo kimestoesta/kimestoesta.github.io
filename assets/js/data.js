@@ -33,7 +33,7 @@ var projects = [
     tags: ["concept", "storytelling", "illustration"],
     thumbnail: "images/imaginations-poster.jpg",
     images:["images/imaginations-logo.jpg", "images/imaginations-1.jpg", "images/imaginations-2.jpg","images/imaginations-3.jpg","images/imaginations-4.jpg", "images/imaginations-5.jpg","images/imaginations-6.jpg", "images/imaginations-map.jpg", "images/imaginations-process.jpg",],
-    description: "The Kailune Chronicles is a project designed for the Disney Imaginations Competition. Wanting to enter the competition I recruited 3 other students - Elizabeth Rhodes, Brandon Kocher, and Shari Brown. Together as a team we imagined and concepted The Kailune Chronicles as the solution to the Imaginations Competition project challenge. The 2015 challenge was to create a form of traveling entertainment that could be set up and broken down within a day. Not everyone has the means to visit Disney World ot Disneyland so this traveling entertanment was meant to make a tour of the United States stopping in several cities for 2-3 days.<br><br>This was the final presentation we submitted. Together we collaborated and came up with the story during a series of meetings. In production we split up our duties to create the final presentation. My contributions to the project were creating the logo, the official park map, helping with concept and UX of the app, concept art of the domes and airships, research of airship technology, Maya 3-D model of the airships, and the storyboard art sequence of the final show. Over all I worked as the team leader and art director making calendars and controlling task management of the group."
+    description: "The Kailune Chronicles is a project designed for the Disney Imaginations Competition. Wanting to enter the competition I recruited 3 other students - Elizabeth Rhodes, Brandon Kocher, and Shari Brown. Together as a team we imagined and concepted The Kailune Chronicles as the solution to the Imaginations Competition project challenge. The 2015 challenge was to create a form of traveling entertainment that could be set up and broken down within a day. Not everyone has the means to visit Disney World ot Disneyland so this traveling entertanment was meant to make a tour of the United States stopping in several cities for 2-3 days.<br><br>This was the final presentation we submitted. Together we collaborated and came up with the story during a series of meetings. In production we split up our duties to create the final presentation. My contributions to the project were creating the logo, the official park map, helping with concept and UX of the app, concept art of the domes and airships, research of airship technology, Maya 3-D model of the airships, and the storyboard art sequence of the final show. Overall I worked as the team leader and art director making calendars and controlling task management of the group."
   },
   { 
     title: "Haulbox Startup", 
@@ -54,14 +54,14 @@ var projects = [
     tags: ["branding", "illustration", "print"],
     thumbnail: "images/jelly-bag.jpg",
     images: ["images/jelly-all.jpg", "images/jelly-cards.jpg", "images/jelly-poster.gif", "images/jelly-flavordetails.jpg", "images/jelly-flavorbag.jpg"],
-    description: "This student project is "
+    description: "This student project is the beginning of a rebrand for Jelly Belly, the makers of gourmet jelly beans. After researching Jelly Belly's history I learned that jelly beans were actually made popular by President Ronald Reagan during his time in office. Since then Jelly Belly has kept their brand identity the same so I wanted to bring new life to the brand and make it more relevant to today. As the generation of Ronald Reagan ages I wanted to focus to a new and younger audience. Here I have have created a new logo, mascot, flavor guide, and packaging concept. The project will later extend to show character animations and a larger packaging system."
   }, 
   { 
     title: "Goode Chocolate Bars", 
     tags: ["packaging", "branding", "print"],
     thumbnail: "images/goode-above.jpg",
     images: ["images/goodechocolate.jpg","images/goode-above.jpg"],
-    description: "The Goode Chocolate Company was a fictional chocolate company for a student project celebrating 100 years of bussiness. To honor their anniversary this packaging design pays tribute to some of the company’s best years, the roaring 20s. The company sells three flavors dark, milk, and white chocolate each distinguished by a different colored foil revealed through the New York City skyline where the company originated."
+    description: "The Goode Chocolate Company was a fictional chocolate company for a student project celebrating 100 years of bussiness. To honor their anniversary this packaging design pays tribute to some of the company’s best years, the roaring 20s. The company sells three flavors dark, milk, and white chocolate each distinguished by a different colored foil revealed through the die cut New York City skyline where the company originated."
   },
 
 ];

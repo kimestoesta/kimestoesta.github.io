@@ -23,10 +23,17 @@ var sb_projects = [
   { 
     title: "UFGD Class of 2016", 
     thumbnail: "images/class-poster.jpg",
-    images: ["images/sail-inside.jpg","images/sail-top.jpg","images/sail-angle.jpg","images/sail-cover.jpg",],
+    images: ["images/class-cover.jpg","images/class-all.gif","images/class-angle.jpg", "images/class-pinnedposter.jpg",],
     url: "class",
     description: "$$$$" 
-  }
+  },
+  { 
+    title: "Admit One", 
+    thumbnail: "images/circus-ticket.gif",
+    images: ["images/circus-intro.jpg", "images/circus-series.gif","images/circus-red.jpg","images/circus-accordian.jpg",],
+    url: "circus",
+    description: "$$$$" 
+  },
 ];
 
 
