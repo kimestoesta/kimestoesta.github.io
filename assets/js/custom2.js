@@ -42,22 +42,26 @@
   };
 
   var routeHash = function() {
-    
+    $(".xactive").removeClass("xactive");
     var url = location.hash.slice(1) || '/';
 
     if (url == '/') {
+      $("#portfolio-page-link").addClass("xactive");
       hideAll();
       $("#portfolio-page").show(0, function() {
         filterLocation = $("#hero").height();
       });
     } 
     else if (url == '/portfolio') {
+      $("#portfolio-page-link").addClass("xactive");
       goToPortfolio();
     } 
     else if (url == '/about') {
+      $("#about-page-link").addClass("xactive");
       hideAllAndShow("#about-page");
     } 
     else if (url == '/sketchbook') {
+      $("#blog-page-link").addClass("xactive");
       hideAllAndShow("#blog-page", function() {
         var sbgrid = $('#sketchbook-grid');
 
@@ -77,6 +81,7 @@
       loadProject(project)
     }
     else if (url.slice(0, 11) == "/sketchbook"){
+      $("#blog-page-link").addClass("xactive");
       hideAllAndShow("#blog-page", function() {
         var sbgrid = $('#sketchbook-grid');
 
@@ -115,6 +120,7 @@
       }
     });
   }
+  
 
   var filterLocation = 0;
 
@@ -126,7 +132,6 @@
     routeHash();
   }
   
-
   $(window).resize(function() {
     if ($(window).width() >= 992)
       resizeDetailsImages($(window).height());

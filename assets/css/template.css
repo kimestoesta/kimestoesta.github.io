@@ -119,7 +119,7 @@ a:hover, a:focus{
 	color:#fac60e;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5{
 	font-family:'DIN', sans-serif;
 	text-transform:uppercase;
 	letter-spacing:4px;
@@ -142,12 +142,18 @@ h4{
 }
 
 h5{
-	font-size:14px;
+	font-size:15px;
+    font-weight:600;
     line-height: 30px;
 }
 
 h6{
-	font-size:12px;
+	font-size:14px;
+    line-height: 25px;
+    font-family:'Futura', sans-serif;
+	letter-spacing:1px;
+	font-weight:400;
+	color:#133e4e;
 }
 
 p, ul, ol{

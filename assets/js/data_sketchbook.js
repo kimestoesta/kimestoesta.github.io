@@ -1,5 +1,12 @@
 var sb_projects = [
   { 
+    title: "Marker Doodles", 
+    thumbnail: "images/sketch-markerthumb.jpg",
+    images: ["images/sketch-markerfun.jpg",],
+    url: "markerfun",
+    description: "$" 
+  },
+  { 
     title: "Personal Brand Card", 
     thumbnail: "images/card-thumbnail.jpg",
     images: ["images/card-sketch.jpg","images/card-draft1.jpg","images/card-draft2.jpg","images/card-draft3.jpg","images/card-draft4.jpg","images/card-final.gif",],

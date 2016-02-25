@@ -107,7 +107,18 @@
     left: 80px;
     margin-right: 80px;
   }
-
+  
+  .navbar-custom li a.xactive {
+    color: #42c0ae !important;
+  }
+  
+  .navbar-custom li a {
+    -webkit-transition: all 0ms ease-in-out;
+    -moz-transition: all 0ms ease-in-out;
+    -o-transition: all 0ms ease-in-out;
+    -ms-transition: all 0ms ease-in-out;
+    transition: all 0ms ease-in-out;
+  }
 
 }
 
@@ -205,7 +216,12 @@ body, html {
   height: 300px;
 }
 
-
+@media only screen and (max-width: 991px) {
+  #blog-page .hero {
+    height: 420px;
+    padding-top: 90px;
+  }
+}
 
 /* 
 =======================================================
@@ -281,7 +297,8 @@ body, html {
 }
 
 #about-me {
-  padding-top: 50px;
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 
 @media only screen and (min-width: 992px) {
