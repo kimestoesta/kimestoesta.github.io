@@ -248,6 +248,16 @@ blockquote cite{
 	z-index:9998;
 }
 
+.page-loader img{
+	background:#fff;
+	position:fixed;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	z-index:9998;
+}
+
 .loader{
 	position:absolute;
 	width:50px;
