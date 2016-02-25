@@ -214,12 +214,16 @@ body, html {
 
 #blog-page .hero {
   height: 300px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 @media only screen and (max-width: 991px) {
   #blog-page .hero {
-    height: 420px;
-    padding-top: 90px;
+    height: 440px;
+    padding-top: 75px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
