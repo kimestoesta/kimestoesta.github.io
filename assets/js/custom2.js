@@ -151,6 +151,7 @@
   var tryLoadPage = function() {
     if (window.loadedElements == 2) {
       $('.page-loader').delay(350).fadeOut('slow');
+      $('.page-loader img').delay(350).fadeOut('slow');
     }
   }
 
