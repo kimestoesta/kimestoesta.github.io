@@ -122,28 +122,26 @@ var sb_modal = function(project, index) {
 
 
 $(function($) {
-  for (var i = 0; i < sb_projects.length; i++) {
-    $("#sketchbook-grid").append(sb_link(sb_projects[i], i));
-    $("#sketchbook-modals").append(sb_modal(sb_projects[i], i));
-  }
 
-  $("#sketchbook-grid").imagesLoaded(function(){
-    $("#sketchbook-grid").isotope({
-      layoutMode: 'masonry',
-      itemSelector: '.work-item',
-      transitionDuration: '0.3s',
+  $(window).load(function() {
+    for (var i = 0; i < sb_projects.length; i++) {
+      $("#sketchbook-grid").append(sb_link(sb_projects[i], i));
+      $("#sketchbook-modals").append(sb_modal(sb_projects[i], i));
+    }
+
+    $("#sketchbook-grid").imagesLoaded(function(){
+      $("#sketchbook-grid").isotope({
+        layoutMode: 'masonry',
+        itemSelector: '.work-item',
+        transitionDuration: '0.3s',
+      });
     });
-  });
+  })
+  
 
 });
 
 
-function preload(projects) {
-  for (var i = 0; i < sb_projects.length; i++) {
-    for (var j = 0; j < sb_projects[i].images.length; j++) {
-      sb_projects[i].images[j] = $('<img />').attr('src',sb_projects[i].images[j]);
-    }
-  }
-}
+
 
 //preload(sb_projects);
