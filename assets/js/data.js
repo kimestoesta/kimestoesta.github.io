@@ -118,4 +118,7 @@ function preload(projects) {
   }
 }
 
-preload(projects);
+
+$( window ).load(function() {
+  preload(projects);
+});
