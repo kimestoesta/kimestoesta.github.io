@@ -129,47 +129,37 @@
 
   function preload(projects, callback) {
     clipIndex = 0;
+    var images = new Array()
+    var index = 0;
     for (var i = 0; i < projects.length; i++) {
       for (var j = 0; j < projects[i].images.length; j++) {
-        if (projects[i].images[j] != "$")
-          projects[i].images[j] = $('<img />').attr('src',projects[i].images[j]);
-        else {
-          projects[i].images[j] = projects[i].clips[clipIndex];
-          clipIndex += 1;
-        }
+        images[index] = new Image()
+        images[index].src = projects[i].images[j];
+        index += 1;
       }
     }
-    window.loadedElements += 1;
-    callback();
+
+    for (var i = 0; i < sb_projects.length; i++) {
+      for (var j = 0; j < sb_projects[i].images.length; j++) {
+        images[index] = new Image()
+        images[index].src = sb_projects[i].images[j];
+        index += 1;
+      }
+    }
   }
 
-  var tryLoadPage = function() {
-    if (window.loadedElements == 2) {
-      $('.page-loader').fadeOut('slow');
-      $('.page-loader img').fadeOut('slow');
-    }
+  var loadPage = function() {
+    $('.page-loader').delay(350).fadeOut('slow');
+    $('.page-loader img').delay(350).fadeOut('slow');
   }
 
   window.loadedElements = 0;
 
   $(window).load(function() {
-    for (var i = 0; i < sb_projects.length; i++) {
-      $("#sketchbook-grid").append(sb_link(sb_projects[i], i));
-      $("#sketchbook-modals").append(sb_modal(sb_projects[i], i));
-    }
 
-    $("#sketchbook-grid").imagesLoaded(function(){
-      $("#sketchbook-grid").isotope({
-        layoutMode: 'masonry',
-        itemSelector: '.work-item',
-        transitionDuration: '0.3s',
-      });
-      window.loadedElements += 1;
-      tryLoadPage();
-    });
-
-    preload(projects, tryLoadPage);
-
+    routeHash();
+    preload(projects);
+    loadPage();
     
   });
 
