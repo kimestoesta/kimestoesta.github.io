@@ -119,29 +119,3 @@ var sb_modal = function(project, index) {
             '</div>' +
           '</div>';
 }
-
-
-$(function($) {
-
-  $(window).load(function() {
-    for (var i = 0; i < sb_projects.length; i++) {
-      $("#sketchbook-grid").append(sb_link(sb_projects[i], i));
-      $("#sketchbook-modals").append(sb_modal(sb_projects[i], i));
-    }
-
-    $("#sketchbook-grid").imagesLoaded(function(){
-      $("#sketchbook-grid").isotope({
-        layoutMode: 'masonry',
-        itemSelector: '.work-item',
-        transitionDuration: '0.3s',
-      });
-    });
-  })
-  
-
-});
-
-
-
-
-//preload(sb_projects);

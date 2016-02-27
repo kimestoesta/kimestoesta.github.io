@@ -104,21 +104,3 @@ $(function($) {
 });
 
 
-function preload(projects) {
-  clipIndex = 0;
-  for (var i = 0; i < projects.length; i++) {
-    for (var j = 0; j < projects[i].images.length; j++) {
-      if (projects[i].images[j] != "$")
-        projects[i].images[j] = $('<img />').attr('src',projects[i].images[j]);
-      else {
-        projects[i].images[j] = projects[i].clips[clipIndex];
-        clipIndex += 1;
-      }
-    }
-  }
-}
-
-
-$( window ).load(function() {
-  preload(projects);
-});

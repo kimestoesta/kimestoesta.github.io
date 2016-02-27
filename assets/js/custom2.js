@@ -28,7 +28,6 @@
   };
 
   var goToPortfolio = function() {
-    hideAll();
     var hero = $("section#hero").hide();
     $("#portfolio-page").show(400, function() {
       hero.show();
@@ -54,6 +53,7 @@
     } 
     else if (url == '/portfolio') {
       $("#portfolio-page-link").addClass("xactive");
+      hideAll();
       goToPortfolio();
     } 
     else if (url == '/about') {
@@ -131,6 +131,52 @@
   window.onhashchange = function() {
     routeHash();
   }
+
+  function preload(projects, callback) {
+    clipIndex = 0;
+    for (var i = 0; i < projects.length; i++) {
+      for (var j = 0; j < projects[i].images.length; j++) {
+        if (projects[i].images[j] != "$")
+          projects[i].images[j] = $('<img />').attr('src',projects[i].images[j]);
+        else {
+          projects[i].images[j] = projects[i].clips[clipIndex];
+          clipIndex += 1;
+        }
+      }
+    }
+    window.loadedElements += 1;
+    callback();
+  }
+
+  var tryLoadPage = function() {
+    if (window.loadedElements == 2) {
+      $('.page-loader').delay(350).fadeOut('slow');
+    }
+  }
+
+  window.loadedElements = 0;
+
+  $(window).load(function() {
+    for (var i = 0; i < sb_projects.length; i++) {
+      $("#sketchbook-grid").append(sb_link(sb_projects[i], i));
+      $("#sketchbook-modals").append(sb_modal(sb_projects[i], i));
+    }
+
+    $("#sketchbook-grid").imagesLoaded(function(){
+      $("#sketchbook-grid").isotope({
+        layoutMode: 'masonry',
+        itemSelector: '.work-item',
+        transitionDuration: '0.3s',
+      });
+      window.loadedElements += 1;
+      tryLoadPage();
+    });
+
+    preload(projects, tryLoadPage);
+
+    
+  });
+
   
   $(window).resize(function() {
     if ($(window).width() >= 992)

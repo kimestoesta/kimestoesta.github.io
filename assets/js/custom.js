@@ -2,13 +2,6 @@
 
 	"use strict";
 
-	/* ---------------------------------------------- /*
-	 * Preloader
-	/* ---------------------------------------------- */
-
-	$(window).load(function() {
-		$('.page-loader').delay(350).fadeOut('slow');
-	});
 
 	$(document).ready(function() {
 
