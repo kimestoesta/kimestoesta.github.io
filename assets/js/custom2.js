@@ -206,13 +206,13 @@
       $("#works-grid").append(portfolio_link(projects[i], i));
     }
 
-    $("#works-grid").imagesLoaded(function(){
+    //$("#works-grid").imagesLoaded(function(){
       $("#works-grid").isotope({
         layoutMode: 'masonry',
         itemSelector: '.work-item',
         transitionDuration: '0.3s',
       });
-    });
+    //});
 
 
     for (var i = 0; i < sb_projects.length; i++) {
@@ -220,13 +220,13 @@
       $("#sketchbook-modals").append(sb_modal(sb_projects[i], i));
     }
 
-    $("#sketchbook-grid").imagesLoaded(function(){
+    //$("#sketchbook-grid").imagesLoaded(function(){
       $("#sketchbook-grid").isotope({
         layoutMode: 'masonry',
         itemSelector: '.work-item',
         transitionDuration: '0.3s',
       });
-    });
+    //});
 
     
     loadPage();
