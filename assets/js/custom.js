@@ -59,9 +59,9 @@
 		 * Parallax
 		/* ---------------------------------------------- */
 
-		// if (mobileTest === true) {
-		// 	modules.css({'background-attachment': 'scroll'});
-		// }
+		if (mobileTest === true) {
+			modules.css({'background-attachment': 'scroll'});
+		}
 
 		/* ---------------------------------------------- /*
 		 * Youtube video background

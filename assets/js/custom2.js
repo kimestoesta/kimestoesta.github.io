@@ -114,11 +114,6 @@
     $("#details-tags").html(project.tags.join(", "));
     $("#details-images").empty();
     loadDetailsImages(project);
-    $("#details-page").show(400, function() {
-      if (window.location.search == "?modal") {
-
-      }
-    });
   }
   
 
