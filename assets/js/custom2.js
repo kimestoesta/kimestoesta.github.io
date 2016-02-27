@@ -8,8 +8,14 @@
   };
 
   var loadDetailsImages = function(project) {
+    var clipIndex = 0;
     for (var i = 0; i < project.images.length; i++) {
-      $("#details-images").append(project.images[i])
+      if (project.images[i] != "$")
+        $("#details-images").append($('<img />').attr('src',project.images[i]));
+      else {
+        $("#details-images").append($('<img />').attr('src',project.clips[clipIndex]));
+        clipIndex += 1;
+      }
     }
   };
 
@@ -114,6 +120,7 @@
     $("#details-tags").html(project.tags.join(", "));
     $("#details-images").empty();
     loadDetailsImages(project);
+    $("#details-page").show(400);
   }
   
 
@@ -127,12 +134,28 @@
     routeHash();
   }
 
-  function preload(projects, callback) {
+  function preload(projects) {
+    function imageloadpost() {
+      loadedImages++;
+      if (loadedImages == index - 1) {
+        postaction(images);
+      }
+    }
+
+    loadedImages = 0;
     clipIndex = 0;
-    var images = new Array()
+
+    var images = new Array();
+    var postaction = function() {};
     var index = 0;
+
     for (var i = 0; i < projects.length; i++) {
+      images[index] = new Image();
+      images[index].src = projects[i].thumbnail;
+      index += 1;
+
       for (var j = 0; j < projects[i].images.length; j++) {
+        if (projects[i].images[j] == "$") continue;
         images[index] = new Image()
         images[index].src = projects[i].images[j];
         index += 1;
@@ -140,10 +163,26 @@
     }
 
     for (var i = 0; i < sb_projects.length; i++) {
+      images[index] = new Image();
+      images[index].src = sb_projects[i].thumbnail;
+      index += 1;
       for (var j = 0; j < sb_projects[i].images.length; j++) {
+        if (sb_projects[i].images[j] == "$") continue;
         images[index] = new Image()
         images[index].src = sb_projects[i].images[j];
         index += 1;
+      }
+    }
+
+    for (var i = 0; i < images.length; i++) {
+      images[i].onload = function() {
+        imageloadpost()
+      }
+    }
+
+    return { //return blank object with done() method
+      done:function(f){
+        postaction=f || postaction //remember user defined callback functions to be called when images load
       }
     }
   }
@@ -158,7 +197,38 @@
   $(window).load(function() {
 
     routeHash();
-    preload(projects);
+
+    preload(projects).done(function(images) {
+      console.log("all images loaded");
+    });
+
+    for (var i = 0; i < projects.length; i++) {
+      $("#works-grid").append(portfolio_link(projects[i], i));
+    }
+
+    $("#works-grid").imagesLoaded(function(){
+      $("#works-grid").isotope({
+        layoutMode: 'masonry',
+        itemSelector: '.work-item',
+        transitionDuration: '0.3s',
+      });
+    });
+
+
+    for (var i = 0; i < sb_projects.length; i++) {
+      $("#sketchbook-grid").append(sb_link(sb_projects[i], i));
+      $("#sketchbook-modals").append(sb_modal(sb_projects[i], i));
+    }
+
+    $("#sketchbook-grid").imagesLoaded(function(){
+      $("#sketchbook-grid").isotope({
+        layoutMode: 'masonry',
+        itemSelector: '.work-item',
+        transitionDuration: '0.3s',
+      });
+    });
+
+    
     loadPage();
     
   });
