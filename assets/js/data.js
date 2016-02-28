@@ -88,10 +88,12 @@ var portfolio_link = function(project, index) {
 }
 
 
-$(window).load(function() {
-  for (var i = 0; i < projects.length; i++) {
-    $("#works-grid").append(portfolio_link(projects[i], i));
-  }
+$(function($) {
+  $(window).load(function() {
+    for (var i = 0; i < projects.length; i++) {
+      $("#works-grid").append(portfolio_link(projects[i], i));
+    }
+  });
 
   
   
