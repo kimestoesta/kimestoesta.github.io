@@ -137,20 +137,10 @@
   function preload(projects) {
     loadedImages = 0;
     var index = 0;
-
-    function imageloadpost() {
-      loadedImages++;
-      if (loadedImages == index ) {
-        postaction(images);
-      }
-    }
-
     
     clipIndex = 0;
 
     var images = new Array();
-    var postaction = function() {};
-    
 
     for (var i = 0; i < projects.length; i++) {
       for (var j = 0; j < projects[i].images.length; j++) {
@@ -167,18 +157,6 @@
         images[index] = new Image()
         images[index].src = sb_projects[i].images[j];
         index += 1;
-      }
-    }
-
-    for (var i = 0; i < images.length; i++) {
-      images[i].onload = function() {
-        imageloadpost()
-      }
-    }
-
-    return { //return blank object with done() method
-      done:function(f){
-        postaction=f || postaction //remember user defined callback functions to be called when images load
       }
     }
   }
