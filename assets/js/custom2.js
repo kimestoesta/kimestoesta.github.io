@@ -16,7 +16,7 @@ window.onerror = function(msg, url, line, col, error) {
    return suppressErrorAlert;
 };
 
-
+(function($){
 
   var hideAll = function() {
     $("#portfolio-page").hide()
@@ -199,3 +199,4 @@ window.onerror = function(msg, url, line, col, error) {
     filterLocation = $("#hero").height();
   });
 
+})(jQuery);
