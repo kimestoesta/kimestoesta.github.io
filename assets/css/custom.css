@@ -55,6 +55,10 @@
     height: 200px;
   }
 
+  .navbar-custom {
+    top: 150px;
+  }
+
   #custom-collapse{
       overflow: hidden;
   }
