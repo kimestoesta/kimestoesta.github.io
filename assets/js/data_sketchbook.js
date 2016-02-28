@@ -121,7 +121,7 @@ var sb_modal = function(project, index) {
 }
 
 
-$(function($) {
+$(window).load(function() {
   for (var i = 0; i < sb_projects.length; i++) {
     $("#sketchbook-grid").append(sb_link(sb_projects[i], i));
     $("#sketchbook-modals").append(sb_modal(sb_projects[i], i));
