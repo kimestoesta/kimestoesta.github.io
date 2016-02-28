@@ -50,7 +50,9 @@
 
   .sidebar {
     background-color: #fac60e;
-    position: fixed;  
+    position: fixed; 
+    top: -150px;
+    height: 200px;
   }
 
   #custom-collapse{
