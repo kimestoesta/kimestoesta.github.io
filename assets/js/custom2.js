@@ -141,8 +141,16 @@ window.onerror = function(msg, url, line, col, error) {
   function preload(projects) {
     loadedImages = 0;
     var index = 0;
-    
     clipIndex = 0;
+
+    function imageloadpost() {
+      loadedImages++;
+      if (loadedImages == index ) {
+        postaction(images);
+      }
+    }
+
+    var postaction = function() {};
 
     var images = new Array();
 
@@ -163,6 +171,18 @@ window.onerror = function(msg, url, line, col, error) {
         index += 1;
       }
     }
+
+    for (var i = 0; i < images.length; i++) {
+      images[i].onload = function() {
+        imageloadpost()
+      }
+    }
+
+    return { //return blank object with done() method
+      done:function(f){
+        postaction=f || postaction //remember user defined callback functions to be called when images load
+      }
+    }
   }
 
   var loadPage = function() {
@@ -172,9 +192,12 @@ window.onerror = function(msg, url, line, col, error) {
 
   $(window).load(function() {
 
-    preload(projects);
-    routeHash();
-    loadPage();
+    preload(projects).done(function(images) {
+      console.log("all images loaded");
+
+      routeHash();
+      loadPage();
+    });
     
   });
 
