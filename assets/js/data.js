@@ -89,14 +89,10 @@ var portfolio_link = function(project, index) {
 
 
 $(function($) {
-  $(window).load(function() {
-    for (var i = 0; i < projects.length; i++) {
-      $("#works-grid").append(portfolio_link(projects[i], i));
-    }
-  });
+  for (var i = 0; i < projects.length; i++) {
+    $("#works-grid").append(portfolio_link(projects[i], i));
+  }
 
-  
-  
   $("#works-grid").imagesLoaded(function(){
     $("#works-grid").isotope({
       layoutMode: 'masonry',
