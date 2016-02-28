@@ -13,7 +13,7 @@
       if (project.images[i] != "$")
         $("#details-images").append($('<img />').attr('src',project.images[i]));
       else {
-        $("#details-images").append($('<img />').attr('src',project.clips[clipIndex]));
+        $("#details-images").append(project.clips[clipIndex]);
         clipIndex += 1;
       }
     }
@@ -135,19 +135,22 @@
   }
 
   function preload(projects) {
+    loadedImages = 0;
+    var index = 0;
+
     function imageloadpost() {
       loadedImages++;
-      if (loadedImages == index - 1) {
+      if (loadedImages == index ) {
         postaction(images);
       }
     }
 
-    loadedImages = 0;
+    
     clipIndex = 0;
 
     var images = new Array();
     var postaction = function() {};
-    var index = 0;
+    
 
     for (var i = 0; i < projects.length; i++) {
       images[index] = new Image();
@@ -192,44 +195,16 @@
     $('.page-loader img').delay(350).fadeOut('slow');
   }
 
-  window.loadedElements = 0;
-
-  $(window).load(function() {
-
-    routeHash();
+  $(window).ready(function() {
 
     preload(projects).done(function(images) {
       console.log("all images loaded");
+
+      routeHash();
+      loadPage();
     });
 
-    for (var i = 0; i < projects.length; i++) {
-      $("#works-grid").append(portfolio_link(projects[i], i));
-    }
-
-    //$("#works-grid").imagesLoaded(function(){
-      $("#works-grid").isotope({
-        layoutMode: 'masonry',
-        itemSelector: '.work-item',
-        transitionDuration: '0.3s',
-      });
-    //});
-
-
-    for (var i = 0; i < sb_projects.length; i++) {
-      $("#sketchbook-grid").append(sb_link(sb_projects[i], i));
-      $("#sketchbook-modals").append(sb_modal(sb_projects[i], i));
-    }
-
-    //$("#sketchbook-grid").imagesLoaded(function(){
-      $("#sketchbook-grid").isotope({
-        layoutMode: 'masonry',
-        itemSelector: '.work-item',
-        transitionDuration: '0.3s',
-      });
-    //});
-
     
-    loadPage();
     
   });
 
