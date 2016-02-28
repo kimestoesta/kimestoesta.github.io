@@ -189,10 +189,6 @@
 		 * Gallery
 		/* ---------------------------------------------- */
 
-		$('.gallery-item a').magnificPopup({
-			type: 'image',
-			gallery: { enabled: true },
-		});
 
 		/* ---------------------------------------------- /*
 		 * A jQuery plugin for fluid width video embeds
