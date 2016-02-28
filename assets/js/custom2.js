@@ -16,8 +16,6 @@ window.onerror = function(msg, url, line, col, error) {
    return suppressErrorAlert;
 };
 
-</script>
-
 (function($){
 
   var hideAll = function() {
