@@ -153,10 +153,6 @@
     
 
     for (var i = 0; i < projects.length; i++) {
-      images[index] = new Image();
-      images[index].src = projects[i].thumbnail;
-      index += 1;
-
       for (var j = 0; j < projects[i].images.length; j++) {
         if (projects[i].images[j] == "$") continue;
         images[index] = new Image()
@@ -166,9 +162,6 @@
     }
 
     for (var i = 0; i < sb_projects.length; i++) {
-      images[index] = new Image();
-      images[index].src = sb_projects[i].thumbnail;
-      index += 1;
       for (var j = 0; j < sb_projects[i].images.length; j++) {
         if (sb_projects[i].images[j] == "$") continue;
         images[index] = new Image()
@@ -195,16 +188,11 @@
     $('.page-loader img').delay(350).fadeOut('slow');
   }
 
-  $(window).ready(function() {
+  $(window).load(function() {
 
-    preload(projects).done(function(images) {
-      console.log("all images loaded");
-
-      routeHash();
-      loadPage();
-    });
-
-    
+    preload(projects);
+    routeHash();
+    loadPage();
     
   });
 
