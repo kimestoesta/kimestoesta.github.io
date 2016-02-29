@@ -46,7 +46,8 @@ var projects = [
     title: "The Faces of Luck", 
     tags: ["digital", "print", "illustration"],
     thumbnail: "images/cards-characters.jpg",
-    images: ["images/cardsflat.png",],
+    clips: ['<iframe src="https://player.vimeo.com/video/157179695" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'],
+    images: ["$", "images/cardsflat.png","images/cards-suits.jpg",],
     description: "Faces of Luck was created for a student project. The illustration depicts an exploded view of playing cards but also holds meaning in the depictions of the King and Queen. Cards can associated with gambling and the images work to subtly show the cycles of gambling, you win some and you lose some. Gambling is a non-discriminatory activity and can effect both male and female. The illustration portrays this serious topic in a lighthearted style and allows people to entertain the thought of lows and highs in gambling. This project will later be expanded into a card deck."
   }, 
   { 
