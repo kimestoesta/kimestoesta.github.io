@@ -4,7 +4,7 @@ var sb_projects = [
     thumbnail: "images/sketch-markerthumb.jpg",
     images: ["images/sketch-markerfun.jpg",],
     url: "markerfun",
-    description: "$" 
+    description: "A little destress marker doodle with some colorful markers. $" 
   },
   { 
     title: "Personal Brand Card", 
@@ -25,42 +25,42 @@ var sb_projects = [
     thumbnail: "images/wander-thumb.jpg",
     images: ["images/wander-full.gif","images/wander-rocks.jpg","images/wander-wolf.jpg","images/wander-monster.jpg","images/wander-cover.jpg",],
     url: "wander",
-    description: "$$$$$" 
+    description: "A little book I made and illustrated for a book making class playing off some tropes of the woods. Done in watercolor, ink, and micron pen. $$$$$" 
   },
   { 
     title: "12.28.15", 
     thumbnail: "images/sketch-collargirl.jpg",
     images: ["images/sketch-collargirl.jpg",],
     url: "122815",
-    description: "$" 
+    description: "Digital illustration practice. $" 
   },
   { 
     title: "12.25.15", 
     thumbnail: "images/sketch-girlorange.jpg",
     images: ["images/sketch-girlorange.jpg",],
     url: "122515",
-    description: "$" 
+    description: "Digital illustration practice $" 
   },
   { 
     title: "Find my Way to You", 
     thumbnail: "images/sail-thumb.jpg",
     images: ["images/sail-inside.jpg","images/sail-top.jpg","images/sail-angle.jpg","images/sail-cover.jpg",],
     url: "sail",
-    description: "$$$$" 
+    description: "Another book made for a book making class this time making use of the 3D format. Inspired but a song I was really into during the time. $$$$" 
   },
   { 
     title: "UFGD Class of 2016", 
     thumbnail: "images/class-poster.jpg",
     images: ["images/class-all.gif", "images/class-angle.jpg", "images/class-pinnedposter.jpg",  "images/class-cover.jpg",],
     url: "class",
-    description: "$$$$" 
+    description: "Wanted to challenge myself and practice some digital illustration by drawing all my studiomates in a little book. $$$$" 
   },
   { 
     title: "Admit One", 
     thumbnail: "images/circus-ticket.gif",
     images: ["images/circus-series.gif", "images/circus-intro.jpg", "images/circus-red.jpg","images/circus-accordian.jpg",],
     url: "circus",
-    description: "$$$$" 
+    description: "An accordian book about the circus with some popout tabs. Made with acrylic and micron pen.$$$$" 
   },
   { 
     title: "Sulley Practice Sketch", 

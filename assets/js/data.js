@@ -44,7 +44,7 @@ var projects = [
   },
   { 
     title: "The Faces of Luck", 
-    tags: ["digital", "print", "illustration"],
+    tags: ["digital", "illustration"],
     thumbnail: "images/cards-characters.jpg",
     clips: ['<iframe src="https://player.vimeo.com/video/157179695" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'],
     images: ["$", "images/cardsflat.png","images/cards-suits.jpg",],
