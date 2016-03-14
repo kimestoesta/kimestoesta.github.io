@@ -32,7 +32,7 @@ var sb_projects = [
     thumbnail: "images/wander-thumb.jpg",
     images: ["images/wander-full.gif","images/wander-rocks.jpg","images/wander-wolf.jpg","images/wander-monster.jpg","images/wander-cover.jpg",],
     url: "wander",
-    description: "A little book I made and illustrated for a book making class playing off some tropes of the woods. Done in watercolor, ink, and micron pen $$$$$" 
+    description: "A little book I made and illustrated for a book making class playing off some tropes of the woods. Done in watercolor, ink, and micron pen. $$$$$" 
   },
   { 
     title: "Page & Paper: Cousins Club", 
