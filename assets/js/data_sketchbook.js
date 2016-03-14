@@ -21,11 +21,39 @@ var sb_projects = [
     description: "For Valentine's Day this year we decided to do a throwback to our kindergarten days and make cards for everyone in the graphic design program. Instead of candy I wanted to make some chocolate dipped mint oreos! I've learned that almost no one can turn down an oreo. $ Don't laugh at my box it was a busy time in my life haha. Looks like it did in elementary school :P $" 
   },
   { 
+    title: "Never Grow Up", 
+    thumbnail: "images/neverland-thumb.jpg",
+    images: ["images/neverland-all.jpg","images/neverland-sketch.jpg","images/neverland-draft.jpg","images/neverland-draft2.jpg","images/neverland-complete.jpg",],
+    url: "nevergrowup",
+    description: "Inspired by the broadway musical 'Finding Neverland' I created a paper pop-up to reflect on the idea of never growing up. I watched this amazing musical over the summer in NYC. To some it may seem immature to never grow up but I think this musical beautifully describes what staying young at heart really means. Life has so many struggles, it is easy to become disheartened but when you look at the world through the eyes of a child I find there is still magic and beauty left to believe in. $$$$$" 
+  },
+  { 
     title: "Wander Often, Wonder Always", 
     thumbnail: "images/wander-thumb.jpg",
     images: ["images/wander-full.gif","images/wander-rocks.jpg","images/wander-wolf.jpg","images/wander-monster.jpg","images/wander-cover.jpg",],
     url: "wander",
-    description: "A little book I made and illustrated for a book making class playing off some tropes of the woods. Done in watercolor, ink, and micron pen. $$$$$" 
+    description: "A little book I made and illustrated for a book making class playing off some tropes of the woods. Done in watercolor, ink, and micron pen $$$$$" 
+  },
+  { 
+    title: "Page & Paper: Cousins Club", 
+    thumbnail: "images/cousins-thumb.jpg",
+    images: ["images/cousins-final.jpg","images/cousins-story.jpg","images/cousins-details.jpg",],
+    url: "cousinsclub",
+    description: "Page & Paper is a ficticious company I made up. I created a series of 'Paper Memories' that accompanies a story I recorded after asking people for one of their most cherished memories. I created a mission and background for this imaginary company it states: <br><br>Page & Paper seeks to combine fine craftsmanship with the stories of our lives. Everyone has a story to tell and we seek to record those stories in a creative new way. Every product we produce is unique; no two works are ever the same because we tailor each and every piece to you. When you share a story with us we work hard to bring it to life using the simple and elegant element of paper. People say a picture is worth a thousand words, but sometimes the best memories aren’t caught on camera. When you take home your PaperMemory, you bring with you the extra magic that words fail to describe. We love listening and preserving your stories on, in, and out of paper and our mission is to provide you with a product that captures a page of your life so that you and generations after you will have that story to share.<br><br> The following is the PaperMemory I created for a recorded story shared by my friend about her and her cousins' night out. $$$" 
+  },
+  { 
+    title: "Page & Paper: Under a Coconut Tree", 
+    thumbnail: "images/coconut-thumb.jpg",
+    images: ["images/coconut-final.jpg","images/coconut-story.jpg","images/coconut-details.jpg",],
+    url: "underacoconuttree",
+    description: "Page & Paper is a ficticious company I made up. I created a series of 'Paper Memories' that accompanies a story I recorded after asking people for one of their most cherished memories. I created a mission and background for this imaginary company it states: <br><br>Page & Paper seeks to combine fine craftsmanship with the stories of our lives. Everyone has a story to tell and we seek to record those stories in a creative new way. Every product we produce is unique; no two works are ever the same because we tailor each and every piece to you. When you share a story with us we work hard to bring it to life using the simple and elegant element of paper. People say a picture is worth a thousand words, but sometimes the best memories aren’t caught on camera. When you take home your PaperMemory, you bring with you the extra magic that words fail to describe. We love listening and preserving your stories on, in, and out of paper and our mission is to provide you with a product that captures a page of your life so that you and generations after you will have that story to share.<br><br> The following is the PaperMemory I created for a recorded story shared by my aunt about a time she went on a trip with her family. $$$" 
+  },
+  { 
+    title: "Page & Paper: Cousins Club", 
+    thumbnail: "images/kite-thumb.jpg",
+    images: ["images/kite-final.jpg","images/kite-story.jpg","images/kite-details.jpg",],
+    url: "kite",
+    description: "Page & Paper is a ficticious company I made up. I created a series of 'Paper Memories' that accompanies a story I recorded after asking people for one of their most cherished memories. I created a mission and background for this imaginary company it states: <br><br>Page & Paper seeks to combine fine craftsmanship with the stories of our lives. Everyone has a story to tell and we seek to record those stories in a creative new way. Every product we produce is unique; no two works are ever the same because we tailor each and every piece to you. When you share a story with us we work hard to bring it to life using the simple and elegant element of paper. People say a picture is worth a thousand words, but sometimes the best memories aren’t caught on camera. When you take home your PaperMemory, you bring with you the extra magic that words fail to describe. We love listening and preserving your stories on, in, and out of paper and our mission is to provide you with a product that captures a page of your life so that you and generations after you will have that story to share.<br><br> The following is the PaperMemory I created for a recorded story shared by my dad about the friendly kite flying competitions he would have with his friends.$$$" 
   },
   { 
     title: "12.28.15", 
