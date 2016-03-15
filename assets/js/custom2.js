@@ -1,10 +1,10 @@
 window.onerror = function(msg, url, line, col, error) {
-  var extra = !col ? '' : '\ncolumn: ' + col;
-  extra += !error ? '' : '\nerror: ' + error;
+  // var extra = !col ? '' : '\ncolumn: ' + col;
+  // extra += !error ? '' : '\nerror: ' + error;
 
-  alert("Error: " + msg + "\nurl: " + url + "\nline: " + line + extra);
+  // alert("Error: " + msg + "\nurl: " + url + "\nline: " + line + extra);
   
-  //location.reload();
+  location.reload();
 };
 
 (function($){
