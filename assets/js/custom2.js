@@ -1,5 +1,10 @@
 window.onerror = function(msg, url, line, col, error) {
-   location.reload();
+  var extra = !col ? '' : '\ncolumn: ' + col;
+  extra += !error ? '' : '\nerror: ' + error;
+
+  alert("Error: " + msg + "\nurl: " + url + "\nline: " + line + extra);
+  
+  //location.reload();
 };
 
 (function($){
