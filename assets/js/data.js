@@ -64,7 +64,15 @@ var projects = [
     images: ["images/goodechocolate.jpg","images/goode-above.jpg"],
     description: "The Goode Chocolate Company was a fictional chocolate company for a student project celebrating 100 years of bussiness. To honor their anniversary this packaging design pays tribute to some of the company’s best years, the roaring 20s. The company sells three flavors dark, milk, and white chocolate each distinguished by a different colored foil revealed through the die cut New York City skyline where the company originated."
   },
-
+  { 
+    title: "Wacom 2015 Annual Report", 
+    tags: ["digital", "web"],
+    thumbnail: "images/wacom-thumb.gif",
+    clips: ['<iframe src="https://player.vimeo.com/video/160619108?autoplay=1&loop=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'],
+    images: ["$", "images/wacom-intro.gif","images/wacom-brand.gif", "images/wacom-home.jpg", "images/wacom-goodbye.jpg",],
+    description: "This student project required us to select a publicly traded company and produce an annual report using their released information and statistics. Wacom is a technology and solutions company most known for their digital tablet products. They believe in encouraging and supporting a creative world through their technologies. Their current annual report is a .pdf version of their a several page print book. Wacom was last rebranded in 2007 but their website reflects a slightly changed brand language not included in their brand guideline. I wanted to create an annual report that fit with the current brand of Wacom for a completely digital platform. For this project I learned and used muse to create the website prototype shown. "
+  },
+  
 ];
 
 
