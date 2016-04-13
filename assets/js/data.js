@@ -60,9 +60,9 @@ var projects = [
   { 
     title: "Goode Chocolate Bars", 
     tags: ["packaging", "branding", "print"],
-    thumbnail: "images/goode-above.jpg",
+    thumbnail: "images/goode-thumb.jpg",
     images: ["images/goodechocolate.jpg","images/goode-above.jpg"],
-    description: "The Goode Chocolate Company was a fictional chocolate company for a student project celebrating 100 years of bussiness. To honor their anniversary this packaging design pays tribute to some of the company’s best years, the roaring 20s. The company sells three flavors dark, milk, and white chocolate each distinguished by a different colored foil revealed through the die cut New York City skyline where the company originated."
+    description: "The Goode Chocolate Company was a fictional chocolate company for a student project celebrating 100 years of business. To honor their anniversary this packaging design pays tribute to some of the company’s best years, the roaring 20s. The company sells three flavors dark, milk, and white chocolate each distinguished by a different colored foil revealed through the die cut New York City skyline where the company originated."
   },
   { 
     title: "Wacom 2015 Annual Report", 
