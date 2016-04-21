@@ -51,10 +51,17 @@ var projects = [
     description: "Faces of Luck was created for a student project. The illustration depicts an exploded view of playing cards but also holds meaning in the depictions of the King and Queen. Cards can associated with gambling and the images work to subtly show the cycles of gambling, you win some and you lose some. Gambling is a non-discriminatory activity and can effect both male and female. The illustration portrays this serious topic in a lighthearted style and allows people to entertain the thought of lows and highs in gambling. The video animation will later be expanded to follow the storyboard included. This project will also later be expanded into a card deck."
   }, 
   { 
+    title: "Intramural Sports Campaign", 
+    tags: ["branding", "print"],
+    thumbnail: "images/im-thumb.jpg",
+    images: ["images/im-preview1.jpg"],
+    description: "The marketing team for Recreational Sports at the University of Florida is comprised of designers, videographers, photographers, and media specialists. I work in-house where we service many different departments within RecSports like clients making sure to boost visibility and spread awareness of several campaigns or events. This project is a campaign for 2016 - 2017 Intramural Sports. For this campaign I took advantage of all the resources and talent available. As the creative director and lead designer I worked with our photographers Camron and Muxi to take photos of over 20 different sports offered. From there I developed a style for the campaign and designed the materials for Summer 2016. I will be training and passing on this project to younger designers so the style can be applied to the campaign for Fall and Spring Semesters."
+  },
+  { 
     title: "Jelly Belly", 
     tags: ["branding", "illustration", "print"],
     thumbnail: "images/jelly-bag.jpg",
-    images: ["images/jelly-all.jpg", "images/jelly-cards.jpg", "images/jelly-poster.gif", "images/jelly-flavordetails.jpg", "images/jelly-flavorbag.jpg", "images/jelly-bags.jpg", "images/jelly-bagdance.gif"],
+    images: ["images/jelly-all.jpg", "images/jelly-flavorbag.jpg", "images/jelly-cards.jpg", "images/jelly-poster.gif", "images/jelly-flavordetails.jpg",  "images/jelly-bagdance.gif"],
     description: "This student project is the beginning of a rebrand for Jelly Belly, the makers of gourmet jelly beans. After researching Jelly Belly's history I learned that jelly beans were actually made popular by President Ronald Reagan during his time in office. Since then Jelly Belly has kept their brand identity the same so I wanted to bring new life to the brand and make it more relevant to today. As the generation of Ronald Reagan ages I wanted to focus to a new and younger audience. Here I have have created a new logo, mascot, flavor guide, and packaging concept. The project will later extend to show character animations and a larger packaging system."
   }, 
   { 
