@@ -90,20 +90,6 @@ var sb_projects = [
     url: "circus",
     description: "An accordian book about the circus with some popout tabs. Made with acrylic and micron pen.$$$$" 
   },
-  { 
-    title: "Sulley Practice Sketch", 
-    thumbnail: "images/sketch-sulley.jpg",
-    images: ["images/sketch-sulley.jpg",],
-    url: "sulley",
-    description: "A practice digital painting I did for a personal 30 day drawing a day challenge in 2013. Did it before I watched Monsters University. Quality pre-quel to a beloved movie which is a hard thing to do. $" 
-  },
-  { 
-    title: "Wall-E Practice Sketch", 
-    thumbnail: "images/sketch-walle.jpg",
-    images: ["images/sketch-walle.jpg",],
-    url: "wall-e",
-    description: "One of the practice digital paintings I did for a personal 30 day drawing a day challenge in 2013. <br> Shout out to Pixar this movie was adorable. An underated film but the topics and concepts are so clever. If you haven't watched it yet do it now. $" 
-  },
 ];
 
 
