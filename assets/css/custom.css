@@ -64,12 +64,14 @@
   }
     
   ul.nav a {
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     border-top: 1px solid #fff; 
   }
 
    ul.nav a:hover {
-    color: #fff; 
+    color: #42c0ae; 
+    background-color: #fff;
   }
     
   ul.nav a img {
