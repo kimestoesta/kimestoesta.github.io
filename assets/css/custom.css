@@ -62,14 +62,15 @@
   #custom-collapse{
       overflow: hidden;
   }
-    
-  ul.nav a {
+
+  #custom-collapse > ul.nav > li > a {
     background-color: #fff;
     color: #000;
     border-top: 1px solid #fff; 
   }
 
-   ul.nav a:hover {
+  #custom-collapse > ul.nav > li > a:hover {
+    background: #fff;
     color: #42c0ae; 
     background-color: #fff;
   }
