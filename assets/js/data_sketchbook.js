@@ -1,5 +1,12 @@
 var sb_projects = [
   { 
+    title: "Outfits of July", 
+    thumbnail: "images/julyootd-4.jpg",
+    images: ["images/julyootd-1.jpg", "images/julyootd-2.jpg", "images/julyootd-3.jpg", "images/julyootd-5.jpg", "images/julyootd-6.jpg", "images/julyootd-7.jpg", "images/julyootd-4.jpg",],
+    url: "ootdJuly2016",
+    description: "Wanted to practice illustrating in different styles and to get myself creating something everyday outide of work. Just some little characters loosely based on me but wearing my outfit of the day.  $$$$$$$" 
+  },
+  { 
     title: "Marker Doodles", 
     thumbnail: "images/sketch-markerthumb.jpg",
     images: ["images/sketch-markerfun.jpg",],

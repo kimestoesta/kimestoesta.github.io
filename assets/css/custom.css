@@ -247,6 +247,7 @@ body, html {
 .modal-body img{
   margin: auto;
   padding-bottom: 15px;
+  border-radius: 0;
 }
 
 .modal-backdrop {
