@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ImageLoader from 'react-load-image';
 import { ClipLoader } from 'react-spinners';
-import '../Project.css';
+import styles from './ImageNode.module.css';
 
 class ImageNode extends Component {
   constructor(image, columns) {
@@ -14,7 +14,7 @@ class ImageNode extends Component {
     return (
       <div>
         <ImageLoader src={this.image}>
-          <img alt="" className="project-image" />
+          <img alt="" className={styles.projectImage} />
           <div>Error!</div>
           <ClipLoader />
         </ImageLoader>

@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import './footer.css';
 
 class Footer extends Component {
 
   render() {
     return (
-      <footer className="footer module-overlay-dark-3 text-center">
+      <footer className="module-overlay-dark-3 text-center">
         <div>
           kimestoesta@gmail.com
         </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Project.css';
+import styles from './ProjectRow.module.css';
 
 class ProjectRow extends Component {
 
@@ -14,11 +14,12 @@ class ProjectRow extends Component {
       (node, index) => {
         var cols = node.columns ? node.columns : 1;
 
-        const styles = {
+        const widthStyles = {
           width: (100 * cols / totalCols) + "%"
         }
+
         return (
-          <div key={index} className="project-node" style={styles}>
+          <div key={index} className={styles.projectNode} style={widthStyles}>
             {node.render()}
           </div>
         );
@@ -26,7 +27,7 @@ class ProjectRow extends Component {
     );
 
     return (
-      <div className="project-row">
+      <div className={styles.projectRow}>
         { nodes }
       </div>
     );

@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Isotope from 'isotope-layout';
 import OnImagesLoaded from 'react-on-images-loaded';
 import Data from '../Data';
-import './PortfolioStuff.css';
+import filterStyles from './PortfolioFilters.module.css';
+import styles from './PortfolioStuff.module.css';
 
 var selectedFilter = '*';
 class PortfolioStuff extends Component {
@@ -22,21 +23,21 @@ class PortfolioStuff extends Component {
         >
           <article
             id={'item' + index}
-            className={tag_classes.join(' ') + ' work-item'}
+            className={styles.workItem}
             style={{ display: 'none' }}
           >
             <a href={'#/project/' + index} id={index}>
-              <div className="work-wrapper">
-                <div className="work-thumbnail">
+              <div className={styles.workWrapper}>
+                <div className={styles.workThumbnail}>
                   <img
                     src={process.env.PUBLIC_URL + '/' + project.thumbnail}
                     alt=""
                   />
                 </div>
-                <div className="work-caption">
-                  <h3 className="work-title font-alt">{project.title}</h3>
-                  <span className="work-category font-serif">
-                    <a>{project.tags.join(', ')}</a>
+                <div className={styles.workCaption}>
+                  <h3 className={styles.workTitle}>{project.title}</h3>
+                  <span className={styles.workCategory}>
+                    <button>{project.tags.join(', ')}</button>
                   </span>
                 </div>
               </div>
@@ -51,62 +52,60 @@ class PortfolioStuff extends Component {
         <div className="container-fluid">
           <div className="row">
             <div className="col-sm-12">
-              <ul id="filters" className="filters font-alt">
+              <ul id="filters" className={filterStyles.filters}>
                 <li>
-                  <a
+                  <button
                     onClick={this.onFilterClick.bind(this)}
                     data-filter="*"
-                    className={selectedFilter === '*' ? 'current' : ''}
+                    className={selectedFilter === '*' ? filterStyles.current : ''}
                   >
                     All
-                  </a>
+                  </button>
                 </li>
                 <li>
-                  <a
+                  <button
                     onClick={this.onFilterClick.bind(this)}
                     data-filter="branding"
-                    className={selectedFilter === 'branding' ? 'current' : ''}
+                    className={selectedFilter === 'branding' ? filterStyles.current : ''}
                   >
                     Branding
-                  </a>
+                  </button>
                 </li>
                 <li>
-                  <a
+                  <button
                     onClick={this.onFilterClick.bind(this)}
                     data-filter="digital"
-                    className={selectedFilter === 'digital' ? 'current' : ''}
+                    className={selectedFilter === 'digital' ? filterStyles.current : ''}
                   >
                     Digital
-                  </a>
+                  </button>
                 </li>
                 <li>
-                  <a
+                  <button
                     onClick={this.onFilterClick.bind(this)}
                     data-filter="print"
-                    className={selectedFilter === 'print' ? 'current' : ''}
+                    className={selectedFilter === 'print' ? filterStyles.current : ''}
                   >
                     Print
-                  </a>
+                  </button>
                 </li>
                 <li>
-                  <a
+                  <button
                     onClick={this.onFilterClick.bind(this)}
                     data-filter="illustration"
                     className={
-                      selectedFilter === 'illustration' ? 'current' : ''
+                      selectedFilter === 'illustration' ? filterStyles.current : ''
                     }
                   >
                     Illustration
-                  </a>
+                  </button>
                 </li>
               </ul>
             </div>
           </div>
 
-          <div className="works-grid-wrapper">
-            <div className="works-grid works-grid-gutter" id="works-grid">
-              {links}
-            </div>
+          <div className={styles.worksGridWrapper} id="works-grid">
+            {links}
           </div>
         </div>
       </section>
@@ -124,7 +123,7 @@ class PortfolioStuff extends Component {
           return true;
         }
         return item
-          .querySelector('.work-category')
+          .querySelector('.' + styles.workCategory)
           .innerText.includes(selectedFilter);
       }
     });
@@ -132,8 +131,8 @@ class PortfolioStuff extends Component {
 
   onFilterClick(filter) {
     selectedFilter = filter.target.getAttribute('data-filter');
-    document.body.querySelector('.current').classList.remove('current');
-    filter.target.classList.add('current');
+    document.body.querySelector('.' + filterStyles.current).classList.remove(filterStyles.current);
+    filter.target.classList.add(filterStyles.current);
     this.refreshLayout();
   }
 
@@ -145,7 +144,7 @@ class PortfolioStuff extends Component {
   componentDidMount() {
     this.iso = new Isotope('#works-grid', {
       layoutMode: 'masonry',
-      itemSelector: '.work-item',
+      itemSelector: '.' + styles.workItem,
       transitionDuration: '0.3s'
     });
   }

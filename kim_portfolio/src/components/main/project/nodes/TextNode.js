@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../Project.css';
 
 class TextNode extends Component {
   constructor(text, header) {

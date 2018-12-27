@@ -1,8 +1,8 @@
-.route-wrapper {
+.routerWrapper {
   position: relative;
 }
 
-.route-wrapper > div {
+.routerWrapper > div {
   position: absolute;
   width: 100%;
 }

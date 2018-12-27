@@ -6,7 +6,7 @@ import Blog from './blog/Blog';
 import Portfolio from './portfolio/Portfolio';
 import Sketchbook from './sketchbook/Sketchbook';
 import Project from './project/Project';
-import './Main.css';
+import styles from './Main.module.css';
 
 class Main extends Component {
   mapStyles(styles) {
@@ -51,7 +51,7 @@ class Main extends Component {
             atLeave={this.bounceTransition.atLeave}
             atActive={this.bounceTransition.atActive}
             mapStyles={this.mapStyles}
-            className="route-wrapper"
+            className={styles.routeWrapper}
           >
             <Route exact path="/" component={Portfolio} />
             <Route path="/portfolio" component={Portfolio} />

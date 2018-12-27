@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Data from '../Data';
 import ProjectRow from './ProjectRow';
-import './Project.css';
+import styles from './Project.module.css';
 
 class Project extends Component {
   render() {
@@ -11,7 +11,7 @@ class Project extends Component {
       return null;
     }
 
-    return <div className="project-container">
+    return <div className={styles.projectContainer}>
       {project.rows.map((row, index) => <ProjectRow key={index} row={row} />)}
     </div>;
   }

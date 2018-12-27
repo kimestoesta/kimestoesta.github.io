@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../Project.css';
+import styles from './VideoNode.module.css';
 
 class VideoNode extends Component {
   constructor(url, title, columns) {
@@ -11,7 +11,7 @@ class VideoNode extends Component {
 
   render() {
     return (
-      <div className="project-video">
+      <div className={styles.projectVideo}>
         <iframe src={this.url} frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen title={this.title} />
       </div>
     );

@@ -1,0 +1,26 @@
+.filters {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 70px;
+}
+
+.filters li {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+}
+
+.filters li > button {
+  cursor: pointer;
+  border: 2px solid transparent;
+  font-weight: 700;
+  font-size: 11px;
+  color: #111;
+  padding: 8px 15px 7px 15px;
+}
+
+.filters li > button.current {
+  background: #42c0ae;
+  color: #fff;
+  border-color: #42c0ae;
+}
