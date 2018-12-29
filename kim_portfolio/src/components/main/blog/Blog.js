@@ -1,11 +1,17 @@
+import BlogData from '../BlogData';
+import BlogPost from './BlogPost';
 import React, { Component } from 'react';
 import Footer from '../footer/Footer';
+import styles from './Blog.module.css';
 
 class Blog extends Component {
   render() {
+    const blogs = BlogData.posts;
     return (
       <div>
-        blogblogblog
+        <div className={styles.blogContainer}>
+          {blogs.map(post => <BlogPost post={post} />)}
+        </div>
         <Footer />
       </div>
     );
@@ -13,3 +19,4 @@ class Blog extends Component {
 }
 
 export default Blog;
+

@@ -12,7 +12,10 @@ class Main extends Component {
   mapStyles(styles) {
     return {
       opacity: styles.opacity,
-      transform: `scale(${styles.scale})`
+      padding: '16px',
+      position: 'absolute',
+      transform: `scale(${styles.scale})`,
+      width: '100%',
     };
   }
 
@@ -45,22 +48,20 @@ class Main extends Component {
   render() {
     return (
       <div>
-        <div className="container-fluid wrapper">
-          <AnimatedSwitch
-            atEnter={this.bounceTransition.atEnter}
-            atLeave={this.bounceTransition.atLeave}
-            atActive={this.bounceTransition.atActive}
-            mapStyles={this.mapStyles}
-            className={styles.routeWrapper}
-          >
-            <Route exact path="/" component={Portfolio} />
-            <Route path="/portfolio" component={Portfolio} />
-            <Route path="/blog" component={Blog} />
-            <Route path="/sketchbook" component={Sketchbook} />
-            <Route path="/about" component={About} />
-            <Route path="/project/:id" component={Project} />
-          </AnimatedSwitch>
-        </div>
+        <AnimatedSwitch
+          atEnter={this.bounceTransition.atEnter}
+          atLeave={this.bounceTransition.atLeave}
+          atActive={this.bounceTransition.atActive}
+          mapStyles={this.mapStyles}
+          className={styles.routeWrapper}
+        >
+          <Route exact path="/" component={Portfolio} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/blog" component={Blog} />
+          <Route path="/sketchbook" component={Sketchbook} />
+          <Route path="/about" component={About} />
+          <Route path="/project/:id" component={Project} />
+        </AnimatedSwitch>
       </div>
     );
   }
