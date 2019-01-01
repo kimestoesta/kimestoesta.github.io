@@ -1,8 +1,0 @@
-.routerWrapper {
-  position: relative;
-}
-
-.routerWrapper > div {
-  position: absolute;
-  width: 100%;
-}
