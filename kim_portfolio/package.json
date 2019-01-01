@@ -19,7 +19,7 @@
     "react-scripts": "^2.1.2",
     "react-spinners": "^0.4.5"
   },
-  "homepage": "https://njiang1209.github.io/kim_portfolio",
+  "homepage": "https://kimestoesta.github.io/kim_portfolio",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
