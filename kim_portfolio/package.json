@@ -19,10 +19,10 @@
     "react-scripts": "^2.1.2",
     "react-spinners": "^0.4.5"
   },
-  "homepage": "https://kimestoesta.github.io/kim_portfolio",
+  "homepage": "https://kimestoesta.github.io/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
