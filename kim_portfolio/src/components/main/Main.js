@@ -6,7 +6,7 @@ import Blog from './blog/Blog';
 import Portfolio from './portfolio/Portfolio';
 import Sketchbook from './sketchbook/Sketchbook';
 import Project from './project/Project';
-import styles from './Main.module.css';
+import styles from './Main.module.scss';
 
 class Main extends Component {
   mapStyles(styles) {

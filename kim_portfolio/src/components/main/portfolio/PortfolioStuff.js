@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Isotope from 'isotope-layout';
 import OnImagesLoaded from 'react-on-images-loaded';
 import Data from '../Data';
-import filterStyles from './PortfolioFilters.module.css';
-import styles from './PortfolioStuff.module.css';
+import filterStyles from './PortfolioFilters.module.scss';
+import styles from './PortfolioStuff.module.scss';
 
 var selectedFilter = '*';
 class PortfolioStuff extends Component {

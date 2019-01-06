@@ -1,7 +1,7 @@
 import ImageLoader from 'react-load-image';
 import React, { Component } from 'react';
 import ReactMarkdown from 'react-markdown';
-import styles from './BlogPost.module.css';
+import styles from './BlogPost.module.scss';
 import { ClipLoader } from 'react-spinners';
 
 class BlogPost extends Component {

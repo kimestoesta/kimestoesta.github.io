@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './VideoNode.module.css';
+import styles from './VideoNode.module.scss';
 
 class VideoNode extends Component {
   constructor(url, title, columns) {

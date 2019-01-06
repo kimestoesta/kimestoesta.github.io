@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './ProjectRow.module.css';
+import styles from './ProjectRow.module.scss';
 
 class ProjectRow extends Component {
 

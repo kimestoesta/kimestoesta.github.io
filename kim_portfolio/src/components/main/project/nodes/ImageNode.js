@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ImageLoader from 'react-load-image';
 import { ClipLoader } from 'react-spinners';
-import styles from './ImageNode.module.css';
+import styles from './ImageNode.module.scss';
 
 class ImageNode extends Component {
   constructor(image, columns) {

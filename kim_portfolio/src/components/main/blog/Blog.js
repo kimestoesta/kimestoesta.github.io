@@ -2,7 +2,7 @@ import BlogData from '../BlogData';
 import BlogPost from './BlogPost';
 import React, { Component } from 'react';
 import Footer from '../footer/Footer';
-import styles from './Blog.module.css';
+import styles from './Blog.module.scss';
 
 class Blog extends Component {
   render() {

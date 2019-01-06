@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import movingLogo from './Moving-Logo.gif';
 import { Link } from 'react-router-dom';
-import './sidebar.css';
+import './sidebar.scss';
 
 class Sidebar extends Component {
   render() {

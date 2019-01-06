@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Data from '../Data';
 import ProjectRow from './ProjectRow';
-import styles from './Project.module.css';
+import styles from './Project.module.scss';
 
 class Project extends Component {
   render() {
