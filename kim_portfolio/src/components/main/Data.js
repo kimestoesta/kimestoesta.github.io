@@ -283,6 +283,37 @@ class Data {
       ],
     },
     {
+      title: 'That One Spot',
+      tags: ['print', 'branding', 'illustration'],
+      thumbnail: 'images/spot-takeout.jpg',
+      rows: [
+        [
+          new TextNode(
+            'That One Spot is a rebrand I did for a client running a family owned burger restaurant located in Ocoee, FL. They are known for their well crafted and customizable burgers with a variety of meat options but also provide a variety of salads and sides. While their ingredients are fresh and local they aim to be a fast casual spot for everyone to grab a bite. Keeping their brand in mind I was hired to rebrand the restaurant to more closely reflect their voice today and as they look to grow.'
+          ),
+          new ImageNode(
+            'images/spot-all2.jpg',
+            2,
+          ),
+        ],
+        [
+          new ImageNode('images/spot-bigmenu.jpg'),
+          new ImageNode('images/spot_mat.jpg'),
+          new ImageNode('images/spot-businesscards.jpg'),
+        ],
+        [
+          new ImageNode('images/spot-takeout1.jpg'),
+          new ImageNode('images/spot-takeout2.jpg'),
+        ],
+        [
+          new ImageNode('images/spot_menus.jpg'),
+        ],
+        [
+          new ImageNode('images/spot-all.jpg')
+        ],
+      ],
+    },
+    {
       title: 'GitHub Holiday Card 2017',
       tags: ['print', 'digital', 'illustration'],
       thumbnail: 'images/holiday-thumb.gif',
@@ -302,11 +333,17 @@ class Data {
         ],
         [
           new ImageNode('images/holiday-moodboard.jpg'),
+        ],
+        [
           new ImageNode('images/holiday-process.png'),
         ],
         [
-          new ImageNode('images/holiday-v1.png',2,),
-          new TextNode(' '),
+          new TextNode(
+            ' ','Final'),
+        ],
+        [
+          new ImageNode('images/holiday-v1.png'),
+          new ImageNode('images/holiday-v2.gif')
         ],
       ],
     },
