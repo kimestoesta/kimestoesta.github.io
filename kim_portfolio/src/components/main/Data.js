@@ -238,6 +238,79 @@ class Data {
       ],
     },
     {
+      title: 'Constellation Roadshow',
+      tags: ['branding', 'digital'],
+      thumbnail: 'images/constellation-thumb.png',
+      rows: [
+        [
+          new TextNode(
+            'With the success of Constellation Tokyo, GitHub Constellation evolved into a roadshow event visiting communities all around the world. Jumping from the more site specific branding of Constellation Tokyo, I wanted to keep the lock up and give it a brand that could work for all the future stops on this roadshow. The biggest challenge of this project was designing a system that would allow each location to have distinct contrast from one another on site and through digital communications while also branding them cohesively to allow assets to be reused from location to location. \n\n Working with contractors Andrew and Kyle I passed on the brand kit and they brought http://githubconstellation.com/ to life.'
+          ),
+          new ImageNode(
+            'images/constellation-roadshow.png',
+            2,
+          ),
+        ],
+        [
+          new ImageNode('images/constellation-assets.png'),
+        ],
+        [
+          new TextNode(' ','Digital Identity'),
+        ],
+        [
+          new ImageNode('images/constellation-city-brand.jpg'),
+        ],
+        [
+          new TextNode(' '),
+          new ImageNode('images/constellation-toronto.jpg',2,),
+        ],
+        [
+          new ImageNode('images/constellation-boston.png'),
+          new ImageNode('images/constellation-chicago.jpg'),
+          new ImageNode('images/constellation-seattle.png'),
+        ],
+        [
+          new ImageNode('images/constellation-london.png'),
+          new ImageNode('images/constellation-dc.png'),
+          new TextNode('  '),
+        ],
+        [
+          new TextNode(' ','Site Design'),
+        ],
+        [
+          new ImageNode('images/constellation-site18.png'),
+        ],
+      ],
+    },
+    {
+      title: 'GitHub Holiday Card 2017',
+      tags: ['print', 'digital', 'illustration'],
+      thumbnail: 'images/holiday-thumb.gif',
+      rows: [
+        [
+          new TextNode(
+            'We sent out some holiday cards to customers this past December. We printed post cards and sent them through good ole snail mail. Couldn\'t pick between the two versions so we used both. One we printed and another as a .gif for an E-card version. Super fun to work in a more illustrative textured style!'
+          ),
+          new ImageNode(
+            'images/holiday-v2.gif',
+            2,
+          ),
+        ],
+        [
+          new TextNode(
+            ' ','Moodboards and Explorations'),
+        ],
+        [
+          new ImageNode('images/holiday-moodboard.jpg'),
+          new ImageNode('images/holiday-process.png'),
+        ],
+        [
+          new ImageNode('images/holiday-v1.png',2,),
+          new TextNode(' '),
+        ],
+      ],
+    },
+    {
       title: 'RecSports Small Group Training',
       tags: ['print', 'digital', 'campaign'],
       thumbnail: 'images/findfit-thumbnail.jpg',
