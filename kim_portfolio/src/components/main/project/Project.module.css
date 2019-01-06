@@ -1,3 +1,11 @@
 .projectContainer {
-  padding: 32px;
+  padding: 30px;
+}
+
+.projecttitle {
+  padding-left: 20px;
+}
+
+.projecttags {
+  padding-left: 20px;
 }
