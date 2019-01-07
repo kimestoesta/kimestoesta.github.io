@@ -97,7 +97,7 @@ class Data {
           new TextNode(
             'Create a website that contains all the campaign videos and information in one place.','Task'),
           new TextNode(
-            '- Designing parallel to the creation of the campaign videos contractors were working on. The photos and videos were a big part of the visuals but there was not room on the timeline to wait to get assets in before creating the website and gallery designs. \n - Working both on all parts of the project including design, front-end development, and environmental pieces.','Challenges')
+            '- Designing parallel to the creation of the campaign videos contractors were working on. The photos and videos were a big part of the visuals but there was not room on the timeline to wait to get assets in before creating the website and gallery designs. \n - Working simultaneously on all parts of the project: visual design,  front-end development, photo treatment, and environmental print pieces.','Challenges')
         ],
         [
           new TextNode(
@@ -244,7 +244,7 @@ class Data {
       rows: [
         [
           new TextNode(
-            'With the success of Constellation Tokyo, GitHub Constellation evolved into a roadshow event visiting communities all around the world. Jumping from the more site specific branding of Constellation Tokyo, I wanted to keep the lock up and give it a brand that could work for all the future stops on this roadshow. The biggest challenge of this project was designing a system that would allow each location to have distinct contrast from one another on site and through digital communications while also branding them cohesively to allow assets to be reused from location to location. \n\n Working with contractors Andrew and Kyle I passed on the brand kit and they brought http://githubconstellation.com/ to life.'
+            'With the success of Constellation Tokyo, GitHub Constellation evolved into a roadshow event visiting communities all around the world. Jumping from the more site specific branding of Constellation Tokyo, I wanted to keep the lock up and give it a brand that could work for all the future stops on this roadshow. The biggest challenge of this project was designing a system that would allow each location to have distinct contrast from one another on site and through digital communications while also branding them cohesively to allow assets to be reused from location to location. \n\n Working with contractors Andrew and Kyle I passed on the brand kit and they brought http://githubconstellation.com/ to life.','TLDR'
           ),
           new ImageNode(
             'images/constellation-roadshow.png',
@@ -289,7 +289,7 @@ class Data {
       rows: [
         [
           new TextNode(
-            'That One Spot is a rebrand I did for a client running a family owned burger restaurant located in Ocoee, FL. They are known for their well crafted and customizable burgers with a variety of meat options but also provide a variety of salads and sides. While their ingredients are fresh and local they aim to be a fast casual spot for everyone to grab a bite. Keeping their brand in mind I was hired to rebrand the restaurant to more closely reflect their voice today and as they look to grow.'
+            'That One Spot is a rebrand I did for a client running a family owned burger restaurant located in Ocoee, FL. They are known for their well crafted and customizable burgers with a variety of meat options but also provide a variety of salads and sides. While their ingredients are fresh and local they aim to be a fast casual spot for everyone to grab a bite. Keeping their brand in mind I was hired to rebrand the restaurant to more closely reflect their voice today and as they look to grow.','TLDR'
           ),
           new ImageNode(
             'images/spot-all2.jpg',
@@ -314,13 +314,86 @@ class Data {
       ],
     },
     {
+      title: 'Constellation Tokyo',
+      tags: [ 'branding', 'digital',],
+      thumbnail: 'images/tokyo-thumb.jpg',
+      rows: [
+        [
+          new TextNode(
+            'GitHub\'s flagship conference, Universe is hosted in San Francisco every year. Here we announce products, host workshops, and meet with customers to listen to their needs and answer their questions. It\'s a great experience to come together as a community and it\'s the type of event that we wanted to make sure more of our customers could have access to. We started with GitHub Satellite as a European touch point and now Constellation Tokyo was our opportunity to better connect with our Asian Pacific audience.','TLDR'
+          ),
+          new ImageNode(
+            'images/tokyo-redbrand.png',
+            2,
+          ),
+        ],
+        [
+          new TextNode(
+            'Working within the Universe logo family I explored logos that used Mona\'s silhouette with a more customized mark to represent Japan. This allowed for a system that we could hopefully expand year to year, as the location changed.','Logo'),
+          new TextNode(
+            ' '),
+        ],
+        [
+          new ImageNode('images/tokyo-logoexploration1.png'),
+          new ImageNode('images/tokyo-logoexploration2.png'),
+        ],
+        [
+          new TextNode(
+            'In researching Japanese history and culture I found inspiration for color and pattern in their textiles and art. Japanese printmaking, ink-wash paintings, and indigo dye led to the colors of deep blue, gold, ivory, and red. Sakiori weaving, a Japanese textile looming method, inspired the overlapping blocks, constellation pattern, lines, and stitches of the design.','Color & Pattern'),
+          new TextNode(
+            ' ',),
+        ],
+        [
+          new ImageNode('images/tokyo-tokyoblue.png'),
+          new ImageNode('images/tokyo-tokyoivory.png'),
+          new ImageNode('images/tokyo-tokyored.png'),
+        ],
+        [
+          new TextNode(
+            ' ','Final Brand'),
+        ],
+        [
+          new ImageNode('images/tokyo-tokyobrand.png'),
+        ],
+        [
+          new VideoNode(
+            'https://www.youtube.com/embed/8jN2K1SnPJ4',
+            'constelation-tokyo',),
+        ],
+        [
+          new ImageNode('images/tokyo-social.jpg'),
+        ],
+        [
+          new ImageNode('images/tokyo-redbrand.png'),
+        ],
+        [
+          new ImageNode('images/tokyo-schedule1.png'),
+          new ImageNode('images/tokyo-schedule2.png'),
+          new ImageNode('images/tokyo-schedule3.png'),
+        ],
+        [
+          new ImageNode('images/tokyo-talk1.png'),
+          new ImageNode('images/tokyo-talk2.png'),
+        ],
+        [
+          new ImageNode('images/tokyo-speaker1.png'),
+        ],
+        [
+          new ImageNode('images/tokyo-speaker2.png'),
+        ],
+        [
+          new ImageNode('images/tokyo-bluebrand.png'),
+        ],
+      ],
+    },
+    {
       title: 'GitHub Holiday Card 2017',
       tags: ['print', 'digital', 'illustration'],
       thumbnail: 'images/holiday-thumb.gif',
       rows: [
         [
           new TextNode(
-            'We sent out some holiday cards to customers this past December. We printed post cards and sent them through good ole snail mail. Couldn\'t pick between the two versions so we used both. One we printed and another as a .gif for an E-card version. Super fun to work in a more illustrative textured style!'
+            'We sent out some holiday cards to customers this past December. We printed post cards and sent them through good ole snail mail. Couldn\'t pick between the two versions so we used both. One we printed and another as a .gif for an E-card version. Super fun to work in a more illustrative textured style!','TLDR'
           ),
           new ImageNode(
             'images/holiday-v2.gif',
@@ -348,6 +421,29 @@ class Data {
       ],
     },
     {
+      title: 'GitHub Intern Recruitment',
+      tags: [ 'illustration'],
+      thumbnail: 'images/recruitment-thumb.jpg',
+      rows: [
+        [
+          new TextNode(
+            'GitHub hosts internships for college students every summer. Interns are invited to stay in San Francisco to work from GitHub HQ so I created this San Francisco inspired illustration to use in our intern recruitment materials. \n https://internships.github.com/','TLDR'
+          ),
+          new ImageNode(
+            'images/recruitment-intern.png',
+            2,
+          ),
+        ],
+        [
+          new ImageNode('images/recruitment-banner.jpg'),
+          new ImageNode('images/recruitment-banner2.jpg'),
+        ],
+        [
+          new ImageNode('images/recruitment-twittercard.png'),
+        ],
+      ],
+    },
+    {
       title: 'RecSports Small Group Training',
       tags: ['print', 'digital', 'campaign'],
       thumbnail: 'images/findfit-thumbnail.jpg',
@@ -356,26 +452,65 @@ class Data {
           new TextNode(
             'The marketing team for Recreational Sports at the University of Florida is comprised of designers, videographers, photographers, and media specialists. I work in-house where we service many different departments within RecSports like clients making sure to boost visibility and spread awareness of several campaigns or events. This was a 4 page booklet I designed for Small Group Training. It includes the different formats offered for that semester as well as the rates and calendar of all the classes being offered. For the campagn we printed and distributed the 4 pager at all our facilities and ran the campaign through our website and social media channels. I also animated the campaign for our digital outlets that play throughout the day on severals screens throughout the fitness facilites.',
             'TLDR'),
+          new ImageNode('images/findfit-double.jpg',2,)
+        ],
+        [
+          new ImageNode('images/findfit-multiple.jpg',),
+        ],
+        [
+          new ImageNode('images/findfit-booklet.gif'),
+          new ImageNode('images/findfit-sides.jpg',),
+        ],
+        [
           new VideoNode(
             'https://player.vimeo.com/video/155912657',
-            'EyeSpy',
+            'recsports'),
+          new ImageNode('images/findfit-social.jpg'),
+        ],
+        [
+          new ImageNode('images/findfit-tvs.jpg'),
+        ]
+      ],
+    },
+    {
+      title: 'Net Neutrality',
+      tags: ['digital', 'motion graphics'],
+      thumbnail: 'images/net-neutrality_save.jpg',
+      rows: [
+        [
+          new TextNode(
+            'Back in July of 2018 GitHub joined millions of people to stand up for Net Neutrality. In the days leading up to the vote GitHub put up a banner on the site, made this blog post, and shared on twitter to support the open internet. Our team of 3 designers at the time banded together to push out these last minute assets within a few hours. Net Neutrality has been through it\'s ups and downs and California continues to fight with it\'s state net neutrality bill.','TLDR'
+          ),
+          new ImageNode(
+            'images/net-neutralityads.gif',
             2,
           ),
         ],
         [
-          new ImageNode('images/findfit-multiple.jpg'),
-          new ImageNode('images/findfit-double.jpg'),
-          new ImageNode('images/findfit-social.jpg'),
-
+          new TextNode(' ','Storyboard and Reference'),
         ],
         [
-          new ImageNode('images/findfit-booklet.gif'),
-          new ImageNode('images/findfit-double.jpg', 2),
+          new ImageNode('images/net-neutralityplan.png',2,),
+          new ImageNode('images/net-reference.gif'),
+          new ImageNode('images/net-reference1.gif'),
         ],
         [
-          new ImageNode('images/findfit-sides.jpg', 2),
-          new ImageNode('images/findfit-tvs.jpg'),
-        ]
+          new TextNode(' ','Process'),
+        ],
+        [
+          new ImageNode('images/net-img-1.jpg'),
+          new ImageNode('images/net-img-2.jpg'),
+        ],
+        [
+          new ImageNode('images/net-img-4.jpg'),
+          new ImageNode('images/net-img-5.jpg'),
+        ],
+        [
+          new ImageNode('images/net-neutralitypopup.gif'),
+        ],
+        [
+          new ImageNode('images/net-neutralityads.gif')
+        ],
       ],
     },
     {
@@ -410,33 +545,6 @@ class Data {
       ],
     },
     {
-      title: 'The Kailune Chronicles',
-      tags: ['concept', 'storytelling', 'illustration'],
-      thumbnail: 'images/imaginations-poster.jpg',
-      rows: [
-        [
-          new TextNode(
-            'The Kailune Chronicles is a project designed for the Disney Imaginations Competition. I recruited 3 other students - Elizabeth Rhodes, Brandon Kocher, and Shari Brown. The 2015 challenge was to create a form of traveling entertainment that could be set up and broken down within a day. Together we collaborated and came up with the story of the Kailune Chronicles. In production we split up our duties to create the final presentation. My contributions to the project were creating the logo, the official park map, helping with concept and UX of the app, concept art of the domes and airships, research of airship technology, Maya 3-D model of the airships, and the storyboard art sequence of the final show. Overall I worked as the team leader and art director making calendars and controlling task management of the group.'
-          ),
-          new ImageNode(
-            'images/imaginations-logo.jpg',
-            2,
-          ),
-        ],
-        [
-          new ImageNode('images/imaginations-2.jpg'),
-          new ImageNode('images/imaginations-3.jpg'),
-          new ImageNode('images/imaginations-4.jpg'),
-        ],
-        [
-          new ImageNode('images/imaginations-5.jpg'),
-          new ImageNode('images/imaginations-6.jpg'),
-          new ImageNode('images/imaginations-map.jpg'),
-          new ImageNode('images/imaginations-process.jpg'),
-        ],
-      ],
-    },
-    {
       title: 'Haulbox Startup',
       tags: ['branding', 'digital', 'mobile app', 'web'],
       thumbnail: 'images/haulboxthum.png',
@@ -451,40 +559,13 @@ class Data {
         ],
         [
           new ImageNode(
-            'images/haulboxweb.png',
-          ),
-          new ImageNode(
-            'images/haulboxdemo.png',
-          ),
-          new ImageNode(
-            'images/haulboxapp.png',
-          ),
-        ],
-      ],
-    },
-    {
-      title: 'The Faces of Luck',
-      tags: ['digital', 'illustration'],
-      thumbnail: 'images/cards-characters.jpg',
-      rows: [
-        [
-          new TextNode(
-            'Faces of Luck was created for a student project. The illustration depicts an exploded view of playing cards but also holds meaning in the depictions of the King and Queen. Cards can associated with gambling and the images work to subtly show the cycles of gambling, you win some and you lose some. Gambling is a non-discriminatory activity and can effect both male and female. The illustration portrays this serious topic in a lighthearted style and allows people to entertain the thought of lows and highs in gambling. The video animation will later be expanded to follow the storyboard included. This project will also later be expanded into a card deck.'),
-          new VideoNode(
-            'https://player.vimeo.com/video/157179695',
-            'FOL',
-          ),
+            'images/haulboxweb.png',),
         ],
         [
           new ImageNode(
-            'images/cardsflat.png'
-          ),
+            'images/haulboxdemo.png',),
           new ImageNode(
-            'images/cards-suits.jpg'
-          ),
-          new ImageNode(
-            'images/cards-storyboard.jpg'
-          ),
+            'images/haulboxapp.png',),
         ],
       ],
     },
@@ -492,46 +573,18 @@ class Data {
       title: 'Intramural Sports Campaign',
       tags: ['branding', 'print'],
       thumbnail: 'images/im-thumb.jpg',
-      images: [
-        'images/im-preview1.jpg',
-        'images/im-multiple.jpg',
-        'images/im-coverpage.jpg',
-        'images/im-inside.jpg',
-        'images/im-backpage.jpg',
-        'images/im-context.jpg'
+      rows: [
+        [
+          new TextNode(
+            'The marketing team for Recreational Sports at the University of Florida is comprised of designers, videographers, photographers, and media specialists. I work in-house where we service many different departments within RecSports like clients making sure to boost visibility and spread awareness of several campaigns or events. This project is a campaign for 2016 - 2017 Intramural Sports. For this campaign I took advantage of all the resources and talent available. ','TLDR'),
+          new TextNode('As the creative director and lead designer I worked with our photographers Camron and Muxi to take photos of over 20 different sports offered. From there I developed a style for the campaign and designed the materials for Summer 2016. I will be training and passing on this project to younger designers so the style can be applied to the campaign for Fall and Spring Semesters.'),
+        ],
+        [
+          new ImageNode(
+            'images/im-preview1.jpg'),
+        ],
       ],
-      description:
-        'The marketing team for Recreational Sports at the University of Florida is comprised of designers, videographers, photographers, and media specialists. I work in-house where we service many different departments within RecSports like clients making sure to boost visibility and spread awareness of several campaigns or events. This project is a campaign for 2016 - 2017 Intramural Sports. For this campaign I took advantage of all the resources and talent available. As the creative director and lead designer I worked with our photographers Camron and Muxi to take photos of over 20 different sports offered. From there I developed a style for the campaign and designed the materials for Summer 2016. I will be training and passing on this project to younger designers so the style can be applied to the campaign for Fall and Spring Semesters.'
     },
-    {
-      title: 'Goode Chocolate Bars',
-      tags: ['packaging', 'branding', 'print'],
-      thumbnail: 'images/goode-thumb.jpg',
-      images: [
-        'images/goodechocolate.jpg',
-        'images/goode-back.jpg',
-        'images/goode-above.jpg'
-      ],
-      description:
-        'The Goode Chocolate Company was a fictional chocolate company for a student project celebrating 100 years of business. To honor their anniversary this packaging design pays tribute to some of the company’s best years, the roaring 20s. The company sells three flavors dark, milk, and white chocolate each distinguished by a different colored foil revealed through the die cut New York City skyline where the company originated.'
-    },
-    {
-      title: 'Wacom 2015 Annual Report',
-      tags: ['digital', 'web'],
-      thumbnail: 'images/wacom-thumb.gif',
-      clips: [
-        '<iframe src="https://player.vimeo.com/video/160619108?autoplay=1&loop=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
-      ],
-      images: [
-        '$',
-        'images/wacom-intro.gif',
-        'images/wacom-brand.gif',
-        'images/wacom-home.jpg',
-        'images/wacom-goodbye.jpg'
-      ],
-      description:
-        'This student project required us to select a publicly traded company and produce an annual report using their released information and statistics. Wacom is a technology and solutions company most known for their digital tablet products. They believe in encouraging and supporting a creative world through their technologies. Their current annual report is a .pdf version of their a several page print book. Wacom was last rebranded in 2007 but their website reflects a slightly changed brand language not included in their brand guideline. I wanted to create an annual report that fit with the current brand of Wacom for a completely digital platform. For this project I learned and used muse to create the website prototype shown. '
-    }
   ];
 }
 
