@@ -104,7 +104,7 @@ class PortfolioStuff extends Component {
             </div>
           </div>
 
-          <div className={styles.worksGridWrapper} id="works-grid">
+          <div className={styles.worksGridWrapper + " mx-auto"} id="works-grid">
             {links}
           </div>
         </div>
