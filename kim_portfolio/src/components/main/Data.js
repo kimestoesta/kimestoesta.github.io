@@ -28,7 +28,7 @@ class Data {
         ],
         [
           new TextNode(
-              '- Engage with the Git Community \n - Create a rewarding attendee experience \n - Create a Platform for Speakers and exhibitors','Goals Git Merge 2018'),
+              '- Engage with the Git Community \n - Create a rewarding attendee experience \n - Create a Platform for Speakers and exhibitors','Goals Git Merge 2018', 'mx-4'),
           new TextNode(
             '- Branding \n - Marketing on social media \n - Swag items \n - Signage and way finding exhibitors','Responsibilities'),
           new TextNode(

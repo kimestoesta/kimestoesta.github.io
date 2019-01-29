@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactMarkdown from 'react-markdown';
 
 class TextNode extends Component {
-  constructor(text, header) {
+  constructor(text, header, styles) {
     super();
     this.text = text;
     if (!text) {
@@ -10,11 +10,12 @@ class TextNode extends Component {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
     }
     this.header = header;
+    this.styles = styles;
   }
 
   render() {
     return (
-      <div>
+      <div class={this.styles}>
         {this.header ? <h3>{this.header}</h3> : null}
         <ReactMarkdown source={this.text} />
       </div>
