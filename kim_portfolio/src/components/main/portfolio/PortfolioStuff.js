@@ -57,7 +57,9 @@ class PortfolioStuff extends Component {
                   <button
                     onClick={this.onFilterClick.bind(this)}
                     data-filter="*"
-                    className={selectedFilter === '*' ? filterStyles.current : ''}
+                    className={
+                      selectedFilter === '*' ? filterStyles.current : ''
+                    }
                   >
                     All
                   </button>
@@ -66,7 +68,9 @@ class PortfolioStuff extends Component {
                   <button
                     onClick={this.onFilterClick.bind(this)}
                     data-filter="branding"
-                    className={selectedFilter === 'branding' ? filterStyles.current : ''}
+                    className={
+                      selectedFilter === 'branding' ? filterStyles.current : ''
+                    }
                   >
                     Branding
                   </button>
@@ -75,7 +79,9 @@ class PortfolioStuff extends Component {
                   <button
                     onClick={this.onFilterClick.bind(this)}
                     data-filter="digital"
-                    className={selectedFilter === 'digital' ? filterStyles.current : ''}
+                    className={
+                      selectedFilter === 'digital' ? filterStyles.current : ''
+                    }
                   >
                     Digital
                   </button>
@@ -84,7 +90,9 @@ class PortfolioStuff extends Component {
                   <button
                     onClick={this.onFilterClick.bind(this)}
                     data-filter="print"
-                    className={selectedFilter === 'print' ? filterStyles.current : ''}
+                    className={
+                      selectedFilter === 'print' ? filterStyles.current : ''
+                    }
                   >
                     Print
                   </button>
@@ -94,7 +102,9 @@ class PortfolioStuff extends Component {
                     onClick={this.onFilterClick.bind(this)}
                     data-filter="illustration"
                     className={
-                      selectedFilter === 'illustration' ? filterStyles.current : ''
+                      selectedFilter === 'illustration'
+                        ? filterStyles.current
+                        : ''
                     }
                   >
                     Illustration
@@ -104,7 +114,7 @@ class PortfolioStuff extends Component {
             </div>
           </div>
 
-          <div className={styles.worksGridWrapper + " mx-auto"} id="works-grid">
+          <div className={styles.worksGridWrapper + ' mx-auto'} id="works-grid">
             {links}
           </div>
         </div>
@@ -131,7 +141,9 @@ class PortfolioStuff extends Component {
 
   onFilterClick(filter) {
     selectedFilter = filter.target.getAttribute('data-filter');
-    document.body.querySelector('.' + filterStyles.current).classList.remove(filterStyles.current);
+    document.body
+      .querySelector('.' + filterStyles.current)
+      .classList.remove(filterStyles.current);
     filter.target.classList.add(filterStyles.current);
     this.refreshLayout();
   }

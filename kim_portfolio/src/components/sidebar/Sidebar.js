@@ -32,7 +32,6 @@ class Sidebar extends Component {
             >
               <span>@kimeillo</span>
             </a>
-
           </li>
         </ul>
       </nav>

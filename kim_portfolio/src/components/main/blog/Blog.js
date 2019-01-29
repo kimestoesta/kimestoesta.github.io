@@ -10,7 +10,9 @@ class Blog extends Component {
     return (
       <div>
         <div className={styles.blogContainer}>
-          {blogs.map(post => <BlogPost post={post} />)}
+          {blogs.map(post => (
+            <BlogPost post={post} />
+          ))}
         </div>
         <Footer />
       </div>
@@ -19,4 +21,3 @@ class Blog extends Component {
 }
 
 export default Blog;
-

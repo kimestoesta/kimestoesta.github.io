@@ -15,7 +15,7 @@ class Main extends Component {
       padding: '16px',
       position: 'absolute',
       transform: `scale(${styles.scale})`,
-      width: '100%',
+      width: '100%'
     };
   }
 

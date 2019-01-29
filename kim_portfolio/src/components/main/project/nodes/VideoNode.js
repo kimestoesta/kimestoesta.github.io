@@ -12,7 +12,14 @@ class VideoNode extends Component {
   render() {
     return (
       <div className={styles.projectVideo}>
-        <iframe src={this.url} frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen title={this.title} />
+        <iframe
+          src={this.url}
+          frameborder="0"
+          webkitallowfullscreen
+          mozallowfullscreen
+          allowfullscreen
+          title={this.title}
+        />
       </div>
     );
   }
