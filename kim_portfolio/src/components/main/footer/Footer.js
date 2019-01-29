@@ -4,7 +4,7 @@ class Footer extends Component {
 
   render() {
     return (
-      <footer className="module-overlay-dark-3 text-center">
+      <footer className="text-center col-sm-12 mt-5 mb-5">
         <div>
           kimestoesta@gmail.com
         </div>

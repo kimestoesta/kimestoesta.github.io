@@ -1,6 +1,13 @@
 @import '../../../_breakpoints.scss';
 
+@include breakpoint(lg) {
+  .projectContainer {
+    width: 95%;
+  }
+}
+
 .projectContainer {
+  margin: auto;
   padding: 32px;
 }
 

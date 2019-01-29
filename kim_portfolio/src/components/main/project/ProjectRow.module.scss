@@ -1,10 +1,12 @@
 @import '../../../_breakpoints.scss';
 
 .projectRow {
-  align-items:center;
+  align-items:top;
   display:flex;
+  background-color: cyan;
 }
 
 .projectNode {
-  padding: 15px;
+  padding: 30px;
+
 }
