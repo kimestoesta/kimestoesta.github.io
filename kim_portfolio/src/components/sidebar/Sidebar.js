@@ -7,34 +7,32 @@ class Sidebar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-sm">
-        <ul className="nav navbar-nav">
-          <li className="nav-item">
-            <Link to="/portfolio" className="nav-link text-dark">
+        <ul className="nav navbar-nav col-sm-11 mx-auto">
+          <li className="nav-item mx-auto">
+            <Link to="/portfolio" className="nav-link text-dark mr-5">
               <span>Portfolio</span>
             </Link>
-            <Link to="/blog" className="nav-link text-dark">
+            {/*<Link to="/blog" className="nav-link text-dark">
               <span>Blog</span>
-            </Link>
+            </Link> */}
             <Link to="/about" className="nav-link text-dark">
               <span>About</span>
             </Link>
           </li>
 
-          <li className="nav-item logo">
+          <li className="nav-item logo mx-auto">
             <img src={movingLogo} alt="" />
           </li>
 
-          <li className="nav-item">
-            <Link to="/sketchbook" className="nav-link text-dark">
-              <span>Sketchbook</span>
-            </Link>
+          <li className="nav-item-right">
             <a
-              href="EstoestaKim_Resume.pdf"
+              href="https://www.instagram.com/kimeillo/"
               target="_blank"
               className="nav-link text-dark"
             >
-              <span>R&Eacute;sum&Eacute;</span>
+              <span>@kimeillo</span>
             </a>
+
           </li>
         </ul>
       </nav>

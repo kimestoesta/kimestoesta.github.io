@@ -569,22 +569,6 @@ class Data {
         ],
       ],
     },
-    {
-      title: 'Intramural Sports Campaign',
-      tags: ['branding', 'print'],
-      thumbnail: 'images/im-thumb.jpg',
-      rows: [
-        [
-          new TextNode(
-            'The marketing team for Recreational Sports at the University of Florida is comprised of designers, videographers, photographers, and media specialists. I work in-house where we service many different departments within RecSports like clients making sure to boost visibility and spread awareness of several campaigns or events. This project is a campaign for 2016 - 2017 Intramural Sports. For this campaign I took advantage of all the resources and talent available. ','TLDR'),
-          new TextNode('As the creative director and lead designer I worked with our photographers Camron and Muxi to take photos of over 20 different sports offered. From there I developed a style for the campaign and designed the materials for Summer 2016. I will be training and passing on this project to younger designers so the style can be applied to the campaign for Fall and Spring Semesters.'),
-        ],
-        [
-          new ImageNode(
-            'images/im-preview1.jpg'),
-        ],
-      ],
-    },
   ];
 }
 
