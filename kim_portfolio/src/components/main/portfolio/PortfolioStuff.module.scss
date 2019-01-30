@@ -15,10 +15,6 @@
   position: relative;
 }
 
-.gridSizer {
-  width: 25%;
-}
-
 .workItem {
   padding: 8px 8px;
   position: relative;
@@ -27,7 +23,7 @@
 }
 
 .workItemDouble {
-  width: 50%;
+  width: 25%;
 }
 
 .workThumbnail:after {
@@ -152,16 +148,28 @@
   .workItem {
     width: 33.3%;
   }
+
+  .gridSizer {
+    width: 33.3%;
+  }
 }
 
 @media (max-width: 991px) {
   .workItem {
     width: 50%;
   }
+
+  .gridSizer {
+    width: 50%;
+  }
 }
 
 @media (max-width: 767px) {
   .workItem {
+    width: 100%;
+  }
+
+  .gridSizer {
     width: 100%;
   }
 }
