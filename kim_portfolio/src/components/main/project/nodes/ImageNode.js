@@ -7,6 +7,7 @@ class ImageNode extends Component {
   constructor(options) {
     super();
     this.options = options;
+    this.columns = options.columns
   }
 
   render() {
