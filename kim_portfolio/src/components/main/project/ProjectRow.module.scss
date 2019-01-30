@@ -10,10 +10,12 @@
   .projectRow {
     flex-direction: row;
   }
+  .projectNode {
+    padding-left: 15px;
+    padding-bottom: 15px;
+  }
 }
 
-
 .projectNode {
-  padding: 30px;
-
+  padding-bottom: 25px;
 }

@@ -13,28 +13,37 @@ class Data {
           new TextNode({
             text:
               'Git Merge is a full-day conference offering technical content and user case studies, plus a day of workshops for Git users of all levels. I had the opportunity to lead the design for Git Merge conferences 2017 and 2018. It was an interesting challenge to reinvision the design in 2018 since doing it in 2017. The problem: How do I make this brand look the same but also different?',
-            header: 'TLDR'
+            header: 'TLDR',
+            headerStyles: 'pt-lg-5 mb-4',
           }),
           new ImageNode({url:'images/gitmerge-pattern.jpg', columns: 2} )
         ],
-        [new ImageNode({url:'images/gitmerge-2017brand.jpg', header: 'Git Merge 2017 Brand'})],
+        [new ImageNode({url:'images/gitmerge-2017brand.jpg',
+        header: 'Git Merge 2017 Brand',
+        headerStyles: 'mb-4',
+        nodeStyles: 'mt-5'
+        })],
         [
           new TextNode({
             text:
               '- Engage with the Git Community \n - Create a rewarding attendee experience \n - Create a Platform for Speakers and exhibitors',
             header: 'Goals Git Merge 2018',
-            headerStyles: 'mx-5 projectheader',
-            nodeStyles: 'mx-1'
+            headerStyles: 'mb-4',
+            nodeStyles: 'my-5'
           }),
           new TextNode({
             text:
-              '- Branding \n - Marketing on social media \n - Swag items \n - Signage and way finding exhibitors',
-            header: 'Responsibilities'
+              '- Branding \n - Marketing on social media \n - Swag items \n - Signage and way finding',
+            header: 'Responsibilities',
+            headerStyles: 'mb-4',
+            nodeStyles: 'my-5'
           }),
           new TextNode({
             text:
               'How do we evolve the Git Merge brand from last year? \n 2017 branding took a micro look into git branches, git lines were zoomed in. \n Consider: \n - zooming out \n - what the git lines mean in a larger context?',
-            header: 'Explorations'
+            header: 'Explorations',
+            headerStyles: 'mb-4',
+            nodeStyles: 'my-5'
           })
         ],
         [new ImageNode({url:'images/gitmerge-explorations2018.jpg'})],
@@ -42,7 +51,8 @@ class Data {
           new TextNode({
             text:
               'This year we zoom out and thought about what these git lines mean. The lines are part of building a project so I settled on squares on a grid that could be visually built and rearranged. Grouping squares into tetris like shapes also helped visualize the idea of building and how projects are all different but can be created through the same process of git.',
-            header: 'Brand Guide'
+            header: 'Brand Guide',
+            headerStyles: 'mb-4',
           }),
           new TextNode({
             text: ' '
@@ -64,7 +74,8 @@ class Data {
         [
           new TextNode({
             text: '  ',
-            header: 'Things I am thinking about'
+            header: 'Things I am thinking about',
+            nodeStyles: ' '
           })
         ],
         [
@@ -82,12 +93,12 @@ class Data {
           })
         ],
         [
-          new TextNode({
-            text: ' ',
-            header: 'The final outcome'
-          })
-        ],
-        [new ImageNode({url:'images/gitmerge-photos.jpg', columns: 2})]
+          new ImageNode({
+            url:'images/gitmerge-photos.jpg',
+            header: 'The final outcome',
+            columns: 2,
+            headerStyles: 'mb-3',
+        })]
       ]
     },
     {

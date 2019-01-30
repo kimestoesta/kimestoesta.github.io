@@ -12,11 +12,11 @@ class ImageNode extends Component {
 
   render() {
     return (
-      <div>
+      <div class={this.options.nodeStyles}>
         {this.options.header ? (
-          <h3>{this.options.header}</h3>
+          <h3 class={this.options.headerStyles+' projectheader'}>{this.options.header}</h3>
         ) : null}
-        <ImageLoader src={this.options.url}>
+        <ImageLoader src={this.options.url} >
           <img alt="" className={styles.projectImage} />
           <div>Error!</div>
           <ClipLoader />
