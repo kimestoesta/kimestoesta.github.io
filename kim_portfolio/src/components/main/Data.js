@@ -194,76 +194,6 @@ class Data {
       ]
     },
     {
-      title: 'Primal Screen',
-      tags: ['interactive', 'digital', 'illustration'],
-      thumbnail: 'images/nickjr-dressup.png',
-      rows: [
-        [
-          new TextNode({
-            text:
-              'Primal Screen is an award winning design studio based in Atlanta, Georgia. That provide a full gamut of design service including animation, motion graphics, live action, audio, music composition, and interactive development.\n\n While I was working at Primal I was able to work on a variety of projects for clients like:\n - PBS kids \n - Sesame Workshop \n- Adult Swim \n- Nick Jr',
-            header: 'TLDR'
-          }),
-          new ImageNode({url:'images/Never_Give_Up.jpg', columns: 2})
-        ],
-        [
-          new TextNode({
-            text:
-              "Project: Daniel Tiger's Neighborhood app \n\n My contributions: User Interface, User Experience, Information Architecture, Prototyping \n\n Background: Daniel Tiger is an animated family-oriented television series based on the Neighborhood of Make Believe from Mister Roger's Neighborhood. The show is aimed to teach children emotional intelligence and human respect. The show has produced numerous clips of their lessons and wanted a way for parents to access those videos in an app. I worked on designing the screens and interface of the app then later animated and created a prototype. One of biggest challenges we faced was accessibility. The audience was aimed for all parents of varying financial situations we had to keep in mind how videos and content could be loaded and still mobile without eating too much data. Unfortunately, I left Primal Screen before finishing this project.  ",
-            header: 'Client: PBS Kids'
-          }),
-          new TextNode({
-            text:
-              'Project: Breath, Think, Do E-book \n\n My contributions: Illustrator \n\n Background: Breathe, Think, Do is a campaign by Sesame Street that teaches children to deal with emotions like anger and frustration. Primal Screen previously created the Breath, Think, Do app for Sesame Workshop and asked this app be translated into a story and illustrated for an E-book. I was responsible for transposing all the imagery from the app to a more textured and painterly style for the E-book. ',
-            header: 'Client: Sesame Workshop'
-          })
-        ],
-        [
-          new TextNode({
-            text:
-              "Project: Squidbillies Bumper \n My contributions: Character design \n Background: \n\n Primal Screen has a long standing relationship with Cartoon Network also based in Atlanta. For this project we worked to create a season premier bumper for Adult Swim's show Squidbillies, an adult animated comedy about anthropomorphic hillbilly mud squids. The idea was to create a Godzilla inspired bumper with the main characters of the show destroying the city and causing chaos. I helped turn them from giant squids to giant gross monsters.",
-            header: 'Client: Adult Swim'
-          }),
-          new VideoNode(
-            'https://www.youtube.com/embed/W5r4UJZBM9c',
-            'squidbillies',
-            2
-          )
-        ],
-        [new ImageNode({url:'images/squidbillies-design.jpg'})],
-        [
-          new TextNode({
-            text:
-              'Project: Bubble Guppies Kideo \n\n My contributions: Storyboard, stage hand on set, asset design, typography, title card design and motion graphics \n\n Background: \n Nickelodeon has been a long time client of Primal Screen. This bumper was one of several videos we created to help them to promote a variety of their Nick Jr. shows including Bubble Guppies, Shimmer and Shine, Team Umizoomi, Blaze and the Monster Machine, and Paw Patrol. For this video we made a mini music video using a song from the show Bubble Guppies. While planning for the video I created all the animated assets and type and helped storyboard the shots we would need on set. On set I assisted the art director and worked to help direct the kids. In post production I animated the title card of the video.',
-            header: 'Client: Nickelodeon'
-          }),
-          new VideoNode(
-            'https://www.youtube.com/embed/95pfhGG7OXM',
-            'bubbleguppies',
-            2
-          )
-        ],
-        [
-          new TextNode({
-            text:
-              'Project: Nick Jr Dress up - Paw Patrols & General \n\n My contributions: Storyboard, stage hand on set, asset creation, rotoscoping, title card design and animation. \n\n Background: \n The inspiration for these videos were augmented reality face filters originally made popular by snapchat. We produced a video for their Nick Jr. shows Bubble Guppies, Shimmer and Shine, Team Umizoomi, Blaze and the Monster Machine, and Paw Patrol and another specifically for the just for the show Paw Patrol. During pre-production I rotoscoped all the assets they would use to overlay as filters and helped storyboard the shots we would need on set. On set I assisted the art director and worked to help direct the kids. During post production I designed and animated the title cards for both videos.',
-            header: 'Client: Nickelodeon'
-          }),
-          new VideoNode(
-            'https://www.youtube.com/embed/prYG8uOQxuU',
-            'dressup',
-            2
-          )
-        ],
-        [
-          new VideoNode(
-            'https://www.youtube.com/embed/AEjA3ooi180',
-            'pawpatrol'
-          )
-        ]
-      ]
-    },
-    {
       title: 'Jelly Belly',
       tags: ['branding', 'illustration', 'print'],
       thumbnail: 'images/jelly-bag.jpg',
@@ -288,66 +218,6 @@ class Data {
           new ImageNode({url:'images/jelly-bagdance.gif'}),
           new ImageNode({url:'images/jelly-bags.jpg'}),
         ]
-      ]
-    },
-    {
-      title: 'Constellation Roadshow',
-      tags: ['branding', 'digital'],
-      thumbnail: 'images/constellation-thumb.png',
-      rows: [
-        [
-          new TextNode({
-            text:
-              'With the success of Constellation Tokyo, GitHub Constellation evolved into a roadshow event visiting communities all around the world. Jumping from the more site specific branding of Constellation Tokyo, I wanted to keep the lock up and give it a brand that could work for all the future stops on this roadshow. The biggest challenge of this project was designing a system that would allow each location to have distinct contrast from one another on site and through digital communications while also branding them cohesively to allow assets to be reused from location to location. \n\n Working with contractors Andrew and Kyle I passed on the brand kit and they brought http://githubconstellation.com/ to life.',
-            header: 'TLDR'
-          }),
-          new ImageNode({url:'images/constellation-roadshow.png', columns: 2})
-        ],
-        [new ImageNode({url:'images/constellation-assets.png'})],
-        [new TextNode({ text: ' ', header: 'Digital Identity' })],
-        [new ImageNode({url:'images/constellation-city-brand.jpg'})],
-        [
-          new TextNode({ text: ' ' }),
-          new ImageNode({url:'images/constellation-toronto.jpg', columns: 2})
-        ],
-        [
-          new ImageNode({url:'images/constellation-boston.png'}),
-          new ImageNode({url:'images/constellation-chicago.jpg'}),
-          new ImageNode({url:'images/constellation-seattle.png'})
-        ],
-        [
-          new ImageNode({url:'images/constellation-london.png'}),
-          new ImageNode({url:'images/constellation-dc.png'}),
-          new TextNode({ text: '  ' })
-        ],
-        [new TextNode({ text: ' ', header: 'Site Design' })],
-        [new ImageNode({url:'images/constellation-site18.png'})]
-      ]
-    },
-    {
-      title: 'That One Spot',
-      tags: ['print', 'branding', 'illustration'],
-      thumbnail: 'images/spot-takeout.jpg',
-      rows: [
-        [
-          new TextNode({
-            text:
-              'That One Spot is a rebrand I did for a client running a family owned burger restaurant located in Ocoee, FL. They are known for their well crafted and customizable burgers with a variety of meat options but also provide a variety of salads and sides. While their ingredients are fresh and local they aim to be a fast casual spot for everyone to grab a bite. Keeping their brand in mind I was hired to rebrand the restaurant to more closely reflect their voice today and as they look to grow.',
-            header: 'TLDR'
-          }),
-          new ImageNode({url:'images/spot-all2.jpg', columns: 2})
-        ],
-        [
-          new ImageNode({url:'images/spot-bigmenu.jpg'}),
-          new ImageNode({url:'images/spot_mat.jpg'}),
-          new ImageNode({url:'images/spot-businesscards.jpg'}),
-        ],
-        [
-          new ImageNode({url:'images/spot-takeout1.jpg'}),
-          new ImageNode({url:'images/spot-takeout2.jpg'}),
-        ],
-        [new ImageNode({url:'images/spot_menus.jpg'})],
-        [new ImageNode({url:'images/spot-all.jpg'})],
       ]
     },
     {
@@ -420,6 +290,72 @@ class Data {
         [new ImageNode({url:'images/tokyo-speaker1.png'})],
         [new ImageNode({url:'images/tokyo-speaker2.png'})],
         [new ImageNode({url:'images/tokyo-bluebrand.png'})],
+      ]
+    },
+    {
+      title: 'Net Neutrality',
+      tags: ['digital', 'motion graphics'],
+      thumbnail: 'images/net-neutrality_save.jpg',
+      rows: [
+        [
+          new TextNode({
+            text:
+              "Back in July of 2018 GitHub joined millions of people to stand up for Net Neutrality. In the days leading up to the vote GitHub put up a banner on the site, made this blog post, and shared on twitter to support the open internet. Our team of 3 designers at the time banded together to push out these last minute assets within a few hours. Net Neutrality has been through it's ups and downs and California continues to fight with it's state net neutrality bill.",
+            header: 'TLDR'
+          }),
+          new ImageNode({url:'images/net-neutralityads.gif', columns: 2})
+        ],
+        [new TextNode({ text: ' ', header: 'Storyboard and Reference' })],
+        [
+          new ImageNode({url:'images/net-neutralityplan.png', columns: 2}),
+          new ImageNode({url:'images/net-reference.gif'}),
+          new ImageNode({url:'images/net-reference1.gif'}),
+        ],
+        [new TextNode({ text: ' ', header: 'Process' })],
+        [
+          new ImageNode({url:'images/net-img-1.jpg'}),
+          new ImageNode({url:'images/net-img-2.jpg'}),
+        ],
+        [
+          new ImageNode({url:'images/net-img-4.jpg'}),
+          new ImageNode({url:'images/net-img-5.jpg'}),
+        ],
+        [new ImageNode({url:'images/net-neutralitypopup.gif'})],
+        [new ImageNode({url:'images/net-neutralityads.gif'})],
+      ]
+    },
+    {
+      title: 'Constellation Roadshow',
+      tags: ['branding', 'digital'],
+      thumbnail: 'images/constellation-thumb.png',
+      rows: [
+        [
+          new TextNode({
+            text:
+              'With the success of Constellation Tokyo, GitHub Constellation evolved into a roadshow event visiting communities all around the world. Jumping from the more site specific branding of Constellation Tokyo, I wanted to keep the lock up and give it a brand that could work for all the future stops on this roadshow. The biggest challenge of this project was designing a system that would allow each location to have distinct contrast from one another on site and through digital communications while also branding them cohesively to allow assets to be reused from location to location. \n\n Working with contractors Andrew and Kyle I passed on the brand kit and they brought http://githubconstellation.com/ to life.',
+            header: 'TLDR'
+          }),
+          new ImageNode({url:'images/constellation-roadshow.png', columns: 2})
+        ],
+        [new ImageNode({url:'images/constellation-assets.png'})],
+        [new TextNode({ text: ' ', header: 'Digital Identity' })],
+        [new ImageNode({url:'images/constellation-city-brand.jpg'})],
+        [
+          new TextNode({ text: ' ' }),
+          new ImageNode({url:'images/constellation-toronto.jpg', columns: 2})
+        ],
+        [
+          new ImageNode({url:'images/constellation-boston.png'}),
+          new ImageNode({url:'images/constellation-chicago.jpg'}),
+          new ImageNode({url:'images/constellation-seattle.png'})
+        ],
+        [
+          new ImageNode({url:'images/constellation-london.png'}),
+          new ImageNode({url:'images/constellation-dc.png'}),
+          new TextNode({ text: '  ' })
+        ],
+        [new TextNode({ text: ' ', header: 'Site Design' })],
+        [new ImageNode({url:'images/constellation-site18.png'})]
       ]
     },
     {
@@ -504,35 +440,29 @@ class Data {
       ]
     },
     {
-      title: 'Net Neutrality',
-      tags: ['digital', 'motion graphics'],
-      thumbnail: 'images/net-neutrality_save.jpg',
+      title: 'That One Spot',
+      tags: ['print', 'branding', 'illustration'],
+      thumbnail: 'images/spot-takeout.jpg',
       rows: [
         [
           new TextNode({
             text:
-              "Back in July of 2018 GitHub joined millions of people to stand up for Net Neutrality. In the days leading up to the vote GitHub put up a banner on the site, made this blog post, and shared on twitter to support the open internet. Our team of 3 designers at the time banded together to push out these last minute assets within a few hours. Net Neutrality has been through it's ups and downs and California continues to fight with it's state net neutrality bill.",
+              'That One Spot is a rebrand I did for a client running a family owned burger restaurant located in Ocoee, FL. They are known for their well crafted and customizable burgers with a variety of meat options but also provide a variety of salads and sides. While their ingredients are fresh and local they aim to be a fast casual spot for everyone to grab a bite. Keeping their brand in mind I was hired to rebrand the restaurant to more closely reflect their voice today and as they look to grow.',
             header: 'TLDR'
           }),
-          new ImageNode({url:'images/net-neutralityads.gif', columns: 2})
-        ],
-        [new TextNode({ text: ' ', header: 'Storyboard and Reference' })],
-        [
-          new ImageNode({url:'images/net-neutralityplan.png', columns: 2}),
-          new ImageNode({url:'images/net-reference.gif'}),
-          new ImageNode({url:'images/net-reference1.gif'}),
-        ],
-        [new TextNode({ text: ' ', header: 'Process' })],
-        [
-          new ImageNode({url:'images/net-img-1.jpg'}),
-          new ImageNode({url:'images/net-img-2.jpg'}),
+          new ImageNode({url:'images/spot-all2.jpg', columns: 2})
         ],
         [
-          new ImageNode({url:'images/net-img-4.jpg'}),
-          new ImageNode({url:'images/net-img-5.jpg'}),
+          new ImageNode({url:'images/spot-bigmenu.jpg'}),
+          new ImageNode({url:'images/spot_mat.jpg'}),
+          new ImageNode({url:'images/spot-businesscards.jpg'}),
         ],
-        [new ImageNode({url:'images/net-neutralitypopup.gif'})],
-        [new ImageNode({url:'images/net-neutralityads.gif'})],
+        [
+          new ImageNode({url:'images/spot-takeout1.jpg'}),
+          new ImageNode({url:'images/spot-takeout2.jpg'}),
+        ],
+        [new ImageNode({url:'images/spot_menus.jpg'})],
+        [new ImageNode({url:'images/spot-all.jpg'})],
       ]
     },
     {
@@ -558,6 +488,76 @@ class Data {
           new ImageNode({url:'images/relientk-book.jpg'}),
         ],
         [new ImageNode({url:'images/relientk-all2.jpg'})],
+      ]
+    },
+    {
+      title: 'Primal Screen',
+      tags: ['interactive', 'digital', 'illustration'],
+      thumbnail: 'images/nickjr-dressup.png',
+      rows: [
+        [
+          new TextNode({
+            text:
+              'Primal Screen is an award winning design studio based in Atlanta, Georgia. That provide a full gamut of design service including animation, motion graphics, live action, audio, music composition, and interactive development.\n\n While I was working at Primal I was able to work on a variety of projects for clients like:\n - PBS kids \n - Sesame Workshop \n- Adult Swim \n- Nick Jr',
+            header: 'TLDR'
+          }),
+          new ImageNode({url:'images/Never_Give_Up.jpg', columns: 2})
+        ],
+        [
+          new TextNode({
+            text:
+              "Project: Daniel Tiger's Neighborhood app \n\n My contributions: User Interface, User Experience, Information Architecture, Prototyping \n\n Background: Daniel Tiger is an animated family-oriented television series based on the Neighborhood of Make Believe from Mister Roger's Neighborhood. The show is aimed to teach children emotional intelligence and human respect. The show has produced numerous clips of their lessons and wanted a way for parents to access those videos in an app. I worked on designing the screens and interface of the app then later animated and created a prototype. One of biggest challenges we faced was accessibility. The audience was aimed for all parents of varying financial situations we had to keep in mind how videos and content could be loaded and still mobile without eating too much data. Unfortunately, I left Primal Screen before finishing this project.  ",
+            header: 'Client: PBS Kids'
+          }),
+          new TextNode({
+            text:
+              'Project: Breath, Think, Do E-book \n\n My contributions: Illustrator \n\n Background: Breathe, Think, Do is a campaign by Sesame Street that teaches children to deal with emotions like anger and frustration. Primal Screen previously created the Breath, Think, Do app for Sesame Workshop and asked this app be translated into a story and illustrated for an E-book. I was responsible for transposing all the imagery from the app to a more textured and painterly style for the E-book. ',
+            header: 'Client: Sesame Workshop'
+          })
+        ],
+        [
+          new TextNode({
+            text:
+              "Project: Squidbillies Bumper \n My contributions: Character design \n Background: \n\n Primal Screen has a long standing relationship with Cartoon Network also based in Atlanta. For this project we worked to create a season premier bumper for Adult Swim's show Squidbillies, an adult animated comedy about anthropomorphic hillbilly mud squids. The idea was to create a Godzilla inspired bumper with the main characters of the show destroying the city and causing chaos. I helped turn them from giant squids to giant gross monsters.",
+            header: 'Client: Adult Swim'
+          }),
+          new VideoNode(
+            'https://www.youtube.com/embed/W5r4UJZBM9c',
+            'squidbillies',
+            2
+          )
+        ],
+        [new ImageNode({url:'images/squidbillies-design.jpg'})],
+        [
+          new TextNode({
+            text:
+              'Project: Bubble Guppies Kideo \n\n My contributions: Storyboard, stage hand on set, asset design, typography, title card design and motion graphics \n\n Background: \n Nickelodeon has been a long time client of Primal Screen. This bumper was one of several videos we created to help them to promote a variety of their Nick Jr. shows including Bubble Guppies, Shimmer and Shine, Team Umizoomi, Blaze and the Monster Machine, and Paw Patrol. For this video we made a mini music video using a song from the show Bubble Guppies. While planning for the video I created all the animated assets and type and helped storyboard the shots we would need on set. On set I assisted the art director and worked to help direct the kids. In post production I animated the title card of the video.',
+            header: 'Client: Nickelodeon'
+          }),
+          new VideoNode(
+            'https://www.youtube.com/embed/95pfhGG7OXM',
+            'bubbleguppies',
+            2
+          )
+        ],
+        [
+          new TextNode({
+            text:
+              'Project: Nick Jr Dress up - Paw Patrols & General \n\n My contributions: Storyboard, stage hand on set, asset creation, rotoscoping, title card design and animation. \n\n Background: \n The inspiration for these videos were augmented reality face filters originally made popular by snapchat. We produced a video for their Nick Jr. shows Bubble Guppies, Shimmer and Shine, Team Umizoomi, Blaze and the Monster Machine, and Paw Patrol and another specifically for the just for the show Paw Patrol. During pre-production I rotoscoped all the assets they would use to overlay as filters and helped storyboard the shots we would need on set. On set I assisted the art director and worked to help direct the kids. During post production I designed and animated the title cards for both videos.',
+            header: 'Client: Nickelodeon'
+          }),
+          new VideoNode(
+            'https://www.youtube.com/embed/prYG8uOQxuU',
+            'dressup',
+            2
+          )
+        ],
+        [
+          new VideoNode(
+            'https://www.youtube.com/embed/AEjA3ooi180',
+            'pawpatrol'
+          )
+        ]
       ]
     },
     {
