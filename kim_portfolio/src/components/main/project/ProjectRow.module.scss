@@ -1,13 +1,21 @@
 @import '../../../_breakpoints.scss';
 
 .projectRow {
-  align-items: top;
+  align-items:top;
   display:flex;
-  margin-bottom: 20px;
+  flex-direction: column;
 }
 
 .projectNode {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-bottom: 10px;
+}
 
+@include breakpoint(md) {
+  .projectRow {
+    flex-direction: row;
+  }
+  .projectNode {
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
 }
