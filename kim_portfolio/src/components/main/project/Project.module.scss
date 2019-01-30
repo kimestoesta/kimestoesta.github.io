@@ -1,5 +1,9 @@
 @import '../../../_breakpoints.scss';
 
+.projectContainer {
+  margin: auto;
+}
+
 @include breakpoint(lg) {
   .projectContainer {
     width: 95%;
@@ -11,14 +15,10 @@
   }
 }
 
-.projectContainer {
-  margin: auto;
-}
-
 .projecttitle {
-  padding-left: 20px;
+  
 }
 
 .projecttags {
-  padding-left: 20px;
+  margin-bottom: 35px;
 }

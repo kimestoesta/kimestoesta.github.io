@@ -14,7 +14,7 @@ class Project extends Component {
     return (
       <div className={styles.projectContainer}>
         <h1 className={styles.projecttitle}>{project.title}</h1>
-        <h6 className={styles.projecttags}>{project.tags}</h6>
+        <h6 className={styles.projecttags}>{project.tags.join(' / ')}</h6>
         {project.rows.map((row, index) => (
           <ProjectRow key={index} row={row} />
         ))}

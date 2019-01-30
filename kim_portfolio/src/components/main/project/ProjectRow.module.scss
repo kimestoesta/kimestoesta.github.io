@@ -6,6 +6,10 @@
   flex-direction: column;
 }
 
+.projectNode {
+  padding-bottom: 10px;
+}
+
 @include breakpoint(md) {
   .projectRow {
     flex-direction: row;
@@ -14,8 +18,4 @@
     padding-left: 15px;
     padding-bottom: 15px;
   }
-}
-
-.projectNode {
-  padding-bottom: 25px;
 }
