@@ -15,15 +15,9 @@ class Data {
               'Git Merge is a full-day conference offering technical content and user case studies, plus a day of workshops for Git users of all levels. I had the opportunity to lead the design for Git Merge conferences 2017 and 2018. It was an interesting challenge to reinvision the design in 2018 since doing it in 2017. The problem: How do I make this brand look the same but also different?',
             header: 'TLDR'
           }),
-          new ImageNode('images/gitmerge-pattern.jpg', 2)
+          new ImageNode({url:'images/gitmerge-pattern.jpg', columns: 2} )
         ],
-        [
-          new TextNode({
-            text: ' ',
-            header: 'Git Merge 2017 Brand'
-          })
-        ],
-        [new ImageNode('images/gitmerge-2017brand.jpg')],
+        [new ImageNode({url:'images/gitmerge-2017brand.jpg', header: 'Git Merge 2017 Brand'})],
         [
           new TextNode({
             text:
@@ -43,7 +37,7 @@ class Data {
             header: 'Explorations'
           })
         ],
-        [new ImageNode('images/gitmerge-explorations2018.jpg')],
+        [new ImageNode({url:'images/gitmerge-explorations2018.jpg'})],
         [
           new TextNode({
             text:
@@ -54,8 +48,8 @@ class Data {
             text: ' '
           })
         ],
-        [new ImageNode('images/gitmerge-brand2018.jpg')],
-        [new ImageNode('images/gitmerge-site2018.jpg')],
+        [new ImageNode({url:'images/gitmerge-brand2018.jpg'})],
+        [new ImageNode({url:'images/gitmerge-site2018.jpg'})],
         [
           new TextNode({
             text:
@@ -66,7 +60,7 @@ class Data {
             text: '  '
           })
         ],
-        [new ImageNode('images/gitmerge-venue.jpg')],
+        [new ImageNode({url:'images/gitmerge-venue.jpg'})],
         [
           new TextNode({
             text: '  ',
@@ -93,7 +87,7 @@ class Data {
             header: 'The final outcome'
           })
         ],
-        [new ImageNode('images/gitmerge-photos.jpg')]
+        [new ImageNode({url:'images/gitmerge-photos.jpg', columns: 2})]
       ]
     },
     {
@@ -106,7 +100,7 @@ class Data {
             text:
               'This campaign highlights developers in the open source community. Their projects are building the future by creating things that help people around them and around the world. Every one has the ability to build the future and GitHub makes it easy for people to share ideas and work together to make it happen. \n\n See it live: https://github.com/buildingthefuture \n\n I was responsible for branding, designing, and coding the website while also overseeing the production of the on-site gallery part of the campaign at our flagship conference, Universe.'
           }),
-          new ImageNode('images/btf-websizes.jpg', 2)
+          new ImageNode({url:'images/btf-websizes.jpg', columns: 2})
         ],
         [
           new TextNode({
@@ -132,8 +126,8 @@ class Data {
           })
         ],
         [
-          new ImageNode('images/btf-research.jpg'),
-          new ImageNode('images/btf-sketch.jpg')
+          new ImageNode({url:'images/btf-research.jpg'}),
+          new ImageNode({url:'images/btf-sketch.jpg'})
         ],
         [
           new TextNode({
@@ -141,29 +135,29 @@ class Data {
             header: 'Wireframes'
           })
         ],
-        [new ImageNode('images/btf-wireframes.jpg')],
+        [new ImageNode({url:'images/btf-wireframes.jpg'})],
         [
           new TextNode({
             text: ' ',
             header: 'Mocks Ups'
           }),
-          new ImageNode('images/btf-typeexplorations.png', 2)
+          new ImageNode({url:'images/btf-typeexplorations.png', columns: 2})
         ],
-        [new ImageNode('images/btf-whitemockup.jpg')],
+        [new ImageNode({url:'images/btf-whitemockup.jpg'})],
         [
           new TextNode({
             text: ' ',
             header: 'Brand Definition'
           })
         ],
-        [new ImageNode('images/btf-branddefinition.png')],
+        [new ImageNode({url:'images/btf-branddefinition.png'})],
         [
           new TextNode({
             text: ' ',
             header: 'Final Mockup'
           })
         ],
-        [new ImageNode('images/btf-mockupdark.jpg')],
+        [new ImageNode({url:'images/btf-mockupdark.jpg'})],
         [
           new TextNode({
             text: ' ',
@@ -171,12 +165,12 @@ class Data {
           })
         ],
         [
-          new ImageNode('images/btf-site1.png'),
-          new ImageNode('images/btf-featureflag.png')
+          new ImageNode({url:'images/btf-site1.png'}),
+          new ImageNode({url:'images/btf-featureflag.png'})
         ],
         [
-          new ImageNode('images/btf-jamica.png'),
-          new ImageNode('images/btf-julius.png')
+          new ImageNode({url:'images/btf-jamica.png'}),
+          new ImageNode({url:'images/btf-julius.png'}),
         ],
         [
           new TextNode({
@@ -184,7 +178,7 @@ class Data {
             header: 'Final Site'
           })
         ],
-        [new ImageNode('images/btf-fullsite.png')]
+        [new ImageNode({url:'images/btf-fullsite.png'})]
       ]
     },
     {
@@ -198,7 +192,7 @@ class Data {
               'Primal Screen is an award winning design studio based in Atlanta, Georgia. That provide a full gamut of design service including animation, motion graphics, live action, audio, music composition, and interactive development.\n\n While I was working at Primal I was able to work on a variety of projects for clients like:\n - PBS kids \n - Sesame Workshop \n- Adult Swim \n- Nick Jr',
             header: 'TLDR'
           }),
-          new ImageNode('images/Never_Give_Up.jpg', 2)
+          new ImageNode({url:'images/Never_Give_Up.jpg', columns: 2})
         ],
         [
           new TextNode({
@@ -224,7 +218,7 @@ class Data {
             2
           )
         ],
-        [new ImageNode('images/squidbillies-design.jpg')],
+        [new ImageNode({url:'images/squidbillies-design.jpg'})],
         [
           new TextNode({
             text:
@@ -268,19 +262,19 @@ class Data {
               "This project is the beginning of a rebrand for Jelly Belly, the makers of gourmet jelly beans. After researching Jelly Belly's history I learned that jelly beans were actually made popular by President Ronald Reagan during his time in office. Since then Jelly Belly has kept their brand identity the same so I wanted to bring new life to the brand and make it more relevant to today. As the generation of Ronald Reagan ages I wanted to focus to a new and younger audience. Here I have have created a new logo, mascot, flavor guide, and packaging concept. The project will later extend to show character animations and a larger packaging system.",
             header: 'TLDR'
           }),
-          new ImageNode('images/jelly-all.jpg', 2)
+          new ImageNode({url:'images/jelly-all.jpg', columns: 2})
         ],
         [
-          new ImageNode('images/jelly-flavorbag.jpg'),
-          new ImageNode('images/jelly-cards.jpg')
+          new ImageNode({url:'images/jelly-flavorbag.jpg'}),
+          new ImageNode({url:'images/jelly-cards.jpg'}),
         ],
         [
-          new ImageNode('images/jelly-bag.jpg'),
-          new ImageNode('images/jelly-flavordetails.jpg', 2)
+          new ImageNode({url:'images/jelly-bag.jpg'}),
+          new ImageNode({url:'images/jelly-flavordetails.jpg', columns: 2})
         ],
         [
-          new ImageNode('images/jelly-bagdance.gif'),
-          new ImageNode('images/jelly-bags.jpg')
+          new ImageNode({url:'images/jelly-bagdance.gif'}),
+          new ImageNode({url:'images/jelly-bags.jpg'}),
         ]
       ]
     },
@@ -295,27 +289,27 @@ class Data {
               'With the success of Constellation Tokyo, GitHub Constellation evolved into a roadshow event visiting communities all around the world. Jumping from the more site specific branding of Constellation Tokyo, I wanted to keep the lock up and give it a brand that could work for all the future stops on this roadshow. The biggest challenge of this project was designing a system that would allow each location to have distinct contrast from one another on site and through digital communications while also branding them cohesively to allow assets to be reused from location to location. \n\n Working with contractors Andrew and Kyle I passed on the brand kit and they brought http://githubconstellation.com/ to life.',
             header: 'TLDR'
           }),
-          new ImageNode('images/constellation-roadshow.png', 2)
+          new ImageNode({url:'images/constellation-roadshow.png', columns: 2})
         ],
-        [new ImageNode('images/constellation-assets.png')],
+        [new ImageNode({url:'images/constellation-assets.png'})],
         [new TextNode({ text: ' ', header: 'Digital Identity' })],
-        [new ImageNode('images/constellation-city-brand.jpg')],
+        [new ImageNode({url:'images/constellation-city-brand.jpg'})],
         [
           new TextNode({ text: ' ' }),
-          new ImageNode('images/constellation-toronto.jpg', 2)
+          new ImageNode({url:'images/constellation-toronto.jpg', columns: 2})
         ],
         [
-          new ImageNode('images/constellation-boston.png'),
-          new ImageNode('images/constellation-chicago.jpg'),
-          new ImageNode('images/constellation-seattle.png')
+          new ImageNode({url:'images/constellation-boston.png'}),
+          new ImageNode({url:'images/constellation-chicago.jpg'}),
+          new ImageNode({url:'images/constellation-seattle.png'})
         ],
         [
-          new ImageNode('images/constellation-london.png'),
-          new ImageNode('images/constellation-dc.png'),
+          new ImageNode({url:'images/constellation-london.png'}),
+          new ImageNode({url:'images/constellation-dc.png'}),
           new TextNode({ text: '  ' })
         ],
         [new TextNode({ text: ' ', header: 'Site Design' })],
-        [new ImageNode('images/constellation-site18.png')]
+        [new ImageNode({url:'images/constellation-site18.png'})]
       ]
     },
     {
@@ -329,19 +323,19 @@ class Data {
               'That One Spot is a rebrand I did for a client running a family owned burger restaurant located in Ocoee, FL. They are known for their well crafted and customizable burgers with a variety of meat options but also provide a variety of salads and sides. While their ingredients are fresh and local they aim to be a fast casual spot for everyone to grab a bite. Keeping their brand in mind I was hired to rebrand the restaurant to more closely reflect their voice today and as they look to grow.',
             header: 'TLDR'
           }),
-          new ImageNode('images/spot-all2.jpg', 2)
+          new ImageNode({url:'images/spot-all2.jpg', columns: 2})
         ],
         [
-          new ImageNode('images/spot-bigmenu.jpg'),
-          new ImageNode('images/spot_mat.jpg'),
-          new ImageNode('images/spot-businesscards.jpg')
+          new ImageNode({url:'images/spot-bigmenu.jpg'}),
+          new ImageNode({url:'images/spot_mat.jpg'}),
+          new ImageNode({url:'images/spot-businesscards.jpg'}),
         ],
         [
-          new ImageNode('images/spot-takeout1.jpg'),
-          new ImageNode('images/spot-takeout2.jpg')
+          new ImageNode({url:'images/spot-takeout1.jpg'}),
+          new ImageNode({url:'images/spot-takeout2.jpg'}),
         ],
-        [new ImageNode('images/spot_menus.jpg')],
-        [new ImageNode('images/spot-all.jpg')]
+        [new ImageNode({url:'images/spot_menus.jpg'})],
+        [new ImageNode({url:'images/spot-all.jpg'})],
       ]
     },
     {
@@ -355,7 +349,7 @@ class Data {
               "GitHub's flagship conference, Universe is hosted in San Francisco every year. Here we announce products, host workshops, and meet with customers to listen to their needs and answer their questions. It's a great experience to come together as a community and it's the type of event that we wanted to make sure more of our customers could have access to. We started with GitHub Satellite as a European touch point and now Constellation Tokyo was our opportunity to better connect with our Asian Pacific audience.",
             header: 'TLDR'
           }),
-          new ImageNode('images/tokyo-redbrand.png', 2)
+          new ImageNode({url:'images/tokyo-redbrand.png', columns: 2})
         ],
         [
           new TextNode({
@@ -368,8 +362,8 @@ class Data {
           })
         ],
         [
-          new ImageNode('images/tokyo-logoexploration1.png'),
-          new ImageNode('images/tokyo-logoexploration2.png')
+          new ImageNode({url:'images/tokyo-logoexploration1.png'}),
+          new ImageNode({url:'images/tokyo-logoexploration2.png'}),
         ],
         [
           new TextNode({
@@ -382,9 +376,9 @@ class Data {
           })
         ],
         [
-          new ImageNode('images/tokyo-tokyoblue.png'),
-          new ImageNode('images/tokyo-tokyoivory.png'),
-          new ImageNode('images/tokyo-tokyored.png')
+          new ImageNode({url:'images/tokyo-tokyoblue.png'}),
+          new ImageNode({url:'images/tokyo-tokyoivory.png'}),
+          new ImageNode({url:'images/tokyo-tokyored.png'}),
         ],
         [
           new TextNode({
@@ -392,27 +386,27 @@ class Data {
             header: 'Final Brand'
           })
         ],
-        [new ImageNode('images/tokyo-tokyobrand.png')],
+        [new ImageNode({url:'images/tokyo-tokyobrand.png'})],
         [
           new VideoNode(
             'https://www.youtube.com/embed/8jN2K1SnPJ4',
             'constelation-tokyo'
           )
         ],
-        [new ImageNode('images/tokyo-social.jpg')],
-        [new ImageNode('images/tokyo-redbrand.png')],
+        [new ImageNode({url:'images/tokyo-social.jpg'})],
+        [new ImageNode({url:'images/tokyo-redbrand.png'})],
         [
-          new ImageNode('images/tokyo-schedule1.png'),
-          new ImageNode('images/tokyo-schedule2.png'),
-          new ImageNode('images/tokyo-schedule3.png')
+          new ImageNode({url:'images/tokyo-schedule1.png'}),
+          new ImageNode({url:'images/tokyo-schedule2.png'}),
+          new ImageNode({url:'images/tokyo-schedule3.png'}),
         ],
         [
-          new ImageNode('images/tokyo-talk1.png'),
-          new ImageNode('images/tokyo-talk2.png')
+          new ImageNode({url:'images/tokyo-talk1.png'}),
+          new ImageNode({url:'images/tokyo-talk2.png'}),
         ],
-        [new ImageNode('images/tokyo-speaker1.png')],
-        [new ImageNode('images/tokyo-speaker2.png')],
-        [new ImageNode('images/tokyo-bluebrand.png')]
+        [new ImageNode({url:'images/tokyo-speaker1.png'})],
+        [new ImageNode({url:'images/tokyo-speaker2.png'})],
+        [new ImageNode({url:'images/tokyo-bluebrand.png'})],
       ]
     },
     {
@@ -426,7 +420,7 @@ class Data {
               "We sent out some holiday cards to customers this past December. We printed post cards and sent them through good ole snail mail. Couldn't pick between the two versions so we used both. One we printed and another as a .gif for an E-card version. Super fun to work in a more illustrative textured style!",
             header: 'TLDR'
           }),
-          new ImageNode('images/holiday-v2.gif', 2)
+          new ImageNode({url:'images/holiday-v2.gif', columns: 2}),
         ],
         [
           new TextNode({
@@ -434,8 +428,8 @@ class Data {
             header: 'Moodboards and Explorations'
           })
         ],
-        [new ImageNode('images/holiday-moodboard.jpg')],
-        [new ImageNode('images/holiday-process.png')],
+        [new ImageNode({url:'images/holiday-moodboard.jpg'})],
+        [new ImageNode({url:'images/holiday-process.png'})],
         [
           new TextNode({
             text: ' ',
@@ -443,8 +437,8 @@ class Data {
           })
         ],
         [
-          new ImageNode('images/holiday-v1.png'),
-          new ImageNode('images/holiday-v2.gif')
+          new ImageNode({url:'images/holiday-v1.png'}),
+          new ImageNode({url:'images/holiday-v2.gif'}),
         ]
       ]
     },
@@ -459,13 +453,13 @@ class Data {
               'GitHub hosts internships for college students every summer. Interns are invited to stay in San Francisco to work from GitHub HQ so I created this San Francisco inspired illustration to use in our intern recruitment materials. \n https://internships.github.com/',
             header: 'TLDR'
           }),
-          new ImageNode('images/recruitment-intern.png', 2)
+          new ImageNode({url:'images/recruitment-intern.png', columns: 2}),
         ],
         [
-          new ImageNode('images/recruitment-banner.jpg'),
-          new ImageNode('images/recruitment-banner2.jpg')
+          new ImageNode({url:'images/recruitment-banner.jpg'}),
+          new ImageNode({url:'images/recruitment-banner2.jpg'}),
         ],
-        [new ImageNode('images/recruitment-twittercard.png')]
+        [new ImageNode({url:'images/recruitment-twittercard.png'})]
       ]
     },
     {
@@ -479,21 +473,21 @@ class Data {
               'The marketing team for Recreational Sports at the University of Florida is comprised of designers, videographers, photographers, and media specialists. I work in-house where we service many different departments within RecSports like clients making sure to boost visibility and spread awareness of several campaigns or events. This was a 4 page booklet I designed for Small Group Training. It includes the different formats offered for that semester as well as the rates and calendar of all the classes being offered. For the campagn we printed and distributed the 4 pager at all our facilities and ran the campaign through our website and social media channels. I also animated the campaign for our digital outlets that play throughout the day on severals screens throughout the fitness facilites.',
             header: 'TLDR'
           }),
-          new ImageNode('images/findfit-double.jpg', 2)
+          new ImageNode({url:'images/findfit-double.jpg', columns: 2}),
         ],
-        [new ImageNode('images/findfit-multiple.jpg')],
+        [new ImageNode({url:'images/findfit-multiple.jpg'})],
         [
-          new ImageNode('images/findfit-booklet.gif'),
-          new ImageNode('images/findfit-sides.jpg')
+          new ImageNode({url:'images/findfit-booklet.gif'}),
+          new ImageNode({url:'images/findfit-sides.jpg'}),
         ],
         [
           new VideoNode(
             'https://player.vimeo.com/video/155912657',
             'recsports'
           ),
-          new ImageNode('images/findfit-social.jpg')
+          new ImageNode({url:'images/findfit-social.jpg'})
         ],
-        [new ImageNode('images/findfit-tvs.jpg')]
+        [new ImageNode({url:'images/findfit-tvs.jpg'})]
       ]
     },
     {
@@ -507,25 +501,25 @@ class Data {
               "Back in July of 2018 GitHub joined millions of people to stand up for Net Neutrality. In the days leading up to the vote GitHub put up a banner on the site, made this blog post, and shared on twitter to support the open internet. Our team of 3 designers at the time banded together to push out these last minute assets within a few hours. Net Neutrality has been through it's ups and downs and California continues to fight with it's state net neutrality bill.",
             header: 'TLDR'
           }),
-          new ImageNode('images/net-neutralityads.gif', 2)
+          new ImageNode({url:'images/net-neutralityads.gif', columns: 2})
         ],
         [new TextNode({ text: ' ', header: 'Storyboard and Reference' })],
         [
-          new ImageNode('images/net-neutralityplan.png', 2),
-          new ImageNode('images/net-reference.gif'),
-          new ImageNode('images/net-reference1.gif')
+          new ImageNode({url:'images/net-neutralityplan.png', columns: 2}),
+          new ImageNode({url:'images/net-reference.gif'}),
+          new ImageNode({url:'images/net-reference1.gif'}),
         ],
         [new TextNode({ text: ' ', header: 'Process' })],
         [
-          new ImageNode('images/net-img-1.jpg'),
-          new ImageNode('images/net-img-2.jpg')
+          new ImageNode({url:'images/net-img-1.jpg'}),
+          new ImageNode({url:'images/net-img-2.jpg'}),
         ],
         [
-          new ImageNode('images/net-img-4.jpg'),
-          new ImageNode('images/net-img-5.jpg')
+          new ImageNode({url:'images/net-img-4.jpg'}),
+          new ImageNode({url:'images/net-img-5.jpg'}),
         ],
-        [new ImageNode('images/net-neutralitypopup.gif')],
-        [new ImageNode('images/net-neutralityads.gif')]
+        [new ImageNode({url:'images/net-neutralitypopup.gif'})],
+        [new ImageNode({url:'images/net-neutralityads.gif'})],
       ]
     },
     {
@@ -538,19 +532,19 @@ class Data {
             text:
               'Relient K - Only Fools Know Everything was a retrospective tour campaign I created for a student project. For this retrospective tour I wanted to capture the essence of growing up and making mistakes but having fun doing it which is how the band has characterized themselves through their music over the years. The idea is that because you were a fool you messed up and it has made you who you are today. <br><br>The tour is accompanied by a book release in which the band writes on their journey and process of writing their songs as well as a special edition CD release that includes a lyric booklet of all the songs on the album. Fans and new listeners will notice that each song is accompanied by illustrations relating to lyrics within the songs. These illustrations comprise the identity of the tour itself shown through posters, VIP passes, book and album art. '
           }),
-          new ImageNode('images/relientk-all.jpg', 2)
+          new ImageNode({url:'images/relientk-all.jpg', columns: 2}),
         ],
-        [new ImageNode('images/relientk-posters.jpg')],
+        [new ImageNode({url:'images/relientk-posters.jpg'})],
         [
-          new ImageNode('images/relientk-lyricbook.jpg'),
-          new ImageNode('images/relientk-trio.jpg')
+          new ImageNode({url:'images/relientk-lyricbook.jpg'}),
+          new ImageNode({url:'images/relientk-trio.jpg'}),
         ],
         [
-          new ImageNode('images/relientk-cd.jpg'),
-          new ImageNode('images/relientk-pass.jpg'),
-          new ImageNode('images/relientk-book.jpg')
+          new ImageNode({url:'images/relientk-cd.jpg'}),
+          new ImageNode({url:'images/relientk-pass.jpg'}),
+          new ImageNode({url:'images/relientk-book.jpg'}),
         ],
-        [new ImageNode('images/relientk-all2.jpg')]
+        [new ImageNode({url:'images/relientk-all2.jpg'})],
       ]
     },
     {
@@ -563,12 +557,12 @@ class Data {
             text:
               "Haulbox is a StartUp Company that originated in Gainesville, FL. As their lead graphic designer I collaborated with the founders to ideate and create their entire visual branding system from the ground up. From designing the logo to creating the icons for the user interface of the app and site I wanted to reflect the company's convenient, friendly, and easy service. During this experience I worked with entreprenuers and programmers directly in an open studio layout at the startup incubator Starterspace. I was later promoted to work with other startups within Starterspace as a creative director and designer."
           }),
-          new ImageNode('images/haulboxicons.png', 2)
+          new ImageNode({url:'images/haulboxicons.png', columns: 2}),
         ],
-        [new ImageNode('images/haulboxweb.png')],
+        [new ImageNode({url:'images/haulboxweb.png'})],
         [
-          new ImageNode('images/haulboxdemo.png'),
-          new ImageNode('images/haulboxapp.png')
+          new ImageNode({url:'images/haulboxdemo.png'}),
+          new ImageNode({url:'images/haulboxapp.png'}),
         ]
       ]
     }

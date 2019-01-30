@@ -4,16 +4,18 @@ import { ClipLoader } from 'react-spinners';
 import styles from './ImageNode.module.scss';
 
 class ImageNode extends Component {
-  constructor(image, columns) {
+  constructor(options) {
     super();
-    this.image = image;
-    this.columns = columns;
+    this.options = options;
   }
 
   render() {
     return (
       <div>
-        <ImageLoader src={this.image}>
+        {this.options.header ? (
+          <h3>{this.options.header}</h3>
+        ) : null}
+        <ImageLoader src={this.options.url}>
           <img alt="" className={styles.projectImage} />
           <div>Error!</div>
           <ClipLoader />
