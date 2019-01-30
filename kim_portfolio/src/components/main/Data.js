@@ -94,6 +94,7 @@ class Data {
       title: 'Building the Future',
       tags: ['digital', 'web design'],
       thumbnail: 'images/btf-dibbble.gif',
+      doubleWidth: true,
       rows: [
         [
           new TextNode({
@@ -342,6 +343,7 @@ class Data {
       title: 'Constellation Tokyo',
       tags: ['branding', 'digital'],
       thumbnail: 'images/tokyo-thumb.jpg',
+      doubleWidth: true,
       rows: [
         [
           new TextNode({

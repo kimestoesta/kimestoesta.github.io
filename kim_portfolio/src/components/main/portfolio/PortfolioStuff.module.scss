@@ -15,11 +15,19 @@
   position: relative;
 }
 
+.gridSizer {
+  width: 25%;
+}
+
 .workItem {
   padding: 8px 8px;
   position: relative;
   overflow: hidden;
   width: 25%;
+}
+
+.workItemDouble {
+  width: 50%;
 }
 
 .workThumbnail:after {

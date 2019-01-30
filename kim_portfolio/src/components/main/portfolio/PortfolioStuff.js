@@ -23,7 +23,7 @@ class PortfolioStuff extends Component {
         >
           <article
             id={'item' + index}
-            className={styles.workItem}
+            className={styles.workItem + ' ' + (project.doubleWidth ? styles.workItemDouble : '')}
             style={{ display: 'none' }}
           >
             <a href={'#/project/' + index} id={index}>
@@ -115,6 +115,7 @@ class PortfolioStuff extends Component {
           </div>
 
           <div className={styles.worksGridWrapper + ' mx-auto'} id="works-grid">
+            <div className={styles.gridSizer} />
             {links}
           </div>
         </div>
@@ -155,9 +156,12 @@ class PortfolioStuff extends Component {
 
   componentDidMount() {
     this.iso = new Isotope('#works-grid', {
-      layoutMode: 'masonry',
       itemSelector: '.' + styles.workItem,
-      transitionDuration: '0.3s'
+      transitionDuration: '0.3s',
+      masonry: {
+        // set to the element
+        columnWidth: '.' + styles.gridSizer,
+      }
     });
   }
 }
