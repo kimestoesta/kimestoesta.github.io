@@ -3,7 +3,15 @@
 .projectRow {
   align-items:top;
   display:flex;
+  flex-direction: column;
 }
+
+@include breakpoint(md) {
+  .projectRow {
+    flex-direction: row;
+  }
+}
+
 
 .projectNode {
   padding: 30px;
