@@ -111,7 +111,10 @@ class Data {
         [
           new TextNode({
             text:
-              'This campaign highlights developers in the open source community. Their projects are building the future by creating things that help people around them and around the world. Every one has the ability to build the future and GitHub makes it easy for people to share ideas and work together to make it happen. \n\n See it live: https://github.com/buildingthefuture \n\n I was responsible for branding, designing, and coding the website while also overseeing the production of the on-site gallery part of the campaign at our flagship conference, Universe.'
+              'This campaign highlights developers in the open source community. Their projects are building the future by creating things that help people around them and around the world. Every one has the ability to build the future and GitHub makes it easy for people to share ideas and work together to make it happen. \n\n See it live: https://github.com/buildingthefuture \n\n I was responsible for branding, designing, and coding the website while also overseeing the production of the on-site gallery part of the campaign at our flagship conference, Universe.',
+            header: 'TLDR',
+            headerStyles: 'mb-3',
+            nodeStyles: ' '
           }),
           new ImageNode({url:'images/btf-websizes.jpg', columns: 2})
         ],
@@ -119,23 +122,28 @@ class Data {
           new TextNode({
             text:
               'GitHub celebrated their 10 year anniversary in 2018 so we launched a campaign that celebrated all the milestones the community has accomplished in the past 10 years. The next chapter in that story is what comes next — a pivot and look towards the next 10 years. In this phase we want to empower the community to think about what they will build and how their work can impact the world around them.',
-            header: 'Background'
+            header: 'Background',
+            headerStyles: 'mt-5 mb-3',
           }),
           new TextNode({
             text:
               'Create a website that contains all the campaign videos and information in one place.',
-            header: 'Task'
+            header: 'Task',
+            headerStyles: 'mt-md-5 mb-3',
           }),
           new TextNode({
             text:
               '- Designing parallel to the creation of the campaign videos contractors were working on. The photos and videos were a big part of the visuals but there was not room on the timeline to wait to get assets in before creating the website and gallery designs. \n - Working simultaneously on all parts of the project: visual design,  front-end development, photo treatment, and environmental print pieces.',
-            header: 'Challenges'
+            header: 'Challenges',
+            headerStyles: 'mt-md-5 mb-3',
+            nodeStyles: 'mb-5',
           })
         ],
         [
           new TextNode({
             text: ' ',
-            header: 'Research and Explorations'
+            header: 'Research and Explorations',
+            headerStyles: 'mb-3'
           })
         ],
         [
@@ -145,36 +153,43 @@ class Data {
         [
           new TextNode({
             text: ' ',
-            header: 'Wireframes'
+            header: 'Wireframes',
+            headerStyles: 'mt-5 mb-3'
           })
         ],
         [new ImageNode({url:'images/btf-wireframes.jpg'})],
         [
           new TextNode({
             text: ' ',
-            header: 'Mocks Ups'
-          }),
+            header: 'Mockups',
+            headerStyles: 'mt-5 mb-3'
+          })
+        ],
+        [
           new ImageNode({url:'images/btf-typeexplorations.png', columns: 2})
         ],
         [new ImageNode({url:'images/btf-whitemockup.jpg'})],
         [
           new TextNode({
             text: ' ',
-            header: 'Brand Definition'
+            header: 'Brand Definition',
+            headerStyles: 'mt-5 mb-3'
           })
         ],
         [new ImageNode({url:'images/btf-branddefinition.png'})],
         [
           new TextNode({
             text: ' ',
-            header: 'Final Mockup'
+            header: 'Final Mockup',
+            headerStyles: 'mt-5 mb-3'
           })
         ],
         [new ImageNode({url:'images/btf-mockupdark.jpg'})],
         [
           new TextNode({
             text: ' ',
-            header: 'Build'
+            header: 'Build',
+            headerStyles: 'mt-5 mb-3'
           })
         ],
         [
@@ -188,7 +203,8 @@ class Data {
         [
           new TextNode({
             text: 'visit https://github.com/buildingthefuture',
-            header: 'Final Site'
+            header: 'Final Site',
+            headerStyles: 'mt-5'
           })
         ],
         [new ImageNode({url:'images/btf-fullsite.png'})]
@@ -203,7 +219,9 @@ class Data {
           new TextNode({
             text:
               "This project is the beginning of a rebrand for Jelly Belly, the makers of gourmet jelly beans. After researching Jelly Belly's history I learned that jelly beans were actually made popular by President Ronald Reagan during his time in office. Since then Jelly Belly has kept their brand identity the same so I wanted to bring new life to the brand and make it more relevant to today. As the generation of Ronald Reagan ages I wanted to focus to a new and younger audience. Here I have have created a new logo, mascot, flavor guide, and packaging concept. The project will later extend to show character animations and a larger packaging system.",
-            header: 'TLDR'
+            header: 'TLDR',
+            headerStyles: 'mb-3',
+
           }),
           new ImageNode({url:'images/jelly-all.jpg', columns: 2})
         ],
@@ -231,7 +249,8 @@ class Data {
           new TextNode({
             text:
               "GitHub's flagship conference, Universe is hosted in San Francisco every year. Here we announce products, host workshops, and meet with customers to listen to their needs and answer their questions. It's a great experience to come together as a community and it's the type of event that we wanted to make sure more of our customers could have access to. We started with GitHub Satellite as a European touch point and now Constellation Tokyo was our opportunity to better connect with our Asian Pacific audience.",
-            header: 'TLDR'
+            header: 'TLDR',
+            headerStyles: 'mb-3',
           }),
           new ImageNode({url:'images/tokyo-redbrand.png', columns: 2})
         ],
@@ -239,7 +258,8 @@ class Data {
           new TextNode({
             text:
               "Working within the Universe logo family I explored logos that used Mona's silhouette with a more customized mark to represent Japan. This allowed for a system that we could hopefully expand year to year, as the location changed.",
-            header: 'Logo'
+            header: 'Logo',
+            headerStyles: 'mt-5 mb-3',
           }),
           new TextNode({
             text: ' '
@@ -253,7 +273,8 @@ class Data {
           new TextNode({
             text:
               'In researching Japanese history and culture I found inspiration for color and pattern in their textiles and art. Japanese printmaking, ink-wash paintings, and indigo dye led to the colors of deep blue, gold, ivory, and red. Sakiori weaving, a Japanese textile looming method, inspired the overlapping blocks, constellation pattern, lines, and stitches of the design.',
-            header: 'Color & Pattern'
+            header: 'Color & Pattern',
+            headerStyles: 'mt-5 mb-3',
           }),
           new TextNode({
             text: ' '
@@ -267,7 +288,8 @@ class Data {
         [
           new TextNode({
             text: ' ',
-            header: 'Final Brand'
+            header: 'Final Brand',
+            headerStyles: 'mt-5 mb-3',
           })
         ],
         [new ImageNode({url:'images/tokyo-tokyobrand.png'})],

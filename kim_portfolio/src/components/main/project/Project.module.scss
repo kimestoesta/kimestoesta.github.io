@@ -6,19 +6,21 @@
 
 @include breakpoint(lg) {
   .projectContainer {
-    width: 95%;
-  }
-}
-@include breakpoint(lg) {
-  .projectContainer {
-    padding: 32px;
+    width: 90%;
   }
 }
 
+
 .projecttitle {
-  
+
 }
 
 .projecttags {
-  margin-bottom: 35px;
+  margin-bottom: 40px;
+}
+
+@include breakpoint(md) {
+  .projecttags {
+    font-size: 14px;
+  }
 }
