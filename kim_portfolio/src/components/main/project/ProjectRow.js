@@ -29,7 +29,6 @@ class ProjectRow extends Component {
     var nodes = this.props.row.map((node, index) => {
       var cols = node.columns ? node.columns : 1;
 
-      console.log(this.state.width);
       const widthStyles = {
         width: (this.state.width < 768 ? 100 : (100 * cols) / totalCols) + '%'
       };

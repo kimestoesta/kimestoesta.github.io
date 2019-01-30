@@ -4,9 +4,15 @@
   width: 100%;
 }
 
+@include breakpoint(md) {
+  .projectheader {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+  }
+}
+
 .projectheader {
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-weight: bold;
+  font-size: 15px;
 }

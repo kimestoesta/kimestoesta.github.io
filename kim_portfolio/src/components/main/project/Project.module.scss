@@ -5,10 +5,14 @@
     width: 95%;
   }
 }
+@include breakpoint(lg) {
+  .projectContainer {
+    padding: 32px;
+  }
+}
 
 .projectContainer {
   margin: auto;
-  padding: 32px;
 }
 
 .projecttitle {
