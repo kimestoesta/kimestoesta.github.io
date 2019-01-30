@@ -29,7 +29,7 @@ class Data {
             text:
               '- Engage with the Git Community \n - Create a rewarding attendee experience \n - Create a Platform for Speakers and exhibitors',
             header: 'Goals Git Merge 2018',
-            headerStyles: 'mx-5',
+            headerStyles: 'mx-5 projectheader',
             nodeStyles: 'mx-1'
           }),
           new TextNode({
