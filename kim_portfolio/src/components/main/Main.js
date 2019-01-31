@@ -13,7 +13,6 @@ class Main extends Component {
     return {
       opacity: styles.opacity,
       padding: '16px',
-      position: 'absolute',
       transform: `scale(${styles.scale})`,
       width: '100%'
     };

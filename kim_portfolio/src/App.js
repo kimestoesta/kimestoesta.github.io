@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Sidebar from './components/sidebar/Sidebar';
 import Main from './components/main/Main';
 import { HashRouter } from 'react-router-dom';
+import './App.scss';
 
 class App extends Component {
   render() {
