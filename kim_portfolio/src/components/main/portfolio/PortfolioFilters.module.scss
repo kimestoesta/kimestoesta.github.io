@@ -4,7 +4,7 @@
   text-align: center;
   list-style: none;
   padding: 0;
-  margin: 0 0 70px;
+  margin: 0 0 20px;
 }
 
 .filters li {
@@ -19,10 +19,13 @@
   font-size: 11px;
   color: #111;
   padding: 8px 15px 7px 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .filters li > button.current {
-  background: #42c0ae;
+  background: #606BA5;
   color: #fff;
-  border-color: #42c0ae;
+  outline-color: transparent;
+  outline-style: none;
 }

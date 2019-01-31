@@ -6,10 +6,7 @@ class PortfolioHero extends Component {
     return (
       <div className="heroheight col-lg-8 mx-auto text-center">
         <h4 className="mb-2">under construction</h4>
-        <p className="mb-5">mobile got better. but dont look at the about page.</p>
-        <a href="#portfolio" className="btn btn-dark anim-scroll">
-          Scroll down v fast
-        </a>
+        <p className="mb-5">erthing responsive but idk wut to write, who am i?</p>
       </div>
     );
   }

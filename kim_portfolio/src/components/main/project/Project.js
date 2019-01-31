@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Data from '../Data';
 import ProjectRow from './ProjectRow';
+import Footer from '../footer/Footer';
 import styles from './Project.module.scss';
 
 class Project extends Component {
@@ -18,6 +19,7 @@ class Project extends Component {
         {project.rows.map((row, index) => (
           <ProjectRow key={index} row={row} />
         ))}
+        <Footer />
       </div>
     );
   }

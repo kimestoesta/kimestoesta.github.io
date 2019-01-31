@@ -1,32 +1,64 @@
 @import '../../_breakpoints.scss';
 
 ul.navbar-nav {
-  align-items: center;
   display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
   list-style: none;
   margin-top: 30px;
   font-size: 11px;
   font-weight: bold;
+  width: 92%;
+}
+
+.nav-link {
+  color: black;
+  margin: 0px 10px;
+  padding: 5px 2px;
+}
+
+.nav-link:hover {
+  color: #fff;
+  background-color: #7AC1D7;
 }
 
 li.nav-item {
-  display: flex;
   flex: 1;
-  padding: 4px;
-  width: 30%;
+  margin-top: 30px;
   text-transform: uppercase;
   letter-spacing: 3px;
+  width: 100%;
+  order: 2;
 }
 
 li.nav-item-right {
-  padding: 4px;
-  width: 30%;
-  text-align: right;
+  flex: 1;
   text-transform: uppercase;
   letter-spacing: 3px;
-  flex: 1;
+  width: 100%;
+  order: 3;
 }
 
 li.nav-item.logo {
-  justify-content: center;
+  margin-top: 0px;
+  width: 100%;
+  order: 1;
+}
+
+@include breakpoint(sm) {
+  li.nav-item.logo {
+    order: 2;
+    justify-content: center;
+  }
+  li.nav-item {
+    order: 1;
+    display: flex;
+    margin-top: 0px;
+  }
+  li.nav-item-right {
+    order: 3;
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }

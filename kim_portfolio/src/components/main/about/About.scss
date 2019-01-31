@@ -1,0 +1,52 @@
+@import '../../../_breakpoints.scss';
+
+.aboutpage {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+@include breakpoint(lg){
+  .aboutpage {
+    width: 90%;
+    flex-direction: row;
+    margin-top: 105px;
+  }
+}
+
+.profilepic {
+  order: 2;
+}
+
+@include breakpoint(md){
+  .profilepic {
+    margin-bottom: 30px;
+    order: 2,
+  }
+}
+
+.mypic {
+ width: 100%;
+ max-width: 400px;
+}
+
+@include breakpoint(lg){
+  .mypic {
+   padding: 20px;
+  }
+}
+
+#about-me {
+  padding: 0px;
+}
+
+@include breakpoint(lg){
+  #about-me {
+    order: 2;
+    width: 55%;
+    padding: 20px;
+    margin-left: 40px;
+  }
+}
