@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import movingLogo from './Moving-Logo.gif';
+import bgpNamelogo from './bgp-namelogo.png';
 import { Link } from 'react-router-dom';
 import './sidebar.scss';
 
@@ -21,7 +22,7 @@ class Sidebar extends Component {
           </li>
 
           <li className="nav-item logo mx-auto">
-            <img src={movingLogo} alt="" />
+            <img src={bgpNamelogo} alt="" />
           </li>
 
           <li className="nav-item-right">
