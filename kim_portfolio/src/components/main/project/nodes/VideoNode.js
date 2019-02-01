@@ -17,7 +17,7 @@ class VideoNode extends Component {
           frameborder="0"
           webkitallowfullscreen
           mozallowfullscreen
-          allowfullscreen
+          allowFullScreen
           title={this.title}
         />
       </div>
