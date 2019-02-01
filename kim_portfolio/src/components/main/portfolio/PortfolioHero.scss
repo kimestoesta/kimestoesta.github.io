@@ -1,13 +1,14 @@
 @import '../../../_breakpoints.scss';
 
 .heroheight{
-  height: 370px;
-  padding: 60px;
-  margin-bottom: 30px;
+  height: 350px;
+  padding-top: 230px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   background-image: url("./lil-me.png");
   background-repeat: no-repeat;
   background-size: 160px;
-  background-position: bottom center;
+  background-position: top center;
 }
 
 
@@ -15,6 +16,7 @@
   .heroheight {
     padding: 100px;
     height: 330px;
+    margin-bottom: 30px;
     background-size: 230px;
     background-position: left;
   }
