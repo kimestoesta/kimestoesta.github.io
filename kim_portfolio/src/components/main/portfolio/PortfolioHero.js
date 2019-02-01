@@ -6,7 +6,7 @@ class PortfolioHero extends Component {
     return (
       <div className="heroheight col-lg-8 mx-auto text-center">
         <h4 className="mb-2">under construction</h4>
-        <p className="mb-5">erthing responsive but idk wut to write, who am i?</p>
+        <p className="mb-5">entering final stages. omg this is really happening.</p>
       </div>
     );
   }

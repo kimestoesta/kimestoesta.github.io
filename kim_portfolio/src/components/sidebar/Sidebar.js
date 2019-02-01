@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import movingLogo from './Moving-Logo.gif';
 import bgpNamelogo from './bgp-namelogo.png';
 import { Link } from 'react-router-dom';
 import './sidebar.scss';

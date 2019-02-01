@@ -2,14 +2,22 @@
 
 .projectContainer {
   margin: auto;
+  padding: 0px 25px;
+  font-size: 13px;
+  line-height: 1.75;
 }
 
 @include breakpoint(lg) {
   .projectContainer {
     width: 90%;
+    padding: 0px;
+    font-size: 14px;
   }
 }
 
+h1 {
+  font-size: 32px;
+}
 
 .projecttitle {
   margin-top: 35px;

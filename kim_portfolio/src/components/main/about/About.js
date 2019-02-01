@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import aboutMeImage from './kimprofile.png';
+import KimResume from './EstoestaKim_Resume.pdf';
 import Footer from '../footer/Footer';
 import styles from './About.scss';
 
@@ -11,15 +12,16 @@ class About extends Component {
           <div className="profilepic">
             <img src={aboutMeImage} alt="picture of kim" className="mypic" />
           </div>
-          <div className="" id="about-me">
-            <h1>About me!</h1>
-            <h4>thing 1 Lorem ipsum dolor sit amet</h4>
-            <h4>thing 2 super Ut suscipit nulla sit amet dui convallis luctus</h4>
-            <h4>thing 3 rad Proin hendrerit non augue maximus consequat</h4>
-            <h4>thing 4 awesome Aliquam dictum orci ut arcu</h4>
-            <h4>thing 5 sweet Integer ac tortor vitae nunc pharetra facilisis</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet neque a justo lobortis pretium. Ut suscipit nulla sit amet dui convallis luctus. Nam tempus ultricies consequat. Nam condimentum lectus et urna tempor mollis. Proin hendrerit non augue maximus consequat. Sed laoreet mattis ipsum ut euismod. Integer ac tortor vitae nunc pharetra facilisis quis a risus. Duis pellentesque nec enim sed consequat. Donec turpis magna, dictum maximus libero ac, aliquam tincidunt magna. Etiam placerat venenatis convallis. Maecenas convallis purus id tristique tincidunt. Aliquam dictum orci ut arcu elementum feugiat.</p>
-            <p>Read my resume.</p>
+          <div className="mb-4" id="about-me">
+            <h1 className="biggo">Hi, I'm Kim!</h1>
+            <p className="mb-4">also known as kimeillo, kimestoesta, queenkimba, kimmer_swimmer, amazing designer, awesome person, and a clever girl.</p>
+            <h2><span className="emoji">⌨️</span>I <a href="https://github.com/kimestoesta">code</a> a little but like it a lot and want to do more</h2>
+            <h2><span className="emoji">🌿</span>I like to draw plants and girls and I think people <a href="https://www.instagram.com/kimeillo/">like</a> it</h2>
+            <h2><span className="emoji">🏀</span>I design things and I am not throwing away my <a href="https://dribbble.com/KimEstoesta">shot</a></h2>
+            <h2><span className="emoji">🐦</span>I share my <a href="https://twitter.com/KimEstoesta">thoughts</a> and try to keep up with the kids </h2>
+            <h2><span className="emoji">🎮</span>I can beat you in Splatoon just watch <a href="https://www.twitch.tv/kimeillo">(coming soon)</a></h2>
+            <p className="mt-4">I am currently designing site illustrations, defining brand guidelines, branding & shipping conferences, and vectoring octocats at GitHub.</p>
+            <p className="mt-4"><a href={KimResume}>Read my Resume</a></p>
           </div>
         </div>
         <Footer />
