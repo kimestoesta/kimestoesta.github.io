@@ -14,7 +14,7 @@ class Data {
             text:
               'Git Merge is a full-day conference offering technical content and user case studies, plus a day of workshops for Git users of all levels. I had the opportunity to lead the design for Git Merge conferences 2017 and 2018. It was an interesting challenge to reenvision the design in 2018 since doing it in 2017. The problem: How do I make this brand look the same but also different?',
             header: 'TLDR',
-            headerStyles: 'pt-lg-5 mb-3',
+            headerStyles: 'mb-3',
             nodeStyles:'mr-md-3'
           }),
           new ImageNode({url:'images/gitmerge-pattern.jpg', columns: 2} )

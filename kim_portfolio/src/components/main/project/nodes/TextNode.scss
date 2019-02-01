@@ -10,10 +10,3 @@
   letter-spacing: 3px;
   font-weight: bold;
 }
-
-
-@include breakpoint(md) {
-  .projectheader {
-    font-size: 20px;
-  }
-}
