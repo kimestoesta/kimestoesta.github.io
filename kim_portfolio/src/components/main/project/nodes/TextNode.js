@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactMarkdown from 'react-markdown';
-import styles from './TextNode.scss';
+import './TextNode.scss';
 
 class TextNode extends Component {
   constructor(options) {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './PortfolioHero.scss';
+import './PortfolioHero.scss';
 
 class PortfolioHero extends Component {
   render() {

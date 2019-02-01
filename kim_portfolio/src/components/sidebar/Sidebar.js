@@ -25,6 +25,7 @@ class Sidebar extends Component {
             <a
               href="https://www.instagram.com/kimeillo/"
               target="_blank"
+              rel="noopener noreferrer"
               className="nav-link"
             >
               <span>@kimeillo</span>

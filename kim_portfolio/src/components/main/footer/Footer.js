@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './Footer.scss';
+import './Footer.scss';
 import Octicon, {ChevronUp} from '@githubprimer/octicons-react';
 import ScrollUpButton from "react-scroll-up-button";
 
