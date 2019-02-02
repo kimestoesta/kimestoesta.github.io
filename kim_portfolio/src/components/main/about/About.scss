@@ -35,12 +35,18 @@ a:hover {
   font-weight: bold;
 }
 
+@include breakpoint(md){
+  .aboutpage {
+    text-align: center;
+  }
+}
 
 @include breakpoint(lg){
   .aboutpage {
     width: 90%;
     flex-direction: row;
     margin-top: 105px;
+    text-align: left;
   }
 }
 
@@ -68,7 +74,12 @@ a:hover {
 
 #about-me {
   padding: 0px;
-  max-width: 500px;
+}
+
+@include breakpoint(md){
+  #about-me {
+    padding: 0px 100px;
+  }
 }
 
 @include breakpoint(lg){
@@ -76,5 +87,6 @@ a:hover {
     order: 2;
     padding: 20px;
     margin-left: 40px;
+    max-width: 500px;
   }
 }

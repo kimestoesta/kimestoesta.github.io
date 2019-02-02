@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import Footer from '../footer/Footer';
 import PortfolioStuff from './PortfolioStuff';
 import PortfolioHero from './PortfolioHero';
+import './Portfolio.scss';
 
 class Portfolio extends Component {
   render() {
     return (
-      <div>
+      <div className="projectbg">
         <PortfolioHero />
         <PortfolioStuff />
         <Footer />

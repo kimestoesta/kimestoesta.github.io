@@ -1,0 +1,16 @@
+@import '../../../_breakpoints.scss';
+
+@include breakpoint(lg) {
+  .projectbg {
+    background-image:
+      url("./leafy-projectL.png"),
+      url("./leafy-projectR.png");
+    background-repeat: no-repeat;
+    background-position:
+      top 230px left 40px,
+      top 230px right 40px,;
+    background-size:
+      280px,
+      280px;
+  }
+}
