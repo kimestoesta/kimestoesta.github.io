@@ -14,6 +14,17 @@
   padding-right: 10px;
 }
 
-.whitetransparent {
-  background-color: rgba(255, 255, 255, 0.5);
+@include breakpoint(md) {
+.whitebg {
+  background-color: rgba(255, 255, 255, 1);
+  padding-left: 20px;
+  padding-top: 10px;
+}
+}
+
+@include breakpoint(lg) {
+.whitebg {
+  background-color: none;
+  padding: 0px;
+}
 }

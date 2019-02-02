@@ -32,5 +32,11 @@ h1 {
 @include breakpoint(md) {
   .projecttags {
     font-size: 14px;
+    background-color: white;
+    width: 600px;
+  }
+  .projecttitle {
+    background-color: white;
+    width: 600px;
   }
 }

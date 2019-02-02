@@ -10,7 +10,7 @@ class TextNode extends Component {
 
   render() {
     return (
-      <div className={this.options.nodeStyles+'whitetransparent'}>
+      <div className={this.options.nodeStyles+' whitebg'}>
         {this.options.header ? (
           <h3 className={this.options.headerStyles+' projectheader'}>{this.options.header}</h3>
         ) : null}
