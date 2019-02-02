@@ -6,7 +6,7 @@ class Data {
   static projects = [
     {
       title: 'Git Merge',
-      tags: ['branding', 'environmental deisgn', 'event design', 'web'],
+      tags: ['branding', 'environmental design', 'event design', 'web'],
       thumbnail: 'images/gitmerge-badge.jpg',
       rows: [
         [
