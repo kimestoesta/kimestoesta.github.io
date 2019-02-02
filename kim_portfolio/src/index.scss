@@ -24,13 +24,16 @@ body {
 @include breakpoint(lg) {
   body {
     background-image:
+      url("./leafy-top.png"),
       url("./leafy-left.png"),
       url("./leafy-right.png"),;
     background-repeat: no-repeat;
     background-position:
+      top -30px right 240px,
       top 20px left 0px,
       top 100px right 0px,;
     background-size:
+      180px,
       140px,
       150px,;
   }

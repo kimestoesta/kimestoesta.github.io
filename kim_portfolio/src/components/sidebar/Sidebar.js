@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import bgpNamelogo from './bgp-namelogo.png';
+import bgpNamelogo from './bgp-moving.gif';
 import { Link } from 'react-router-dom';
 import './sidebar.scss';
 
