@@ -54,8 +54,7 @@ class Main extends Component {
           mapStyles={this.mapStyles}
           className={styles.routeWrapper}
         >
-          <Route exact path="/" component={Portfolio} />
-          <Route path="/portfolio" component={Portfolio} />
+          <Route exact path={["/", "/portfolio"]} component={Portfolio} />
           <Route path="/blog" component={Blog} />
           <Route path="/sketchbook" component={Sketchbook} />
           <Route path="/about" component={About} />
