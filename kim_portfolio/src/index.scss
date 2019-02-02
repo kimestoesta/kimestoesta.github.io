@@ -2,4 +2,18 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-image: url(leafy-bottom.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 700px;
+}
+
+@font-face {
+  font-family: 'dinmedium-webfont';
+  src: local('dinmedium-webfont'), url(./fonts/dinmedium-webfont.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'futura-webfont';
+  src: local('futura-webfont'), url(./fonts/futura-webfont.woff) format('woff');
 }
