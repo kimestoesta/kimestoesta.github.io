@@ -6,13 +6,13 @@ class Data {
   static projects = [
     {
       title: 'Git Merge',
-      tags: ['branding', 'environmental deisgn', 'event design', 'web'],
+      tags: ['branding', 'environmental design', 'event design', 'web'],
       thumbnail: 'images/gitmerge-badge.jpg',
       rows: [
         [
           new TextNode({
             text:
-              'Git Merge is a full-day conference offering technical content and user case studies, plus a day of workshops for Git users of all levels. I had the opportunity to lead the design for Git Merge conferences 2017 and 2018. It was an interesting challenge to reenvision the design in 2018 since doing it in 2017. The problem: How do I make this brand look the same but also different?',
+              'Git Merge is a full-day conference offering technical content and user case studies, plus a day of workshops for Git users of all levels. I had the opportunity to lead the design for Git Merge conferences 2017 and 2018. It was an interesting challenge to reenvision the design in 2018 since doing it in 2017.',
             header: 'TLDR',
             headerStyles: 'mb-3',
             nodeStyles:'mr-md-3'
@@ -41,7 +41,7 @@ class Data {
           }),
           new TextNode({
             text:
-              'How do we evolve the Git Merge brand from last year? \n 2017 branding took a micro look into git branches, git lines were zoomed in. \n Consider: \n - zooming out \n - what the git lines mean in a larger context?',
+              'How do we evolve the Git Merge brand from last year? \n 2017 branding took a micro look into git branches. The git lines were zoomed in and the brand focused on the git paths and intersections. \n \n Consider: \n - zooming out \n - what the git lines mean in a larger context?',
             header: 'Explorations',
             headerStyles: 'mt-md-5 mb-3',
             nodeStyles: 'mb-5'
@@ -51,7 +51,7 @@ class Data {
         [
           new TextNode({
             text:
-              'This year we zoom out and thought about what these git lines mean. The lines are part of building a project so I settled on squares on a grid that could be visually built and rearranged. Grouping squares into tetris like shapes also helped visualize the idea of building and how projects are all different but can be created through the same process of git.',
+              'This year I zoomed out and thought about the meaning of git lines. The lines and nodes represent milestones when building a project. So I created gridded git line squares that could be visually built and rearranged. Each square is made of many git lines in the same way that a project is also comprised of the different paths. In some applications of the brand, grouping squares into tetris-like shapes also enhanced the idea of building. The different shapes also show how projects are all different but can be created through the same process of git.',
             header: 'Brand Guide',
             headerStyles: 'mt-5 mb-3',
           }),
@@ -83,7 +83,7 @@ class Data {
         [
           new TextNode({
             text:
-              '- How people can navigate the space? Are there points of confusion in the user journey? \n - Branding vs directional signage (Directional is priority but then you build from that. What spaces are lacking visual queues and breaking the experience of being at the conference?'
+              '- How people can navigate the space? Are there points of confusion in the user journey? \n - Branding vs directional signage (Directional is priority but then you build from that. What spaces are lacking visual cues and breaking the experience of being at the conference?'
           }),
           new TextNode({
             text:
@@ -91,7 +91,7 @@ class Data {
           }),
           new TextNode({
             text:
-              '- What is the attendee experience day of? Will  ex) schedule of events, staff members for questions'
+              '- What is the attendee experience day of? ex) schedule of events, identifying staff members for questions'
           })
         ],
         [
@@ -112,7 +112,7 @@ class Data {
         [
           new TextNode({
             text:
-              'This campaign highlights developers in the open source community. Their projects are building the future by creating things that help people around them and around the world. Every one has the ability to build the future and GitHub makes it easy for people to share ideas and work together to make it happen. \n\n See it live: https://github.com/buildingthefuture \n\n I was responsible for branding, designing, and coding the website while also overseeing the production of the on-site gallery part of the campaign at our flagship conference, Universe.',
+              'This campaign highlights developers in the open source community. Their projects are building the future by creating things that help people around them and around the world. Everyone has the ability to build the future and GitHub makes it easy for people to share ideas and work together to make it happen. \n\n See it live: https://github.com/buildingthefuture \n\n I was responsible for branding, designing, and coding the website while also overseeing the production of the on-site gallery part of the campaign at our flagship conference, Universe.',
             header: 'TLDR',
             headerStyles: 'mb-3',
             nodeStyles:'mr-md-3'
@@ -219,7 +219,7 @@ class Data {
         [
           new TextNode({
             text:
-              "This project is the beginning of a rebrand for Jelly Belly, the makers of gourmet jelly beans. After researching Jelly Belly's history I learned that jelly beans were actually made popular by President Ronald Reagan during his time in office. Since then Jelly Belly has kept their brand identity the same so I wanted to bring new life to the brand and make it more relevant to today. As the generation of Ronald Reagan ages I wanted to focus to a new and younger audience. Here I have have created a new logo, mascot, flavor guide, and packaging concept. The project will later extend to show character animations and a larger packaging system.",
+              "This project is the beginning of a rebrand for Jelly Belly, the makers of gourmet jelly beans. After researching Jelly Belly's history, I learned that jelly beans were actually made popular by President Ronald Reagan during his time in office. Since then Jelly Belly has kept their brand identity the same so I wanted to bring new life to the brand and make it more relevant to today. As the generation of Ronald Reagan ages, I wanted to focus to a new and younger audience. Here I have created a new logo, mascot, flavor guide, and packaging concept. The project will later extend to show character animations and a larger packaging system.",
             header: 'TLDR',
             headerStyles: 'mb-3',
             nodeStyles:'mr-md-3'
@@ -326,7 +326,7 @@ class Data {
         [
           new TextNode({
             text:
-              "Back in July of 2018 GitHub joined millions of people to stand up for Net Neutrality. In the days leading up to the vote GitHub put up a banner on the site, made this blog post, and shared on twitter to support the open internet. Our team of 3 designers at the time banded together to push out these last minute assets within a few hours. Net Neutrality has been through it's ups and downs and California continues to fight with it's state net neutrality bill.",
+              "Back in July of 2018 GitHub joined millions of people to stand up for Net Neutrality. In the days leading up to the vote GitHub put up a banner on the site, made this blog post, and shared on twitter to support the open internet. Our team of 3 designers at the time banded together to push out these last minute assets within a few hours. Net Neutrality has been through its ups and downs and California continues to fight with its state net neutrality bill.",
             header: 'TLDR',
             headerStyles: 'mb-3',
             nodeStyles:'mr-md-3'
@@ -427,7 +427,7 @@ class Data {
         [
           new TextNode({
             text: ' ',
-            header: 'Moodboards and Explorations',
+            header: 'Mood boards and Explorations',
             headerStyles: 'mt-5 mb-3',
           })
         ],
@@ -454,7 +454,7 @@ class Data {
         [
           new TextNode({
             text:
-              'GitHub hosts internships for college students every summer. Interns are invited to stay in San Francisco to work from GitHub HQ so I created this San Francisco inspired illustration to use in our intern recruitment materials. \n https://internships.github.com/',
+              'GitHub hosts internships for college students every summer. Interns are invited to stay in San Francisco to work from GitHub HQ, so I created this San Francisco inspired illustration to use in our intern recruitment materials. \n https://internships.github.com/',
             header: 'TLDR',
             headerStyles: 'mb-3',
             nodeStyles:'mr-md-3'
@@ -476,7 +476,7 @@ class Data {
         [
           new TextNode({
             text:
-              'The marketing team for Recreational Sports at the University of Florida is comprised of designers, videographers, photographers, and media specialists. I work in-house where we service many different departments within RecSports like clients making sure to boost visibility and spread awareness of several campaigns or events. This was a 4 page booklet I designed for Small Group Training. It includes the different formats offered for that semester as well as the rates and calendar of all the classes being offered. For the campagn we printed and distributed the 4 pager at all our facilities and ran the campaign through our website and social media channels. I also animated the campaign for our digital outlets that play throughout the day on severals screens throughout the fitness facilites.',
+              'The marketing team for Recreational Sports at the University of Florida is comprised of designers, videographers, photographers, and media specialists. I work in-house where we service many different departments within RecSports like clients making sure to boost visibility and spread awareness of several campaigns or events. This was a 4 page booklet I designed for Small Group Training. It includes the different formats offered for that semester as well as the rates and calendar of all the classes being offered. For the campaign we printed and distributed the 4 pager at all our facilities and ran the campaign through our website and social media channels. I also animated the campaign for our digital outlets that play throughout the day on several screens throughout the fitness facilities.',
             header: 'TLDR',
             headerStyles: 'mb-3',
             nodeStyles:'mr-md-3 mb-md-5'
@@ -506,7 +506,7 @@ class Data {
         [
           new TextNode({
             text:
-              'That One Spot is a rebrand I did for a client running a family owned burger restaurant located in Ocoee, FL. They are known for their well crafted and customizable burgers with a variety of meat options but also provide a variety of salads and sides. While their ingredients are fresh and local they aim to be a fast casual spot for everyone to grab a bite. Keeping their brand in mind I was hired to rebrand the restaurant to more closely reflect their voice today and as they look to grow.',
+              'That One Spot is a rebrand I did for a client running a family owned burger restaurant located in Ocoee, FL. They are known for their well crafted and customizable burgers with a variety of meat options but also provide a variety of salads and sides. While their ingredients are fresh and local, they aim to be a fast casual spot for everyone to grab a bite. Keeping their brand in mind I was hired to rebrand the restaurant to more closely reflect their voice today and as they look to grow.',
             header: 'TLDR',
             headerStyles: 'mb-3',
             nodeStyles:'mr-md-3 mb-md-5'
@@ -563,7 +563,7 @@ class Data {
         [
           new TextNode({
             text:
-              'Primal Screen is an award winning design studio based in Atlanta, Georgia. That provide a full gamut of design service including animation, motion graphics, live action, audio, music composition, and interactive development.\n\n While I was working at Primal I was able to work on a variety of projects for clients like:\n - PBS kids \n - Sesame Workshop \n- Adult Swim \n- Nick Jr',
+              'Primal Screen is an award winning design studio based in Atlanta, Georgia. That provide a full gamut of design service including animation, motion graphics, live action, audio, music composition, and interactive development.\n\n While I was working at Primal, I was able to work on a variety of projects for clients like:\n - PBS kids \n - Sesame Workshop \n- Adult Swim \n- Nick Jr',
             header: 'TLDR',
             headerStyles: 'mb-3',
             nodeStyles:'mr-md-3'
@@ -580,7 +580,7 @@ class Data {
           }),
           new TextNode({
             text:
-              'Project: Breath, Think, Do E-book \n\n My contributions: Illustrator \n\n Background: Breathe, Think, Do is a campaign by Sesame Street that teaches children to deal with emotions like anger and frustration. Primal Screen previously created the Breath, Think, Do app for Sesame Workshop and asked this app be translated into a story and illustrated for an E-book. I was responsible for transposing all the imagery from the app to a more textured and painterly style for the E-book. ',
+              'Project: Breath, Think, Do E-book \n\n My contributions: Illustrator \n\n Background: Breathe, Think, Do is a campaign by Sesame Street that teaches children to deal with emotions like anger and frustration. Primal Screen previously created the Breath, Think, Do app for Sesame Workshop and asked this app to be translated into a story and illustrated for an E-book. I was responsible for transposing all the imagery from the app to a more textured and painterly style for the E-book. ',
             header: 'Client: Sesame Workshop',
             headerStyles: 'mt-5 mb-3',
             nodeStyles: 'mb-md-5'
@@ -604,7 +604,7 @@ class Data {
         [
           new TextNode({
             text:
-              'Project: Bubble Guppies Kideo \n\n My contributions: Storyboard, stage hand on set, asset design, typography, title card design and motion graphics \n\n Background: \n Nickelodeon has been a long time client of Primal Screen. This bumper was one of several videos we created to help them to promote a variety of their Nick Jr. shows including Bubble Guppies, Shimmer and Shine, Team Umizoomi, Blaze and the Monster Machine, and Paw Patrol. For this video we made a mini music video using a song from the show Bubble Guppies. While planning for the video I created all the animated assets and type and helped storyboard the shots we would need on set. On set I assisted the art director and worked to help direct the kids. In post production I animated the title card of the video.',
+              'Project: Bubble Guppies Kideo \n\n My contributions: Storyboard, stage hand on set, asset design, typography, title card design and motion graphics \n\n Background: \n Nickelodeon has been a long time client of Primal Screen. This bumper was one of several videos we created to help them to promote a variety of their Nick Jr. shows including Bubble Guppies, Shimmer and Shine, Team Umizoomi, Blaze and the Monster Machine, and Paw Patrol. For this video we made a mini music video using a song from the show Bubble Guppies. While planning for the video I created all the animated assets and type and helped storyboard the shots we would need on set. On set I assisted the art director and worked to help direct the kids. In post-production I animated the title card of the video.',
             header: 'Client: Nickelodeon',
             headerStyles: 'mt-5 mt-md-0 mb-3',
             nodeStyles: 'mr-md-3'
@@ -639,13 +639,13 @@ class Data {
     },
     {
       title: 'Haulbox Startup',
-      tags: ['branding', 'icon deisgn', 'mobile app', 'web'],
+      tags: ['branding', 'icon design', 'mobile app', 'web'],
       thumbnail: 'images/haulboxthum.png',
       rows: [
         [
           new TextNode({
             text:
-              "Haulbox is a StartUp Company that originated in Gainesville, FL. As their lead graphic designer I collaborated with the founders to ideate and create their entire visual branding system from the ground up. From designing the logo to creating the icons for the user interface of the app and site I wanted to reflect the company's convenient, friendly, and easy service. During this experience I worked with entreprenuers and programmers directly in an open studio layout at the startup incubator Starterspace. I was later promoted to work with other startups within Starterspace as a creative director and designer.",
+              "Haulbox is a Startup Company that originated in Gainesville, FL. As their lead graphic designer, I collaborated with the founders to ideate and create their entire visual branding system from the ground up. From designing the logo to creating the icons for the user interface of the app and site I wanted to reflect the company's convenient, friendly, and easy service. During this experience I worked with entrepreneurs and programmers directly in an open studio layout at the startup incubator Starterspace. I was later promoted to work with other startups within Starterspace as a creative director and designer.",
             header: 'TLDR',
             headerStyles: 'mb-3',
             nodeStyles:'mr-md-3'

@@ -14,7 +14,7 @@ class TextNode extends Component {
         {this.options.header ? (
           <h3 className={this.options.headerStyles+' projectheader'}>{this.options.header}</h3>
         ) : null}
-        <ReactMarkdown source={this.options.text} />
+        <ReactMarkdown className={'body'}source={this.options.text} />
       </div>
     );
   }
