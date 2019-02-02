@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/futura-webfont.dcce070e.woff"
   },
   {
-    "revision": "fe333f85f42e7dfb4b3f",
+    "revision": "b7317a3e82e950b56d2a",
     "url": "/static/css/main.0c64e331.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/static/media/dinmedium-webfont.bf7e2384.woff"
   },
   {
-    "revision": "fe333f85f42e7dfb4b3f",
-    "url": "/static/js/main.fe333f85.chunk.js"
+    "revision": "b7317a3e82e950b56d2a",
+    "url": "/static/js/main.b7317a3e.chunk.js"
   },
   {
     "revision": "1fa83b388303fefb982c9ed6455131b6",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/static/media/leafy-projectR.1c2fb1c1.png"
   },
   {
-    "revision": "4b8aa36a82f6fdde4e20221b63491b08",
+    "revision": "e46885b233c63e4bdbeedde01b2aafcf",
     "url": "/index.html"
   }
 ];
