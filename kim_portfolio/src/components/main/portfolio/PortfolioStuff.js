@@ -133,9 +133,6 @@ class PortfolioStuff extends Component {
         if (selectedFilter === '*') {
           return true;
         }
-        console.log(item
-          .querySelector('.' + styles.workCategory)
-          .innerText);
         return item
           .querySelector('.' + styles.workCategory)
           .innerText.includes(selectedFilter);
