@@ -78,23 +78,23 @@ class PortfolioStuff extends Component {
                 <li>
                   <button
                     onClick={this.onFilterClick.bind(this)}
-                    data-filter="digital"
+                    data-filter="web"
                     className={
-                      selectedFilter === 'digital' ? filterStyles.current : ''
+                      selectedFilter === 'web' ? filterStyles.current : ''
                     }
                   >
-                    Digital
+                    Web
                   </button>
                 </li>
                 <li>
                   <button
                     onClick={this.onFilterClick.bind(this)}
-                    data-filter="print"
+                    data-filter="motion graphics"
                     className={
-                      selectedFilter === 'print' ? filterStyles.current : ''
+                      selectedFilter === 'motion graphics' ? filterStyles.current : ''
                     }
                   >
-                    Print
+                    Motion Graphics
                   </button>
                 </li>
                 <li>

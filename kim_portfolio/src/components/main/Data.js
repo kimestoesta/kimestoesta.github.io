@@ -6,7 +6,7 @@ class Data {
   static projects = [
     {
       title: 'Git Merge',
-      tags: ['branding'],
+      tags: ['branding', 'environtal deisgn', 'event design', 'web'],
       thumbnail: 'images/gitmerge-badge.jpg',
       rows: [
         [
@@ -105,7 +105,7 @@ class Data {
     },
     {
       title: 'Building the Future',
-      tags: ['digital', 'web design'],
+      tags: ['web', 'UX', 'UI', 'front end development', 'campaign'],
       thumbnail: 'images/btf-dibbble.gif',
       doubleWidth: true,
       rows: [
@@ -213,7 +213,7 @@ class Data {
     },
     {
       title: 'Jelly Belly',
-      tags: ['branding', 'illustration', 'print'],
+      tags: ['branding', 'illustration', 'packaging', 'print'],
       thumbnail: 'images/jelly-bag.jpg',
       rows: [
         [
@@ -243,7 +243,7 @@ class Data {
     },
     {
       title: 'Constellation Tokyo',
-      tags: ['branding', 'digital'],
+      tags: ['branding', 'environmental design', 'event design'],
       thumbnail: 'images/tokyo-thumb.jpg',
       doubleWidth: true,
       rows: [
@@ -320,7 +320,7 @@ class Data {
     },
     {
       title: 'Net Neutrality',
-      tags: ['digital', 'motion graphics'],
+      tags: ['motion graphics',],
       thumbnail: 'images/net-neutrality_save.jpg',
       rows: [
         [
@@ -364,7 +364,7 @@ class Data {
     },
     {
       title: 'Constellation Roadshow',
-      tags: ['branding', 'digital'],
+      tags: ['branding', 'event design', 'environmental design', 'web'],
       thumbnail: 'images/constellation-thumb.png',
       rows: [
         [
@@ -411,7 +411,7 @@ class Data {
     },
     {
       title: 'GitHub Holiday Card 2017',
-      tags: ['print', 'digital', 'illustration'],
+      tags: ['illustration', 'print'],
       thumbnail: 'images/holiday-thumb.gif',
       rows: [
         [
@@ -470,7 +470,7 @@ class Data {
     },
     {
       title: 'RecSports Small Group Training',
-      tags: ['print', 'digital', 'campaign'],
+      tags: ['pattern design', 'print', 'motion graphics', 'campaign'],
       thumbnail: 'images/findfit-thumbnail.jpg',
       rows: [
         [
@@ -500,7 +500,7 @@ class Data {
     },
     {
       title: 'That One Spot',
-      tags: ['print', 'branding', 'illustration'],
+      tags: ['branding', 'illustration', 'packaging', 'print'],
       thumbnail: 'images/spot-takeout.jpg',
       rows: [
         [
@@ -557,7 +557,7 @@ class Data {
     },
     {
       title: 'Primal Screen',
-      tags: ['interactive', 'digital', 'illustration'],
+      tags: ['motion graphics', 'illustration'],
       thumbnail: 'images/nickjr-dressup.png',
       rows: [
         [
@@ -639,7 +639,7 @@ class Data {
     },
     {
       title: 'Haulbox Startup',
-      tags: ['branding', 'digital', 'mobile app', 'web'],
+      tags: ['branding', 'icon deisgn', 'mobile app', 'web'],
       thumbnail: 'images/haulboxthum.png',
       rows: [
         [
