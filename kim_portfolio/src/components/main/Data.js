@@ -122,19 +122,19 @@ class Data {
         [
           new TextNode({
             text:
-              'For GitHub\'s 10 year anniversary in April 2018 we launched a campaign that celebrated all the the community\'s milestones over the past 10 years. Following the momentum of that campaign, the next chapter is what comes next — a pivot and look towards the next 10 years. In this phase we want to empower the community to think about what they will build and how their work can impact the world around them.',
+              'For GitHub\'s 10 year anniversary in April 2018 we launched a campaign that celebrated all the community\'s milestones over the past 10 years. Following the momentum of that campaign, the next chapter — a pivot and look towards the next 10 years. In this phase we want to empower the community to think about what they will build and how their work can impact the world around them.',
             header: 'Background',
             headerStyles: 'mt-5 mb-3',
           }),
           new TextNode({
             text:
-              'Create a website that contains all the campaign videos and information in one place.',
-            header: 'Task',
+              'GitHub created a video series documenting open source contributors who are "building the future" To highlight this series we wanted to create a website containing all the campaign videos and information in one place.',
+            header: 'The Campaign',
             headerStyles: 'mt-md-5 mb-3',
           }),
           new TextNode({
             text:
-              '- Designing parallel to the creation of the campaign videos contractors were working on. The photos and videos were a big part of the visuals but there was not room on the timeline to wait to get assets in before creating the website and gallery designs. \n - Working simultaneously on all parts of the project: visual design,  front-end development, photo treatment, and environmental print pieces.',
+              '- I had to design in parallel to the creation of the videos, produced by our contractors. So, I had no photos or videos when designing the brand definition. \n - Working simultaneously on all parts of the project: visual design, front-end development, photo treatment, and environmental print pieces.',
             header: 'Challenges',
             headerStyles: 'mt-md-5 mb-3',
             nodeStyles: 'mb-5',
@@ -142,10 +142,15 @@ class Data {
         ],
         [
           new TextNode({
-            text: ' ',
-            header: 'Research and Explorations',
+            text: 'Inspirations for the site included the Techies Project and Bonobos #EvolveTheDefinition campaign. When it came to the physical on-site experience, I looked for inspiration in museum design. In early explorations I sketched out low fidelity layouts and landed on 2 that put emphasis on the people and their videos. I tested out different photo treatments to make the visuals consistent and recognizable.',
+            header: 'Research & Explorations',
             headerStyles: 'mb-3'
-          })
+          }),
+          new TextNode({
+            text: '',
+            header: ' ',
+            headerStyles: 'mb-3'
+          }),
         ],
         [
           new ImageNode({url:'images/btf-research.jpg'}),
@@ -161,10 +166,15 @@ class Data {
         [new ImageNode({url:'images/btf-wireframes.jpg'})],
         [
           new TextNode({
-            text: ' ',
+            text: 'As I shared above, a challenge I faced was having to work on many different parts of the design simultaneously. This led to some indecision during the process including selecting a typeface. Tech can often come off as technical and cold but this campaign focuses on the people behind the code so we wanted to inject humanization through type choices. Ideally I should have approved the brand definition before creating high fidelity mocks but we make mistakes so we can learn from them.',
             header: 'Mockups',
             headerStyles: 'mt-5 mb-3'
-          })
+          }),
+          new TextNode({
+            text: '',
+            header: ' ',
+            headerStyles: 'mb-3'
+          }),
         ],
         [
           new ImageNode({url:'images/btf-typeexplorations.png', columns: 2})
@@ -172,8 +182,12 @@ class Data {
         [new ImageNode({url:'images/btf-whitemockup.jpg'})],
         [
           new TextNode({
-            text: ' ',
+            text: 'After taking a step back and resetting, I defined the brand. I committed to decisions and received approval which helped everyone get on the same page. The change to a dark background strengthened the tie to coding by visually imitating terminal and code editors. A combination of script and tall bold type added the bit of humanization we were looking for while remaining developer focused.',
             header: 'Brand Definition',
+            headerStyles: 'mt-5 mb-3'
+          }),
+          new TextNode({
+            text: ' ',
             headerStyles: 'mt-5 mb-3'
           })
         ],
@@ -188,8 +202,12 @@ class Data {
         [new ImageNode({url:'images/btf-mockupdark.jpg'})],
         [
           new TextNode({
-            text: ' ',
+            text: 'While building the site I realized the modal I designed would create complicated custom styling that didn’t align well with the design systems we had in place. Originally I had wanted to utilize the modals to encourage visitors to remain on the main page and highlight all the bios. Ultimately I chose to move away from the modals since the final plan was to release a video each week with social media support.',
             header: 'Build',
+            headerStyles: 'mt-5 mb-3'
+          }),
+          new TextNode({
+            text: ' ',
             headerStyles: 'mt-5 mb-3'
           })
         ],
