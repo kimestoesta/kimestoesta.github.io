@@ -51,7 +51,7 @@ class Data {
         [
           new TextNode({
             text:
-              'This year I zoomed out and thought about the meaning of git lines. The lines and nodes represent milestones when building a project. So I created gridded git line squares that could be visually built and rearranged. Each square is made of many git lines in the same way that a project is also comprised of the different paths. In some applications of the brand, grouping squares into tetris-like shapes also enhanced the idea of building. The different shapes also show how projects are all different but can be created through the same process of git.',
+              'This year I zoomed out and thought about the meaning of git lines. The lines and nodes represent milestones when building a project. So I created gridded git line squares that could be visually built and rearranged. Each square is made of many git lines in the same way that a project is also comprised of the different paths. In some applications of the brand, grouping squares into tetris-like shapes also enhanced the idea of building. The different shapes also show how many very different projects can all be built with git as the foundation.',
             header: 'Brand Guide',
             headerStyles: 'mt-5 mb-3',
           }),
@@ -64,7 +64,7 @@ class Data {
         [
           new TextNode({
             text:
-              'Git Merge 2018 happened in Barcelona at Convent Dels Àngels at the MACBA. The historical building that was once a church and is now preserved and part of their museum of contemporary art. I flew to Barcelona to meet with vendors, plan directional signage, lighting, and discuss any restrictions the venue had on branding the space. ',
+              'Git Merge 2018 took place in Barcelona at Convent Dels Àngels at the MACBA. This historical building was once a church and is now preserved and part of their museum of contemporary art. I flew to Barcelona to meet with vendors, plan directional signage, lighting, and discuss any restrictions the venue had on branding the space. ',
             header: 'Site Visit',
             headerStyles: 'mt-5 mb-3',
           }),
@@ -87,11 +87,11 @@ class Data {
           }),
           new TextNode({
             text:
-              '- Make sure you are communicating what you are imagining, especially to vendors! Making visual mock ups and providing reference images are the best way to communicate your ideas. It made working asynchronously in different time zones and language barriers on this project easier.'
+              '- Make sure you are communicating what you are imagining, especially to vendors! Making visual mock ups and providing reference images are the best way to communicate your ideas. It made working asynchronously across different time zones and language barriers on this project easier.'
           }),
           new TextNode({
             text:
-              '- What is the attendee experience day of? ex) schedule of events, identifying staff members for questions'
+              '- What is the attendee experience day of? eg) schedule of events, identifying staff members for questions'
           })
         ],
         [
@@ -112,7 +112,7 @@ class Data {
         [
           new TextNode({
             text:
-              'This campaign highlights developers in the open source community. Their projects are building the future by creating things that help people around them and around the world. Everyone has the ability to build the future and GitHub makes it easy for people to share ideas and work together to make it happen. \n\n See it live: https://github.com/buildingthefuture \n\n I was responsible for branding, designing, and coding the website while also overseeing the production of the on-site gallery part of the campaign at our flagship conference, Universe.',
+              'This campaign highlights developers in the open source community. Their projects are building the future by creating things that help people around them and around the world. Everyone has the ability to build the future; GitHub makes it easy for people to share ideas and work together to make it happen. \n\n See it live: https://github.com/buildingthefuture \n\n I was responsible for branding, designing, and coding the website for the campaign. I also oversaw the production of the on-site gallery, the physical manifestation of the campaign, at Universe our flagship conference.',
             header: 'TLDR',
             headerStyles: 'mb-3',
             nodeStyles:'mr-md-3'
@@ -122,7 +122,7 @@ class Data {
         [
           new TextNode({
             text:
-              'GitHub celebrated their 10 year anniversary in 2018 so we launched a campaign that celebrated all the milestones the community has accomplished in the past 10 years. The next chapter in that story is what comes next — a pivot and look towards the next 10 years. In this phase we want to empower the community to think about what they will build and how their work can impact the world around them.',
+              'For GitHub\'s 10 year anniversary in April 2018 we launched a campaign that celebrated all the the community\'s milestones over the past 10 years. Following the momentum of that campaign, the next chapter is what comes next — a pivot and look towards the next 10 years. In this phase we want to empower the community to think about what they will build and how their work can impact the world around them.',
             header: 'Background',
             headerStyles: 'mt-5 mb-3',
           }),
