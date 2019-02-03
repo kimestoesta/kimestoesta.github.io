@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.c374cf86.chunk.css",
-  "main.js": "/static/js/main.71e28683.chunk.js",
-  "main.js.map": "/static/js/main.71e28683.chunk.js.map",
+  "main.css": "/static/css/main.cea249f9.chunk.css",
+  "main.js": "/static/js/main.3f18d40d.chunk.js",
+  "main.js.map": "/static/js/main.3f18d40d.chunk.js.map",
   "static/js/1.4004b470.chunk.js": "/static/js/1.4004b470.chunk.js",
   "static/js/1.4004b470.chunk.js.map": "/static/js/1.4004b470.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -12,8 +12,8 @@
   "static/media/PortfolioHero.scss": "/static/media/flower-me.d7542c57.png",
   "static/media/Portfolio.scss": "/static/media/leafy-projectR.1c2fb1c1.png",
   "static/media/kimprofile.png": "/static/media/kimprofile.06139f8e.png",
-  "static/css/main.c374cf86.chunk.css.map": "/static/css/main.c374cf86.chunk.css.map",
+  "static/css/main.cea249f9.chunk.css.map": "/static/css/main.cea249f9.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.7a71aeac0eb12b1fccda19e06a176bb5.js": "/precache-manifest.7a71aeac0eb12b1fccda19e06a176bb5.js",
+  "precache-manifest.6a92ca2d28f10989f67d7352fd63f165.js": "/precache-manifest.6a92ca2d28f10989f67d7352fd63f165.js",
   "service-worker.js": "/service-worker.js"
 }
