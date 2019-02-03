@@ -3,8 +3,8 @@ import TextNode from './project/nodes/TextNode';
 import VideoNode from './project/nodes/VideoNode';
 
 class Data {
-  static projects = [
-    {
+  static projects = {
+    git_merge: {
       title: 'Git Merge',
       tags: ['branding', 'environmental design', 'event design', 'web'],
       thumbnail: 'images/gitmerge-badge.jpg',
@@ -103,7 +103,7 @@ class Data {
         })]
       ]
     },
-    {
+    building_the_future: {
       title: 'Building the Future',
       tags: ['web', 'UX', 'UI', 'front end development', 'campaign'],
       thumbnail: 'images/btf-site.gif',
@@ -229,7 +229,7 @@ class Data {
         [new ImageNode({url:'images/btf-fullsite.png'})]
       ]
     },
-    {
+    jelly_belly: {
       title: 'Jelly Belly',
       tags: ['branding', 'illustration', 'packaging', 'print'],
       thumbnail: 'images/jelly-bag.jpg',
@@ -259,7 +259,7 @@ class Data {
         ]
       ]
     },
-    {
+    constellation_tokyo: {
       title: 'Constellation Tokyo',
       tags: ['branding', 'environmental design', 'event design'],
       thumbnail: 'images/tokyo-thumb.jpg',
@@ -336,7 +336,7 @@ class Data {
         [new ImageNode({url:'images/tokyo-bluebrand.png'})],
       ]
     },
-    {
+    net_neutrality: {
       title: 'Net Neutrality',
       tags: ['motion graphics',],
       thumbnail: 'images/net-neutrality_save.jpg',
@@ -380,7 +380,7 @@ class Data {
         [new ImageNode({url:'images/net-neutralityads.gif'})],
       ]
     },
-    {
+    constellation_roadshow: {
       title: 'Constellation Roadshow',
       tags: ['branding', 'event design', 'environmental design', 'web'],
       thumbnail: 'images/constellation-thumb.png',
@@ -427,7 +427,7 @@ class Data {
         [new ImageNode({url:'images/constellation-site18.png'})]
       ]
     },
-    {
+    github_holiday_card: {
       title: 'GitHub Holiday Card 2017',
       tags: ['illustration', 'print'],
       thumbnail: 'images/holiday-thumb.gif',
@@ -464,7 +464,7 @@ class Data {
         ]
       ]
     },
-    {
+    github_intern_recruitment: {
       title: 'GitHub Intern Recruitment',
       tags: ['illustration'],
       thumbnail: 'images/recruitment-thumb.jpg',
@@ -486,7 +486,7 @@ class Data {
         [new ImageNode({url:'images/recruitment-twittercard.png'})]
       ]
     },
-    {
+    recsports_small_group: {
       title: 'RecSports Small Group Training',
       tags: ['pattern design', 'print', 'motion graphics', 'campaign'],
       thumbnail: 'images/findfit-thumbnail.jpg',
@@ -516,7 +516,7 @@ class Data {
         [new ImageNode({url:'images/findfit-tvs.jpg'})]
       ]
     },
-    {
+    that_one_spot: {
       title: 'That One Spot',
       tags: ['branding', 'illustration', 'packaging', 'print'],
       thumbnail: 'images/spot-takeout.jpg',
@@ -544,7 +544,7 @@ class Data {
         [new ImageNode({url:'images/spot-all.jpg'})],
       ]
     },
-    {
+    relient_k: {
       title: 'Relient K Band Tour',
       tags: ['branding', 'illustration'],
       thumbnail: 'images/relientk-digitalad.gif',
@@ -573,7 +573,7 @@ class Data {
         [new ImageNode({url:'images/relientk-all2.jpg'})],
       ]
     },
-    {
+    primal_screen: {
       title: 'Primal Screen',
       tags: ['motion graphics', 'illustration'],
       thumbnail: 'images/nickjr-dressup.png',
@@ -655,7 +655,7 @@ class Data {
         ]
       ]
     },
-    {
+    haulbox_startup: {
       title: 'Haulbox Startup',
       tags: ['branding', 'icon design', 'mobile app', 'web'],
       thumbnail: 'images/haulboxthum.png',
@@ -677,7 +677,7 @@ class Data {
         ]
       ]
     }
-  ];
+  };
 }
 
 export default Data;

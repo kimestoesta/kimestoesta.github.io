@@ -7,45 +7,50 @@ import styles from './PortfolioStuff.module.scss';
 
 var selectedFilter = '*';
 class PortfolioStuff extends Component {
-  render() {
-    const links = Data.projects.map((project, index) => {
-      const tag_classes = project.tags;
-      for (var i = 0; i < tag_classes.length; i++) {
-        tag_classes[i] = tag_classes[i].replace(' ', '-');
-      }
-      return (
-        <OnImagesLoaded
-          key={index}
-          onLoaded={() => {
-            this.onImageLoad(index);
-          }}
-          timeout={7000}
+  projectEntry(project, index) {
+    const tag_classes = project.tags;
+    for (var i = 0; i < tag_classes.length; i++) {
+      tag_classes[i] = tag_classes[i].replace(' ', '-');
+    }
+    return (
+      <OnImagesLoaded
+        key={index}
+        onLoaded={() => {
+          this.onImageLoad(index);
+        }}
+        timeout={7000}
+      >
+        <article
+          id={'item' + index}
+          className={styles.workItem + ' ' + (project.doubleWidth ? styles.workItemDouble : '')}
+          style={{ display: 'none' }}
         >
-          <article
-            id={'item' + index}
-            className={styles.workItem + ' ' + (project.doubleWidth ? styles.workItemDouble : '')}
-            style={{ display: 'none' }}
-          >
-            <a href={'#/project/' + index} id={index}>
-              <div className={styles.workWrapper}>
-                <div className={styles.workThumbnail}>
-                  <img
-                    src={process.env.PUBLIC_URL + '/' + project.thumbnail}
-                    alt=""
-                  />
-                </div>
-                <div className={styles.workCaption}>
-                  <h3 className={styles.workTitle}>{project.title}</h3>
-                  <span className={styles.workCategory}>
-                    <button>{project.tags.join(', ')}</button>
-                  </span>
-                </div>
+          <a href={'#/project/' + index} id={index}>
+            <div className={styles.workWrapper}>
+              <div className={styles.workThumbnail}>
+                <img
+                  src={process.env.PUBLIC_URL + '/' + project.thumbnail}
+                  alt=""
+                />
               </div>
-            </a>
-          </article>
-        </OnImagesLoaded>
-      );
-    });
+              <div className={styles.workCaption}>
+                <h3 className={styles.workTitle}>{project.title}</h3>
+                <span className={styles.workCategory}>
+                  <button>{project.tags.map(x => x.replace(/\-/g, " ")).join(', ')}</button>
+                </span>
+              </div>
+            </div>
+          </a>
+        </article>
+      </OnImagesLoaded>
+    );
+  } 
+
+  render() {
+    let links = [];
+    for (var key in Data.projects) {
+      links.push(this.projectEntry(Data.projects[key], key));
+    }
 
     return (
       <section id="portfolio" className="module-sm">

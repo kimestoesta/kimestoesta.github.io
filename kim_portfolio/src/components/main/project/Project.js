@@ -11,12 +11,10 @@ class Project extends Component {
     if (!project.rows) {
       return null;
     }
-    console.log(project);
-    console.log(project.tags);
     return (
       <div className={styles.projectContainer}>
         <h1 className={styles.projecttitle}>{project.title}</h1>
-        <h6 className={styles.projecttags}>{project.tags.map(x => x.replace(/\-/, " ")).join(' / ')}</h6>
+        <h6 className={styles.projecttags}>{project.tags.map(x => x.replace(/\-/g, " ")).join(' / ')}</h6>
         {project.rows.map((row, index) => (
           <ProjectRow key={index} row={row} />
         ))}
