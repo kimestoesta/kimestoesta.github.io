@@ -106,7 +106,7 @@ class Data {
     {
       title: 'Building the Future',
       tags: ['web', 'UX', 'UI', 'front end development', 'campaign'],
-      thumbnail: 'images/btf-dibbble.gif',
+      thumbnail: 'images/btf-site.gif',
       doubleWidth: true,
       rows: [
         [
