@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "e395f7fe650637d02b39",
-    "url": "/static/css/main.5d601e1b.chunk.css"
+    "revision": "dcce070ed089ab9f867ae496579cf956",
+    "url": "/static/media/futura-webfont.dcce070e.woff"
   },
   {
-    "revision": "e395f7fe650637d02b39",
-    "url": "/static/js/main.e395f7fe.chunk.js"
+    "revision": "a347e1d3b9621e556c80",
+    "url": "/static/css/main.cea249f9.chunk.css"
   },
   {
-    "revision": "002cba0ae452ca3cbb49",
-    "url": "/static/js/1.002cba0a.chunk.js"
+    "revision": "4004b4706fa5fb404ec5",
+    "url": "/static/js/1.4004b470.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/dinmedium-webfont.bf7e2384.woff"
   },
   {
-    "revision": "dcce070ed089ab9f867ae496579cf956",
-    "url": "/static/media/futura-webfont.dcce070e.woff"
+    "revision": "a347e1d3b9621e556c80",
+    "url": "/static/js/main.a347e1d3.chunk.js"
   },
   {
     "revision": "06ad58e4f8c662a642d5459db96120bb",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/static/media/leafy-projectR.1c2fb1c1.png"
   },
   {
-    "revision": "b8cd40a28a078b27f786dd42506b4c3a",
+    "revision": "12f71859a147afdf2bb2bf74607227f2",
     "url": "/index.html"
   }
 ];
