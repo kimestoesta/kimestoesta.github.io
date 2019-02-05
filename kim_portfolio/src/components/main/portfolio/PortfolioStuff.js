@@ -94,9 +94,9 @@ class PortfolioStuff extends Component {
                 <li>
                   <button
                     onClick={this.onFilterClick.bind(this)}
-                    data-filter="motion-graphics"
+                    data-filter="motion graphics"
                     className={
-                      selectedFilter === 'motion-graphics' ? filterStyles.current : ''
+                      selectedFilter === 'motion graphics' ? filterStyles.current : ''
                     }
                   >
                     Motion Graphics
